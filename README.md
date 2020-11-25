@@ -2,7 +2,7 @@
 
 # Persian Open Source Software Festival
 
-## POSSF Website
+## POSSF (Persian OSS Festival)
 
 Persian Open Source Software Festival
 
