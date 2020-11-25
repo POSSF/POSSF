@@ -2,3 +2,5 @@ title: اولین جشنواره نرم افزار اوپن سورس فارسی
 description: Persian Open Source Software Festival 
 plugins:
   - jekyll-sitemap
+
+theme: jekyll-theme-leap-day
