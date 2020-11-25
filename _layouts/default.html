@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="google-site-verification" content="yjzAdGvHDGnABvgQ2Tcec-Ugeejd7u7jCyfg0aixSw0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="theme-color" content="#157878">
+    {% if page.title %}
+      {% assign page-title = page.title | escape %}
+    {% else %}
+      {% assign page-title = site.title | escape %}
+    {% endif %}
+    <title>{{ page-title }}</title>
+    {% if site.gems contains "jekyll-seo-tag" %}
+      <!-- jekyll-seo-tag -->
+    {% else %}
+      {% include social-metatags.html %}
+    {% endif %}
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+    {% if site.gems contains "jekyll-feed" %}
+      <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
+    {% endif %}
+    <link rel="shortcut icon" href="{{ site.url }}/favicon.ico">
+    <link type="text/css" rel="stylesheet" href="{{ site.url }}/style.css" />
+</head>
+<body>
+  <h2 style="text-align:center;padding-bottom:60px;"><strong>IRBUG</strong><br><small style="font-size:0.9rem">( Iran BSD User Group )</small></h2>
+
+  {{ content }}
+
+  <footer style="text-align:center;font-size=16px;padding-top:20px;padding-bottom:20px;"><a href="mailto:contact@irbug.org" title="contact us">contact</a> | <a href="https://twitter.com/kfvahedi">@kfvahedi</a> | <a href="https://www.irbug.org/fa">fa</a></footer>
+</body>
+</html>
