@@ -5,9 +5,13 @@ permalink: /speaker/jadi-mirmirani/
 lang: fa
 author: Max Base
 categories: سخنران
-description: جادی یک اسم مستعار است. البته نه به معنی مخفی بودن. من در دنیا دو تا جادی بیشتر ندیدم و در نتیجه جادی برام شده یک امضا. جادی معنی خاصی هم نداره. یعنی نه اینکه نداشته باشه، معمولا نمی گم.
-tags: 
 title: جادی میرمیرانی - سخنران جشنواره اوپن سورس
+name: جادی میرمیرانی
+github: https://github.com/jadijadi/
+linkedin: 
+instagram: https://instagram.com/jadijadinet
+twitter: https://twitter.com/jadi
+website: https://jadi.net/
 ---
 
 جادی یک اسم مستعار است. البته نه به معنی مخفی بودن. من در دنیا دو تا جادی بیشتر ندیدم و در نتیجه جادی برام شده یک امضا. جادی معنی خاصی هم نداره. یعنی نه اینکه نداشته باشه، معمولا نمی گم.
