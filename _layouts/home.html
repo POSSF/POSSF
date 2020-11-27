@@ -3,36 +3,16 @@ layout: default
 ---
 
 <section class="content">
-            <div class="container">
-                <h1 class="gradient-text">جشنواره اوپن سورس فارسی</h1>
-                <p>
-                    This page does not exist. Please use the navigation to get to a working page. If you got here due to an error on our part,
-                    <a class="underline" href="">please let us know.</a>
-                </p>
-                <br>
-                <a class="button">
-                    عضویت
-                </a>
-          {{ content }}
-
-          <h2>اسامی مطالب اخیر</h2>
-
-          <ul class="post-list">
-            {% for post in site.posts %}
-              <li>
-
-                {% assign date_format = site.cayman-blog.date_format | default: "%b %-d, %Y" %}
-                <span class="post-meta">{{ post.date | date: date_format }}</span>
-
-                <h2>
-                  <a class="post-link" href="{{ post.url | relative_url }}" title="{{ post.title }}">{{ post.title | escape }}</a>
-                </h2>
-
-                <span>{{ post.excerpt | markdownify | truncatewords: 30 }}</span>
-
-              </li>
-            {% endfor %}
-          </ul>
+    <div class="container">
+    <h1 class="gradient-text">جشنواره اوپن سورس فارسی</h1>
+    <p>
+        This page does not exist. Please use the navigation to get to a working page. If you got here due to an error on our part,
+        <a class="underline" href="">please let us know.</a>
+    </p>
+    <br>
+    <a class="button">عضویت</a>
+    <br>
+    {{ content }}
 </section>
 <hr>
 <hr class="gradient">
@@ -40,5 +20,21 @@ layout: default
 {% include attend.html %}
 <hr class="gradient">
 {% include subscribe.html %}
+<section class="content">
+    <div class="container">
+    <h2>اسامی مطالب اخیر</h2>
+    <ul class="post-list">
+        {% for post in site.posts %}
+        <li>
+        {% assign date_format = site.cayman-blog.date_format | default: "%b %-d, %Y" %}
+            <span class="post-meta">{{ post.date | date: date_format }}</span>
+            <h2>
+                <a class="post-link" href="{{ post.url | relative_url }}" title="{{ post.title }}">{{ post.title | escape }}</a>
+            </h2>
+            <span>{{ post.excerpt | markdownify | truncatewords: 30 }}</span>
+            </li>
+        {% endfor %}
+    </ul>
+</section>
 <hr class="gradient">
 {% include sponsor.html %}
