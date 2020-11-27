@@ -8,6 +8,7 @@ categories: سخنران
 title: جادی میرمیرانی - سخنران جشنواره اوپن سورس
 name: جادی میرمیرانی
 subtitle: هکر خندون، برنامه نویس خوشحال، مدیرسیستم
+image: /image/Jadi_Mirmirani.jpg
 github: https://github.com/jadijadi/
 linkedin: 
 instagram: https://instagram.com/jadijadinet
