@@ -4,6 +4,8 @@ date: 2020-10-02
 permalink: /blog/purpose-persian-open-source-software-festival/
 lang: fa
 author: Max Base
+authorDescription: GitHub Maintainer Developer
+authorImage: /image/Seyyed_Ali_Mohammadiyeh.jpg
 categories: 
 description: در این مطلب اهداف جشنواره اوپن سورس و چشم انداز های جشنواره نرم افزار آزاد را  توضیح میدهیم و می خواهیم شفاف سازی های لازم را انجام دهیم.
 tags: 
