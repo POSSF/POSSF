@@ -5,9 +5,13 @@ permalink: /speaker/seyyed-ali-mohammadiyeh/
 lang: fa
 author: Max Base
 categories: سخنران
-description: محل متن
-tags: 
 title: سید علی محمدیه - سخنران جشنواره اوپن سورس
+name: سید علی محمدیه
+github: https://github.com/BaseMax
+linkedin: 
+instagram: https://www.instagram.com/max.base/
+twitter: https://twitter.com/MaxProgram
+website: https://maxbase.org/
 ---
 
 محل متن
