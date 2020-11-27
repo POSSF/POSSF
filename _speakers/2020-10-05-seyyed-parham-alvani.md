@@ -16,6 +16,6 @@ twitter: https://twitter.com/1995parham
 website: https://1995parham.me/
 ---
 
-I was born in February 20 1995 in Tehran where I currently live and study Network Engineering at Amirkabir University of Technology.
+من در 20 فوریه 1995 در تهران متولد شدم و هم اکنون در آنجا زندگی می کنم و در رشته مهندسی شبکه در دانشگاه صنعتی امیرکبیر تحصیل می کنم.
 
-I'm interested in networks and using of them in Internet of Things and I do my best to improve the network connections of things around the world.
+من به شبکه ها و استفاده از آنها در اینترنت اشیا علاقه مند هستم و تمام تلاش خود را می کنم تا ارتباطات شبکه چیزهای مختلف دنیا را بهبود ببخشم.
