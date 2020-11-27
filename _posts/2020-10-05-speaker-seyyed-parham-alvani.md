@@ -7,6 +7,7 @@ categories: سخنران
 title: سید پرهام الوانی - سخنران جشنواره اوپن سورس
 name: سید پرهام الوانی
 subtitle: دانشجوی دکتری، برنامه نویس شرکت اسنپ
+image: /image/Seyyed_Parham_Alvani.jpg
 github: https://github.com/1995parham
 linkedin: 
 instagram: 
