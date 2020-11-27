@@ -1,34 +1,10 @@
 ---
 layout: default
 ---
-        <header>
-            <img class="logo" src="asset/GitHub-Universe-logo-2020-white.svg">
-            <div class="time">December 8 - 10</div>
-            <div class="countdown-time">
-                <span class="d">22</span>
-                d
-                ::
-                <span class="h">1</span>
-                h
-                ::
-                <span class="m">48</span>
-                m
-                ::
-                <span class="s">6</span>
-                s
-            </div>
-            <nav>
-                <li class="active"><a href="">Schedule</a></li>
-                <li><a href="">Speakers</a></li>
-                <li><a href="">Experience</a></li>
-                <li><a href="">Sponsors</a></li>
-                <li><a href="">FAQ</a></li>
-                <li><a href="">Subscribe</a></li>
-            </nav>
-        </header>
+{% include header.html %}
         <section class="content">
             <div class="container">
-                <h1 class="gradient-text">GitHub Universe 2020</h1>
+                <h1 class="gradient-text">جشنواره اوپن سورس فارسی</h1>
                 <p>
                     This page does not exist. Please use the navigation to get to a working page. If you got here due to an error on our part,
                     <a class="underline" href="">please let us know.</a>
@@ -37,8 +13,6 @@ layout: default
                 <a class="button">
                     REGISTER
                 </a>
-
-          
           {{ content }}
 
           <h2>اسامی مطالب اخیر</h2>
@@ -59,211 +33,14 @@ layout: default
               </li>
             {% endfor %}
           </ul>
-              
-              
-        </section>
-        <hr>
-        <hr class="gradient">
-        <section class="speakers">
-            <h1>Speackers</h1>
-            <ul class="speaker-list">
-                <li>
-                    <img alt="Nicole Forsgren" src="image/Nat_Friedman_Headshot.jpg">
-                    <h3>Getting better together: What enterprise can learn from global patterns</h3>
-                    <h4>Nicole Forsgren</h4>
-                    <h5>VP Research & Strategy, GitHub</h5>
-                </li>
-                <li>
-                    <img alt="Angie Jones" src="image/Nicole_Forsgren_Headshot.jpg">
-                    <h3>Visual tests on every pull request</h3>
-                    <h4>Angie Jones</h4>
-                    <h5>Principal Developer Advocate, Applitools</h5>
-                </li>
-                <li>
-                    <img alt="Hung Brown Ton" src="image/Angie_Jones_Headshot.jpg">
-                    <h3>From scientific poster sessions to GitHub global actions: transforming a century plus company to the digital age</h3>
-                    <h4>Hung Brown Ton</h4>
-                    <h5>Chief Architect, 3M Company</h5>
-                </li>
-            </ul>
-        </section>
-        <!-- <hr class="gradient"> -->
-        <!-- <hr> -->
-        <section class="attends">
-            <h2>Why attend?</h2>
-
-            <h4 class="text-gradient-purple">Learn from the best</h4>
-            <p>Three channels of content dedicated to developers, enterprise teams, and college students.</p>
-
-            <h4 class="text-gradient-purple">Get the latest</h4>
-            <p>New product announcements and deep dives.</p>
-
-            <h4 class="text-gradient-purple">Connect beyond content</h4>
-            <p>Networking and learning opportunities, from Workshops to mentoring sessions.</p>
-
-            <h4 class="text-gradient-purple">Have fun along the way</h4>
-            <p>Musical performances inspired by code and a few more surprises to come!</p>
-        </section>
-        <hr class="gradient">
-        <!-- <hr> -->
-        <section class="subscribe">
-            <p>
-                We’re adding more speakers every day!<br>Sign up for updates to stay in the loop.    
-            </p>
-            <br>
-            <a href="#subscribe" class="button" target="_blank">
-                <span>Subscribe for updates</span>
-            </a>
-        </section>
-        <hr class="gradient">
-        <section class="sponsors">
-            <div class="container">
-                <h4>Thank you to our sponsors</h4>
-                <ul class="sponsor-list">
-                    <li>
-                        <a href="/sponsors/veracode/" data-ga-click="Home, click, cta_text: open Veracode page">
-                        <img src="https://githubuniverse.com/assets/img/sponsors/logo-veracode.svg" alt="Veracode">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/sponsors/bridgecrew/" data-ga-click="Home, click, cta_text: open Bridgecrew page">
-                        <img src="https://githubuniverse.com/assets/img/sponsors/Bridgecrew.svg" alt="Bridgecrew">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/sponsors/whitesource/" data-ga-click="Home, click, cta_text: open WhiteSource page">
-                        <img src="https://githubuniverse.com/assets/img/sponsors/Whitesource.svg" alt="WhiteSource">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/sponsors/ponicode/" data-ga-click="Home, click, cta_text: open Ponicode page">
-                        <img src="https://githubuniverse.com/assets/img/sponsors/ponicode.svg" alt="Ponicode">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/sponsors/azure/" data-ga-click="Home, click, cta_text: open Microsoft Azure page">
-                        <img src="https://githubuniverse.com/assets/img/sponsors/Azure-Stacked-White%20(1).png" alt="Microsoft Azure">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/sponsors/zenhub/" data-ga-click="Home, click, cta_text: open ZenHub page">
-                        <img src="https://githubuniverse.com/assets/img/sponsors/zenhub.svg" alt="ZenHub">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/sponsors/accurics/" data-ga-click="Home, click, cta_text: open Accurics page">
-                        <img src="https://githubuniverse.com/assets/img/sponsors/Accurics_Monochromatic_Logo%20(1).png" alt="Accurics">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/intuit/" data-ga-click="Home, click, cta_text: open Intuit page">
-                        <img src="https://githubuniverse.com/assets/img/sponsors/Intuit_Logo.svg" alt="Intuit">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/CircleCI/" data-ga-click="Home, click, cta_text: open CircleCI page">
-                        <img src="https://githubuniverse.com/assets/img/sponsors/circle-logo-horizontal-white-1200x341%20(1).svg" alt="CircleCI">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/sponsors/intel/" data-ga-click="Home, click, cta_text: open Intel Corporation page">
-                        <img src="https://githubuniverse.com/assets/img/sponsors/Intel_logo-white-3000px.png" alt="Intel Corporation">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/stackpulse/" data-ga-click="Home, click, cta_text: open StackPulse page">
-                        <img src="https://githubuniverse.com/assets/img/sponsors/stackpulse_white_lockup.png" alt="StackPulse">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/securecodewarrior/" data-ga-click="Home, click, cta_text: open Secure Code Warrior page">
-                        <img src="https://githubuniverse.com/assets/img/sponsors/scw_white_h_R.svg" alt="Secure Code Warrior">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/Lightstep/" data-ga-click="Home, click, cta_text: open Lightstep page">
-                        <img src="https://githubuniverse.com/assets/img/sponsors/Lightsteplogo-medium-white.png" alt="Lightstep">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/datree/" data-ga-click="Home, click, cta_text: open Datree page">
-                        <img src="https://githubuniverse.com/assets/img/sponsors/Datree_Logo_1_color%20(1).png" alt="Datree">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/hasicorp/" data-ga-click="Home, click, cta_text: open HashiCorp page">
-                        <img src="https://githubuniverse.com/assets/img/sponsors/HashiCorp_PrimaryLogo_White_RGB.png" alt="HashiCorp">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/sponsors/saucelabs/" data-ga-click="Home, click, cta_text: open Sauce Labs page">
-                        <img src="https://githubuniverse.com/assets/img/sponsors/Sauce-Labs_Vert_White_RGB.svg" alt="Sauce Labs">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/contrastsecurity/" data-ga-click="Home, click, cta_text: open Contrast Security page">
-                        <img src="https://githubuniverse.com/assets/img/sponsors/Contrast_Security%20Logo%20(white).svg" alt="Contrast Security">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/snyk/" data-ga-click="Home, click, cta_text: open Snyk page">
-                        <img src="https://githubuniverse.com/assets/img/sponsors/Snyk-white%20(1).png" alt="Snyk">
-                        </a>
-                    </li>  
-                </ul>
-                <p>Interested in <a class="underline" href="">sponsoring</a> GitHub Universe?</p>
-                <br>
-                <a class="button">
-                    CONTACT US
-                </a>
-            </div>
-        </section>
-        <section class="updates">
-            <p class="signup-text"><a class="underline" href="">Sign up</a> for the latest GitHub Universe updates</p>
-            <p class="follow-text">Follow the event <span class="text-gradient-purple">#GitHubUniverse</span></p>
-            <ul class="linear-list">
-                <li>
-                    <a href="">
-                        <img src="https://githubuniverse.com/assets/img/svgs/twitter.svg">
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="https://githubuniverse.com/assets/img/svgs/linkedin.svg">
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="https://githubuniverse.com/assets/img/svgs/instagram.svg">
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="https://githubuniverse.com/assets/img/svgs/youtube.svg">
-                    </a>
-                </li>
-            </ul>
-        </section>
-        <footer>
-            <ul class="linear-list">
-                <li>
-                    <a href="">Code of Conduct</a>
-                </li>
-                <li>
-                    <a href="">Terms</a>
-                </li>
-                <li>
-                    <a href="">Privacy</a>
-                </li>
-                <li>
-                    <a href="">Event sponsorship</a>
-                </li>
-                <li>
-                    <a href="">events@github.com</a>
-                </li>
-            </ul>
-            <a href="">
-                <img class="logo" src="asset/GitHub-invertocat.svg">
-            </a>
-            <p class="copyright">© 2020 GitHub. All rights reserved.</p>
-        </footer>
+</section>
+<hr>
+<hr class="gradient">
+{% include speaker.html %}
+{% include attend.html %}
+<hr class="gradient">
+{% include subscribe.html %}
+<hr class="gradient">
+{% include sponsor.html %}
+{% include update.html %}
+{% include footer.html %}
