@@ -5,3 +5,5 @@ plugins:
 collections:
   speakers:
     output: true
+  workshops:
+    output: true
