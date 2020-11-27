@@ -1,14 +1,16 @@
 <section class="speakers">
 	<h1>سخنران های کلیدی جشنواره اوپن سورس</h1>
 	<ul class="speaker-list">
+		{% for speaker in site.speakers %}
 		<li>
 			<a href="/speaker/jadi-mirmirani/">
-				<img alt="جادی میرمیرانی" src="/image/Jadi_Mirmirani.jpg">
+				<img alt="{{ speaker.name }}" src="{{ speaker.image }}">
 				<h3>Getting better together: What enterprise can learn from global patterns</h3>
-				<h4>جادی میرمیرانی</h4>
-				<h5>هکر خندون، برنامه نویس خوشحال، مدیرسیستم</h5>
+				<h4>{{ speaker.name }}</h4>
+				<h5>{{ speaker.subtitle }}</h5>
 			</a>
 		</li>
+		{% endfor %}
 		<li>
 			<a href="/speaker/seyyed-ali-mohammadiyeh/">
 				<img alt="سید علی محمدیه" src="/image/Seyyed_Ali_Mohammadiyeh.jpg">
