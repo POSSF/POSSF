@@ -8,50 +8,50 @@
     http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd">
 
 <url>
-  <loc>https://hacktoberfest.digitalocean.com/</loc>
-  <xhtml:link rel="alternate" hreflang="ar" href="https://possf.ir/" />
+  <loc>https://possf.ir/</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://hacktoberfest.digitalocean.com/" />
   <lastmod>2020-11-29T20:43:19+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://hacktoberfest.digitalocean.com/hacktoberfest-update</loc>
-  <xhtml:link rel="alternate" hreflang="ar" href="https://possf.ir/blog/hi-possf-event/" />
+  <loc>https://possf.ir/blog/hi-possf-event/</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://hacktoberfest.digitalocean.com/hacktoberfest-update" />
   <lastmod>2020-11-29T20:43:19+00:00</lastmod>
   <priority>0.8</priority>
 </url>
 <url>
-  <loc>https://hacktoberfest.digitalocean.com/details</loc>
-  <xhtml:link rel="alternate" hreflang="ar" href="https://possf.ir/blog/" />
+  <loc>https://possf.ir/blog/</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://hacktoberfest.digitalocean.com/details" />
   <lastmod>2020-11-29T20:43:19+00:00</lastmod>
   <priority>0.8</priority>
 </url>
 <url>
-  <loc>https://hacktoberfest.digitalocean.com/events</loc>
-  <xhtml:link rel="alternate" hreflang="ar" href="https://possf.ir/blog/purpose-persian-open-source-software-festival/" />
+  <loc>https://possf.ir/blog/purpose-persian-open-source-software-festival/</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://hacktoberfest.digitalocean.com/events" />
   <lastmod>2020-11-29T20:43:19+00:00</lastmod>
   <priority>0.8</priority>
 </url>
 <url>
-  <loc>https://hacktoberfest.digitalocean.com/faq</loc>
-  <xhtml:link rel="alternate" hreflang="ar" href="https://possf.ir/faq/" />
+  <loc>https://possf.ir/faq/</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://hacktoberfest.digitalocean.com/faq" />
   <lastmod>2020-11-29T20:43:19+00:00</lastmod>
   <priority>0.8</priority>
 </url>
 <url>
-  <loc>https://hacktoberfest.digitalocean.com/login</loc>
-  <xhtml:link rel="alternate" hreflang="ar" href="https://possf.ir/code-of-conduct/" />
+  <loc>https://possf.ir/code-of-conduct/</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://hacktoberfest.digitalocean.com/login" />
   <lastmod>2020-11-29T20:43:19+00:00</lastmod>
   <priority>0.8</priority>
 </url>
 <url>
-  <loc>https://hacktoberfest.digitalocean.com/intel.pdf</loc>
-  <xhtml:link rel="alternate" hreflang="ar" href="https://possf.ir/privacy/" />
+  <loc>https://possf.ir/privacy/</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://hacktoberfest.digitalocean.com/intel.pdf" />
   <lastmod>2020-11-19T22:31:37+00:00</lastmod>
   <priority>0.8</priority>
 </url>
 <url>
-  <loc>https://hacktoberfest.digitalocean.com/eventkit/</loc>
-  <xhtml:link rel="alternate" hreflang="ar" href="https://possf.ir/terms/" />
+  <loc>https://possf.ir/terms/</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://hacktoberfest.digitalocean.com/eventkit/" />
   <lastmod>2020-11-29T20:43:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
