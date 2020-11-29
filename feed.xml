@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>https://hacktoberfest.digitalocean.com/</loc>
+  <xhtml:link rel="alternate" hreflang="fa" href="https://possf.ir/" />
+  <lastmod>2020-11-29T20:43:19+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://hacktoberfest.digitalocean.com/hacktoberfest-update</loc>
+  <xhtml:link rel="alternate" hreflang="fa" href="https://possf.ir/blog/hi-possf-event/" />
+  <lastmod>2020-11-29T20:43:19+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://hacktoberfest.digitalocean.com/details</loc>
+  <xhtml:link rel="alternate" hreflang="fa" href="https://possf.ir/blog/" />
+  <lastmod>2020-11-29T20:43:19+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://hacktoberfest.digitalocean.com/events</loc>
+  <xhtml:link rel="alternate" hreflang="fa" href="https://possf.ir/blog/purpose-persian-open-source-software-festival/" />
+  <lastmod>2020-11-29T20:43:19+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://hacktoberfest.digitalocean.com/faq</loc>
+  <xhtml:link rel="alternate" hreflang="fa" href="https://possf.ir/faq/" />
+  <lastmod>2020-11-29T20:43:19+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://hacktoberfest.digitalocean.com/login</loc>
+  <xhtml:link rel="alternate" hreflang="fa" href="https://possf.ir/code-of-conduct/" />
+  <lastmod>2020-11-29T20:43:19+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://hacktoberfest.digitalocean.com/intel.pdf</loc>
+  <xhtml:link rel="alternate" hreflang="fa" href="https://possf.ir/privacy/" />
+  <lastmod>2020-11-19T22:31:37+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://hacktoberfest.digitalocean.com/eventkit/</loc>
+  <xhtml:link rel="alternate" hreflang="fa" href="https://possf.ir/terms/" />
+  <lastmod>2020-11-29T20:43:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
+
