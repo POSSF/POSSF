@@ -18,3 +18,7 @@ website: https://maxbase.org/
 ---
 
 @github developer. Full-Time Open-Sourcerer. Full-stack programmer. I don't know anything. In the path of a real computer engineer...
+
+توسعه دهنده شرکت گیت هاب و برنامه نویس تمام وقت منبع باز. توسعه دهنده تمام پشته.
+
+من چیزی نمی دانم در مسیر رسیدن به یک مهندس نرم افزار واقعی...
