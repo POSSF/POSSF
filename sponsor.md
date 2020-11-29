@@ -1,0 +1,9 @@
+---
+layout: page
+permalink: /sponsor/
+lang: fa
+title: حامیان جشنواره منبع باز و اوپن سورس فارسی
+---
+
+{% include sponsor.html %}
+
