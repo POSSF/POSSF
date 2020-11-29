@@ -23,3 +23,7 @@ Persian Open Source Software Festival
 [اوپن سورس](https://possf.ir/)
 
 [نرم افزار آزاد](https://possf.ir/)
+
+[سخنران های جشنواره اوپن سورس فارسی](https://possf.ir/speaker/)
+
+[کارگاه های جشنواره اوپن سورس فارسی](https://possf.ir/workshop/)
