@@ -8,7 +8,7 @@ title: کارگاه های جشنواره اوپن سورس فارسی
 <h2>اسامی کارگاه های جشنواره متن باز فارسی</h2>
 
 <ul class="post-list">
-  {% for post in site.speakers %}
+  {% for post in site.workshops %}
     <li>
       {% assign date_format = site.cayman-blog.date_format | default: "%b %-d, %Y" %}
       <span class="post-meta">{{ post.date | date: date_format }}</span>
