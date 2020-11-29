@@ -17,4 +17,4 @@ twitter: https://twitter.com/MaxProgram
 website: https://maxbase.org/
 ---
 
-محل متن
+@github developer. Full-Time Open-Sourcerer. Full-stack programmer. I don't know anything. In the path of a real computer engineer...
