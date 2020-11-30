@@ -1,7 +1,5 @@
 title: اولین جشنواره نرم افزار اوپن سورس فارسی
 description: Persian Open Source Software Festival - اولین جشنواره نرم افزار آزاد و متن باز اوپن سورس فارسی − سورس کد - ورژن کنترل - مدیریت پروژه - برنامه نویسی - رایانه - کامپیوتر
-plugins:
-  - jekyll-sitemap
 collections:
   speakers:
     output: true
