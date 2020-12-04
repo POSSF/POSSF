@@ -27,3 +27,39 @@ Persian Open Source Software Festival
 [سخنران های جشنواره اوپن سورس فارسی](https://possf.ir/speaker/)
 
 [کارگاه های جشنواره اوپن سورس فارسی](https://possf.ir/workshop/)
+
+### Compile POSSF Website Project
+
+```
+$ bundle install
+```
+
+Or install manualy:
+
+```
+$ gem install jekyll
+$ gem install jekyll-sitemap
+$ gem install jekyll-target-blank
+```
+
+If you face to similar warning/error:
+```
+WARNING:  You don't have /home/max/.gem/ruby/2.7.0/bin in your PATH,
+    gem executables will not run.
+Successfully installed jekyll-4.1.1
+1 gem installed
+```
+
+Try this:
+
+```
+nano ~/.bashrc
+export PATH="$HOME/.gem/ruby/2.7.0/bin:$PATH"
+```
+
+### Running and serve website
+
+```
+$ bundle exec jekyll serve
+```
+
