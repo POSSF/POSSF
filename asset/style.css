@@ -18,6 +18,10 @@ body {
     /* font-family: "Open Sans"; */
     font-family: "Vazir", "Open Sans";
 }
+html[dir=rtl] {
+    direction: rtl;
+    text-align: right;
+}
 img {
     border: 0px;
 }
