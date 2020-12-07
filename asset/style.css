@@ -491,3 +491,9 @@ html[dir=rtl] section.profile .details {
 html[dir=rtl] section.profile .avatar {
     float: right;
 }
+html[dir=rtl] ul.faq-question h2.faq-title {
+    float: right;
+}
+html[dir=rtl] ul.faq-question svg {
+    float: left;
+}
