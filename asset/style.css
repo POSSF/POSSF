@@ -18,7 +18,7 @@ body {
     /* font-family: "Open Sans"; */
     font-family: "Vazir", "Open Sans";
 }
-html.rtl {
+html[dir=rtl] {
     direction: rtl;
     text-align: right;
 }
@@ -477,17 +477,17 @@ section.profile .social svg {
 }
 
 /* rtl */
-html.rtl body {
+html[dir=rtl] body {
     direction: rtl;
     text-align: right;
 }
-html.rtl section.profile .details {
+html[dir=rtl] section.profile .details {
     margin-right: 25px;
     margin-right: 0px;
     float: right;
     text-align: right;
     direction: rtl;
 }
-html.rtl section.profile .avatar {
+html[dir=rtl] section.profile .avatar {
     float: right;
 }
