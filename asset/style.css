@@ -475,3 +475,19 @@ section.profile .social svg {
     fill: currentColor;
     margin-right: 25px;
 }
+
+/* rtl */
+html[dir=rtl] body {
+    direction: rtl;
+    text-align: right;
+}
+html[dir=rtl] section.profile .details {
+    margin-right: 25px;
+    margin-right: 0px;
+    float: right;
+    text-align: right;
+    direction: rtl;
+}
+section.profile .avatar {
+    float: right;
+}
