@@ -15,11 +15,7 @@ collections:
 
 jekyll_admin:
   hidden_links:
-    - posts
-    - workshops
-    - speakers
-    - pages
     - staticfiles
     - datafiles
     - configuration
-  homepage: "pages"
+  homepage: "posts"
