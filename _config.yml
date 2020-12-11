@@ -7,3 +7,13 @@ collections:
     output: true
   workshops:
     output: true
+jekyll_admin:
+  hidden_links:
+    - posts
+    - workshops
+    - speakers
+    - pages
+    - staticfiles
+    - datafiles
+    - configuration
+  homepage: "pages"
