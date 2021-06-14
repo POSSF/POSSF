@@ -8,6 +8,7 @@ title: تیم و دست اندرکاران جشنواره اوپن سورس فا
 ## یاری‌ دهندگان جشنواره
 
 <div class="container mt-5">
+<!--
 <div class="row">
 <div class="col-12 mb-3">
 <div class="festival-helper-container-image mx-auto my-2"><img width="200" class="img-fluid festival-helper-container-image" src="https://basemax.github.io/POSSF/public/assets/image/mirazimi2.jpg" alt="سید ایمان میرعظیمی"></div>
@@ -15,6 +16,7 @@ title: تیم و دست اندرکاران جشنواره اوپن سورس فا
 <p class="w-100 text-center">دبیر جشنواره</p>
 </div>
 </div>
+-->
 
 <div class="row d-flex justify-content-center">
 <div class="col-sm-2 col-4 mb-3">
