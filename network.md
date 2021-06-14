@@ -1,15 +1,15 @@
 ---
 layout: default
 permalink: /network/
-title: Community of programmers and software engineers
+title: جامعه کاربری انجمن نرم افزار آزاد فارسی
 ---
 
 <h1>
 	<a href="/">&uarr;</a>
-	Community of programmers and software engineers
+	جامعه کاربری انجمن نرم افزار اوپن سورس فارسی
 </h1>
 
-Do you want to see yourself here? Click [here](https://github.com/POSSF/POSSF-Web){:target="\_blank"} to add your own.
+آیا می خواهید خودتان را در این لیست ببینید؟ لطفا [اینجا](https://github.com/POSSF/POSSF-Web){:target="\_blank"} را کلیک کنید و خودتان را اضافه کنید.
 
 <style type="text/css">
 ul.accounts li {
@@ -41,7 +41,7 @@ ul.accounts li a.avatar:hover {
 }
 </style>
 
-## List of members
+## لیست علاقه مندان به نرم افزار آزاد
 
 <ul class="accounts">
   {% for network in site.networks %}
