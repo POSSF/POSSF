@@ -9,6 +9,9 @@ collections:
   speakers:
     output: true
     sidebar_label: Speakers
+  networks:
+    output: true
+    sidebar_label: Networks
   workshops:
     output: true
     sidebar_label: Workshops
