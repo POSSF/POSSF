@@ -18,11 +18,11 @@ A community for open-source programmers and software engineers.
 
 ```md
 ---
-layout: network <!-- DO NOT CHANGE THIS -->
+layout: network
 permalink: /network/your-github-username-without-space/ <!-- GITHUB-USERNAME -->
 name: Your full name
 github: your-github-username
-website: http://site.org/ <!-- LINK TO YOUR WEBSITE -->
+website: http://site.org/ <!-- LINK TO YOUR WEBSITE or link of a Social network -->
 email: your-email@gmail.com
 country: Iran
 location: Isfahan
