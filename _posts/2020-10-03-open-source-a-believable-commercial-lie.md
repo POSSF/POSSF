@@ -4,11 +4,11 @@ date: 2020-10-03
 permalink: /blog/open-source-a-believable-commercial-lie/
 lang: fa
 author: بابک مقیمی
-authorDescription: 
+authorDescription:
 authorImage: /image/Evan_You_Headshot.jpg
-categories: 
+categories:
 description: دوست عزیز ما بابک مقیمی مقاله ای در مورد آزادراه منتشر کرده است که می تواند نقطه شروع خوبی برای یک مقاله کامل در مورد منبع آزاد و رویکردهای اجتماعی آن باشد.
-tags: 
+tags:
 title: اپن سورس، یک دروغ تجاری قابل باور
 ---
 
