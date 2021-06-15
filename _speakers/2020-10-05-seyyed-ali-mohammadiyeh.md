@@ -6,12 +6,12 @@ lang: fa
 author: Max Base
 categories: سخنران
 title: سید علی محمدیه - سخنران جشنواره اوپن سورس
-talk: 
+talk:
 name: سید علی محمدیه
 subtitle: مهندس نرم‌افزار و توسعه دهنده شرکت گیت هاب
 image: https://i.pravatar.cc/150?img=58
 github: https://github.com/BaseMax
-linkedin: 
+linkedin:
 instagram: https://www.instagram.com/max.base/
 twitter: https://twitter.com/MaxProgram
 website: https://maxbase.org/

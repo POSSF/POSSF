@@ -67,7 +67,7 @@ Install requirement packages from Gemfile:
 $ bundle install
 ```
 
-Or install manualy one by one:
+Or install manually one by one:
 
 ```
 $ gem install jekyll
@@ -98,10 +98,9 @@ Configuration file: /home/max/OpenSource/POSSF-Web/_config.yml
             Source: /home/max/OpenSource/POSSF-Web
        Destination: /home/max/OpenSource/POSSF-Web/_site
  Incremental build: disabled. Enable with --incremental
-      Generating... 
+      Generating...
                     done in 0.13 seconds.
  Auto-regeneration: enabled for '/home/max/OpenSource/POSSF-Web'
     Server address: http://127.0.0.1:4000
   Server running... press ctrl-c to stop.
 ```
-

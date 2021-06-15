@@ -2,8 +2,11 @@ title: اولین جشنواره نرم افزار اوپن سورس فارسی
 description: Persian Open Source Software Festival - اولین جشنواره نرم افزار آزاد و متن باز اوپن سورس فارسی − سورس کد - ورژن کنترل - مدیریت پروژه - برنامه نویسی - رایانه - کامپیوتر
 
 plugins:
-  - jekyll-sitemap
   - jekyll-admin
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-target-blank
+  - jemoji
 
 collections:
   speakers:
@@ -22,3 +25,20 @@ jekyll_admin:
     - datafiles
     - configuration
   homepage: "posts"
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - .gitignore
+  - codespell.txt
+  - CODEOWNERS
+  - Gemfile
+  - Gemfile.lock
+  - server
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+feed:
+  path: feed.xml

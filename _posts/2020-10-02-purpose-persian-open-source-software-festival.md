@@ -6,9 +6,9 @@ lang: fa
 author: Max Base
 authorDescription: GitHub Maintainer Developer
 authorImage: /image/Seyyed_Ali_Mohammadiyeh.jpg
-categories: 
+categories:
 description: در این مطلب اهداف جشنواره اوپن سورس و چشم انداز های جشنواره نرم افزار آزاد را  توضیح میدهیم و می خواهیم شفاف سازی های لازم را انجام دهیم.
-tags: 
+tags:
 title: اهدف جشنواره نرم افزار آزاد/اوپن سورس فارسی
 ---
 
