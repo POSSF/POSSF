@@ -274,7 +274,7 @@ section.sponsors h4 {
 }
 section.content h1 {
     font-size: 96px;
-    line-height: 96px;
+    line-height: auto; /* 96px */
     margin-top: 45px;
     margin-bottom: 25px;
 }
