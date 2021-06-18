@@ -11,7 +11,6 @@ title: سخنران های جشنواره اوپن سورس فارسی
   {% for post in site.speakers %}
     <li>
       {% assign date_format = site.cayman-blog.date_format | default: "%b %-d, %Y" %}
-      <span class="post-meta">{{ post.date | date: date_format }}</span>
       <h2>
         <a class="post-link" href="{{ post.url | relative_url }}" title="{{ post.title }}">{{ post.title | escape }}</a>
       </h2>
