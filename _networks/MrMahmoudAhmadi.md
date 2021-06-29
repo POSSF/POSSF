@@ -1,14 +1,14 @@
 ---
 layout: network
-permalink: /network/MrMahmoudAhmadi/ <!-- GITHUB-USERNAME -->
+permalink: /network/MrMahmoudAhmadi/
 name: Mahmoud Ahmadi
 github: MrMahmoudAhmadi
 website: https://linktr.ee/MrMahmoudAhmadi
 email: mr.ahmadi.mahmoud@gmail.com
-instagram: <!-- LEAVE EMPTY OR PUT LINK TO YOUR PROFILE -->
-twitter: <!-- LEAVE EMPTY OR PUT LINK TO YOUR PROFILE -->
-linkedin: <!-- LEAVE EMPTY OR PUT LINK TO YOUR PROFILE -->
-facebook: <!-- LEAVE EMPTY OR PUT LINK TO YOUR PROFILE -->
+instagram: 
+twitter: 
+linkedin: 
+facebook: https://www.facebook.com/mahmoud.ahmadi.526875/
 country: Iran
 location: Kerman
 role: Algorithm designer
