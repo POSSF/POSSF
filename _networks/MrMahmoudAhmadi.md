@@ -5,9 +5,9 @@ name: Mahmoud Ahmadi
 github: MrMahmoudAhmadi
 website: https://linktr.ee/MrMahmoudAhmadi
 email: mr.ahmadi.mahmoud@gmail.com
-instagram: 
-twitter: 
-linkedin: 
+instagram:
+twitter:
+linkedin:
 facebook: https://www.facebook.com/mahmoud.ahmadi.526875/
 country: Iran
 location: Kerman
