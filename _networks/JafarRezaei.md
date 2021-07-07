@@ -15,4 +15,4 @@ languages: typescript javascript reactjs
 ---
 
 I'm Jafar Rezaei (SayJeyHi) - currently I am a senior frontend engineer at a company callled Hoory it is an AI assistant and located in Armenia. 
-I wrote two books to make learning javascript and reactjs easier, they are open source and available in Mariotek github repository.
+I wrote two books to make learning JavaScript and React.js easier, they are open source and available in Mariotek GitHub repository.
