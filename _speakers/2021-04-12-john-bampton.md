@@ -8,7 +8,7 @@ categories: سخنران
 title: جان بامپتون - سخنران جشنواره اوپن سورس
 talk: GNU Tools
 name: John Bampton
-subtitle: 
+subtitle: Team Leader, Developer Relations Engineer
 image: /image/john-bampton.jpg
 github: https://github.com/jbampton/
 linkedin:
