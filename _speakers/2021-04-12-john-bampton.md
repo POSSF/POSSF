@@ -12,8 +12,8 @@ subtitle: Team Leader, Developer Relations Engineer
 image: /image/john-bampton.jpg
 github: https://github.com/jbampton/
 linkedin:
-instagram: 
-twitter: 
+instagram:
+twitter:
 website: https://slurp.readthedocs.io/
 ---
 
