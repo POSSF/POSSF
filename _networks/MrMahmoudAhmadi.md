@@ -15,4 +15,4 @@ role: Algorithm designer
 languages: c/c++/python
 ---
 
-A short biography and a short text about your technical skills.
+I am an algorithm designer and researcher in the field of combinations and graph theory and i have TA(Teaching assistant) position in Bahonar university of kerman. 
