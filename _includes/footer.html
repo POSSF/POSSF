@@ -1,31 +1,38 @@
-        <footer>
-            <ul class="linear-list">
+<footer>
+
+    <div class="content-footer">
+        <ul class="linear-list">
+            <li>
+                <a href="{{ site.url }}/{{ site.lang }}/code-of-conduct/">آیین نامه رفتار</a>
+            </li>
+            <li>
+                <a href="{{ site.url }}/{{ site.lang }}/terms/">مقررات</a>
+            </li>
+            <li>
+                <a href="{{ site.url }}/{{ site.lang }}/privacy/">حریم خصوصی</a>
+            </li>
+            <li>
+                <a href="{{ site.url }}/{{ site.lang }}/sponsors/">حامیان جشنواره</a>
+            </li>
+            <!--
                 <li>
-                    <a href="/code-of-conduct/">آیین نامه رفتار</a>
-                </li>
-                <li>
-                    <a href="/terms/">مقررات</a>
-                </li>
-                <li>
-                    <a href="/privacy/">حریم خصوصی</a>
-                </li>
-                <li>
-                    <a href="/sponsor/">حامیان جشنواره</a>
-                </li>
-                <!--
-                <li>
-                    <a href="/contact/">حمایت مالی رویداد</a>
+                    <a href="{{ site.url }}/{{ site.lang }}/contact/">حمایت مالی رویداد</a>
                 </li>
                 -->
-                <li>
-                    <a href="/team/">دست اندرکاران</a>
-                </li>
-                <li>
-                    <a href="/contact/">info [.@.] possf.ir</a>
-                </li>
-            </ul>
-            <a href="/">
-                <img alt="Persian Open Source Software Festival" class="logo" src="/asset/GitHub-invertocat.svg">
-            </a>
-            <p class="copyright">© 2020 GitHub. All rights reserved.</p>
-        </footer>
+            <li>
+                <a href="{{ site.url }}/{{ site.lang }}/team/">دست اندرکاران</a>
+            </li>
+            <li>
+                <a href="{{ site.url }}/{{ site.lang }}/contact/">info @ possf.ir</a>
+            </li>
+        </ul>
+        <hr>
+        <a href="{{ site.url }}/{{ site.lang }}/">
+            <img alt="Persian Open Source Software Festival" class="logo" src="{{ site.url }}/asset/logo-icon.svg">
+        </a>
+        <p class="copyright">{% t global.footer_text %}</p>
+    </div>
+
+</footer>
+
+<script type="text/javascript" src="{{ site.url }}/asset/script.js"></script>
