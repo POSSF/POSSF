@@ -1,5 +1,7 @@
 # اولین جشنواره نرم افزار اوپن سورس فارسی
 
+![](cover.jpg)
+
 # Persian Open Source Software Festival
 
 A community for open-source programmers and software engineers.
