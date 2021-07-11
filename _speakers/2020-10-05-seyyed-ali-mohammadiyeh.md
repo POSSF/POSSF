@@ -1,7 +1,7 @@
 ---
 layout: speaker
 date: 2020-10-05
-permalink: /speaker/seyyed-ali-mohammadiyeh/
+permalink: /speakers/seyyed-ali-mohammadiyeh/
 categories: سخنران speacker
 title: speakers.items.max.title
 talk: speakers.items.max.talk

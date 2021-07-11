@@ -10,8 +10,6 @@ title: global.speakers_title
 		<p>{% t global.speakers_section_description %}</p>
 	</div>
 	<ul class="speaker-grid">
-		{% for speaker_item in site.translations[site.lang].speakers.items %}
-		{% endfor %}
 		{% for speaker_item in site.speakers %}
 			<li>
 				<a class="speaker-card css-" href="{{ site.url }}/{{ site.lang }}{{ speaker_item.url }}" title="{{ speaker_item.title }}">

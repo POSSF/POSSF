@@ -1,7 +1,7 @@
 ---
 layout: speaker
 date: 2020-10-05
-permalink: /speaker/seyyed-parham-alvani/
+permalink: /speakers/seyyed-parham-alvani/
 categories: سخنران speacker
 title: speakers.items.parham.title
 talk: speakers.items.parham.talk

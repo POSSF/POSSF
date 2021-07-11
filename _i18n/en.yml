@@ -124,8 +124,48 @@ workshops:
   title: "Persian Open Source Festival Workshops"
   section_title: "Persian Open Source Festival Workshops"
   section_description: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+  alt: "Workshop of Persian open-source festival"
+  items:
+    git:
+      title: "Learn working with GIT - Persian Open Source Festival سورس"
+      name: "Erfan Hatefi"
+      talk: "Learn working with GIT"
+      description: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+    choose:
+      title: "Choose an Open-source project for contributing - Persian Open Source Festival"
+      name: "Alireza Khalilian"
+      talk: "Choose an Open-source project for contributing"
+      description: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
 
 team:
   title: "The team of the Persian Open Source Festival"
   section_title: "Festival helpers"
   section_description: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+
+register:
+  title: "Register - Persian Open-Source Software festival"
+  name: "Register"
+  description: "read more..."
+
+contact:
+  title: "Contact us  - Persian Open Source Festival"
+  section_title: "Contact us"
+  section_description: "In the name of God!
+
+شما می توانید جهت تماس با دبیرخانه جشنواره در ساعات اداری به وقت ایران با تلفن 051 3xxxxx تماس حاصل فرمایید.
+
+همچنین می توانید از حساب پشتیبان ما در شبکه های اجتماعی تویتر، اینستاگرام، تلگرام نیز در ارتباط باشید.
+
+راه ارتباطی دیگر شما با جشنواره اوپن سورس فارسی از طریق ایمیل به نشانی info [[email protected]] possf [.] ir خواهد بود
+
+حساب اینستاگرام دبیرخانه جشنواره اوپن سورس فارسی
+
+کانال تلگرامی جشنواره متن باز و اوپن سورس فارسی
+
+کانال تلگرامی جشنواره منبع باز فارسی
+
+با تشکر
+
+دبیر جشنواره اوپن سورس و متن باز فارسی
+
+"

@@ -1,7 +1,7 @@
 ---
 layout: speaker
 date: 2020-10-05
-permalink: /speaker/jadi-mirmirani/
+permalink: /speakers/jadi-mirmirani/
 categories: سخنران speacker
 title: speakers.items.jadi.title
 talk: speakers.items.jadi.talk

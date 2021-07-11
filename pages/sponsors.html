@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /sponsors/
-title: global.sponsors_title
+title: sponsors.title
 ---
 
 <section class="main-content">
@@ -21,11 +21,11 @@ title: global.sponsors_title
    </div>
    <div class="page-box-content">
       <div class="page-box-content-padding">
-         <h1 class="page-box-content-title">{% t global.sponsors_section_title %}</h1>
-         <p>{% t global.sponsors_section_description %}</p>
+         <h1 class="page-box-content-title">{% t sponsors.section_title %}</h1>
+         <p>{% t sponsors.section_description %}</p>
          <section class="sponsors">
             <div class="sponsor-box">
-               {% for sponsor_item in site.translations[site.lang].sponsors %}
+               {% for sponsor_item in site.translations[site.lang].sponsors.items %}
                <div class="inner-grid">
                   <a>
                      <img src="{{ sponsor_item.image }}" alt="{{ sponsor_item.name }}">

@@ -1,7 +1,7 @@
 ---
 layout: speaker
 date: 2021-04-12
-permalink: /speaker/john-bampton/
+permalink: /speakers/john-bampton/
 categories: سخنران speacker
 title: speakers.items.john.title
 talk: speakers.items.john.talk

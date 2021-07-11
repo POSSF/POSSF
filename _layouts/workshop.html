@@ -20,23 +20,20 @@ layout: page
    <div class="card-info">
       <div class="card-img">
          <div class="img-of-speaker">
-            <img src="{{ site.url }}/asset/image/AliReza-Khalilian.jpg">
+            <img src="{{ site.url }}{{ page.image }}">
          </div>
          <div class="social-nav">
             <ul>
-               <li><a href=""><i class="fa fa-github"></i></a></li>
-               <li><a href=""><i class="fa fa-twitter"></i></a></li>
+               <!-- <li><a href=""><i class="fa fa-github"></i></a></li> -->
+               <!-- <li><a href=""><i class="fa fa-twitter"></i></a></li> -->
             </ul>
          </div>
       </div>
       <div class="card-content">
-         <h1 class="card-content-title">علیرضا خلیلیان</h1>
-         <h2>آموزش انتخاب پروژه اوپن سورس</h2>
+         <h1 class="card-content-title">{% t page.talk %}</h1>
+         <h2>{% t page.name %}</h2>
          <p>
-            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
-         </p>
-         <p>
-            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
+            {{ page.content }}
          </p>
       </div>
    </div>
