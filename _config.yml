@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -25,8 +25,9 @@ default_locale_in_subfolder: true # root of website will be empty!
 exclude_from_localizations: ["asset", "favicon.ico", "robots.txt", "humans.txt"]
 
 title: اولین جشنواره نرم افزار اوپن سورس فارسی
-description: >- # this means to ignore newlines until "baseurl:"
-  Persian Open Source Software Festival - اولین جشنواره نرم افزار آزاد و متن باز اوپن سورس فارسی − سورس کد - ورژن کنترل - مدیریت پروژه - برنامه نویسی - رایانه - کامپیوتر
+description: "Persian Open Source Software Festival - اولین جشنواره نرم افزار آزاد و متن باز اوپن سورس فارسی − سورس کد - ورژن کنترل - مدیریت پروژه - برنامه نویسی - رایانه - کامپیوتر"
+#>- # this means to ignore newlines until "baseurl:"
+
 # baseurl: "" # the subpath of your site, e.g. /blog
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -43,28 +44,8 @@ plugins:
 # https://jekyllrb.com/docs/configuration/default/
 # https://stackoverflow.com/questions/35236592/jekyll-directory-structure-changing-index-html-to-different-page
 keep_files: ["index.html"]
-exclude: ["index.html"]
+# exclude: ["index.html"]
 # include: ["index.html"]
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
 
 collections:
   speakers:
@@ -77,6 +58,13 @@ collections:
     output: true
     sidebar_label: Workshops
 
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
 exclude:
   - .gitignore
   - codespell.txt

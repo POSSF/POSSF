@@ -38,18 +38,13 @@ header:
   faq: "FAQs"
   contact: "Contact"
 
-register:
-  title: "Register - Persian Open-Source Software festival"
-  section_title: "Register"
-  section_description: "read more..."
-
 faq:
   name: "Frequently asked questions"
   title: "FAQ - Persian Open-Source Software festival"
   short: "FAQ"
   description: "You have questions about the festival, and we have some answers. If you could not find what you were looking for."
   sendus: "Send us a note"
-  items: 
+  items:
     - title: "جشنواره متن باز و اوپن سورس فارسی چیست؟"
       content: "جشنواره اوپن سورس فارسی رویداد سالانه محصول خیمه شب بازی و جامعه ما است که با حضور کارشناسان محصولات POSSF ، رهبران نرم افزار و تیم های سازمانی که مهمترین فن آوری های جهان را ایجاد می کنند ، برگزار می شود. این فرصتی است که انجمن جهانی بهم پیوسته ما گرد هم آمده و بهترین شیوه ها را به اشتراک بگذارد ، از یکدیگر بیاموزد و درباره جدیدترین محصولات و ویژگی های POSSF اطلاعات کسب کند."
     - title: "چرا جشنواره اوپن سورس POSSF امسال مجازی است؟"
@@ -144,8 +139,8 @@ team:
 
 register:
   title: "Register - Persian Open-Source Software festival"
-  name: "Register"
-  description: "read more..."
+  section_title: "Register"
+  section_description: "read more..."
 
 contact:
   title: "Contact us  - Persian Open Source Festival"
