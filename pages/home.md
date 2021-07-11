@@ -19,30 +19,16 @@ title: home.title
 <section class="speakers">
    <h1>{% t home.speakers %}</h1>
    <ul class="speaker-list">
-      <li>
-         <a href="speaker.html">
-            <img alt="جادی میرمیرانی" src="{{ site.url }}/asset/image/jadi_mirmirani.jpg">
-            <h3></h3>
-            <h4>جادی میرمیرانی</h4>
-            <h5>هکر خندون، برنامه نویس خوشحال، مدیرسیستم</h5>
-         </a>
-      </li>
-      <li>
-         <a href="speaker.html">
-            <img alt="سید علی محمدیه" src="https://i.pravatar.cc/150?img=58">
-            <h3></h3>
-            <h4>سید علی محمدیه</h4>
-            <h5>مهندس نرم‌افزار و توسعه دهنده شرکت گیت هاب</h5>
-         </a>
-      </li>
-      <li>
-         <a href="speaker.html">
-            <img alt="سید پرهام الوانی" src="{{ site.url }}/asset/image/seyyed_parham_alvani.jpg">
-            <h3></h3>
-            <h4>سید پرهام الوانی</h4>
-            <h5>دانشجوی دکتری، برنامه نویس شرکت اسنپ</h5>
-         </a>
-      </li>
+      {% for speaker_item in site.speakers %}
+         <li>
+            <a href="{{ site.url }}/{{ site.lang }}{{ speaker_item.url }}">
+               <img src="{{ site.url }}{{ speaker_item.image }}" alt="{% t speaker_item.name %}">
+               <h3>{% t speaker_item.talk %}</h3>
+               <h4>{% t speaker_item.name %}</h4>
+               <h5>{% t speaker_item.role %}</h5>
+            </a>
+         </li>
+      {% endfor %}
    </ul>
 </section>
 <section class="attends">
