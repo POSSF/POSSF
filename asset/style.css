@@ -1700,5 +1700,6 @@ html[lang=en] .speaker-image {
 html[lang=en] p.page-box-content-text {
 	direction: ltr !important;
 	text-align: left !important;
+	float: left !important;
 }
 
