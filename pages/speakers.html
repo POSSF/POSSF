@@ -10,21 +10,22 @@ title: global.speakers_title
 		<p>{% t global.speakers_section_description %}</p>
 	</div>
 	<ul class="speaker-grid">
-
+		{% for speaker_item in site.translations[site.lang].speakers.items %}
+		{% endfor %}
 		{% for speaker_item in site.speakers %}
-				<li>
-					<a class="speaker-card css-" href="{{ speaker_item.url | relative_url }}" title="{{ speaker_item.title }}">
-						<div class="speaker-card__info">
-							<h3 class="h4">{% t speaker_item.name %}</h3>
-							<p class="m-0">{% t speaker_item.role %}</p>
-						</div>
-						<figure class="speaker-image">
-							<span>
-								<img src="{{ site.url }}{{ speaker_item.image }}" alt="{% t speaker_item.name %}">
-							</span>
-						</figure>
-					</a>
-				</li>
+			<li>
+				<a class="speaker-card css-" href="{{ site.url }}/{{ site.lang }}{{ speaker_item.url }}" title="{{ speaker_item.title }}">
+					<div class="speaker-card__info">
+						<h3 class="h4">{% t speaker_item.name %}</h3>
+						<p class="m-0">{% t speaker_item.role %}</p>
+					</div>
+					<figure class="speaker-image">
+						<span>
+							<img src="{{ site.url }}{{ speaker_item.image }}" alt="{% t speaker_item.name %}">
+						</span>
+					</figure>
+				</a>
+			</li>
 		{% endfor %}
 
 	</ul>

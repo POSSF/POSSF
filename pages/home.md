@@ -9,10 +9,10 @@ title: home.title
       <h1 class="gradient-text main-title">{% t home.section_title %}</h1>
       <p>
          {% t home.section_description %}
-         <a class="underline" href="register.html">{% t home.section_register %}</a>
+         <a class="underline" href="{{ site.url }}/{{ page.lang }}/register/">{% t home.section_register %}</a>
       </p>
       <br>
-      <a href="#" class="button">{% t home.register %}</a>
+      <a href="{{ site.url }}/{{ page.lang }}/register/" class="button">{% t home.register %}</a>
    </div>
 </section>
 <hr class="gradient">
@@ -131,7 +131,7 @@ title: home.title
 <section class="sponsors">
    <h4>{% t home.sponsors_thanks %}</h4>
    <div class="sponsor-box">
-      {% for sponsor_item in site.translations[site.lang].sponsors %}
+      {% for sponsor_item in site.translations[site.lang].sponsors.items %}
       <div class="inner-grid">
          <a>
             <img src="{{ sponsor_item.image }}" alt="{{ sponsor_item.name }}">
