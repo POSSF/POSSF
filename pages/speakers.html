@@ -15,12 +15,12 @@ title: global.speakers_title
 				<li>
 					<a class="speaker-card css-" href="{{ speaker_item.url | relative_url }}" title="{{ speaker_item.title }}">
 						<div class="speaker-card__info">
-							<h3 class="h4">{{ speaker_item.name }}</h3>
-							<p class="m-0">{{ speaker_item.subtitle }}</p>
+							<h3 class="h4">{% t speaker_item.name %}</h3>
+							<p class="m-0">{% t speaker_item.role %}</p>
 						</div>
 						<figure class="speaker-image">
 							<span>
-								<img src="{{ site.url }}{{ speaker_item.image }}" alt="{{ speaker_item.name }}">
+								<img src="{{ site.url }}{{ speaker_item.image }}" alt="{% t speaker_item.name %}">
 							</span>
 						</figure>
 					</a>

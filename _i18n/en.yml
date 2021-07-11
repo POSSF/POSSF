@@ -91,3 +91,11 @@ sponsors:
     image: "https://githubuniverse.com/assets/img/sponsors/ponicode.svg"
   - name: "Name 5"
     image: "https://githubuniverse.com/assets/img/sponsors/Azure-Stacked-White%20(1).png"
+
+speakers:
+  jadi:
+    name: "Jadi Mirmirani"
+    title: "Jadi Mirmirani - Persian Open-Source Software festival"
+    talk: ""
+    role: "Happy hacker, happy programmer, Sysadmin"
+    description: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
