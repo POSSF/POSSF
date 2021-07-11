@@ -1,8 +1,6 @@
 ---
 layout: speaker
 date: 2020-10-05
-lang: en
-languages: ["en"]
 permalink: /speaker/jadi-mirmirani/
 categories: Speaker
 title: Jadi Mirmirani - Persian Open-Source Software festival

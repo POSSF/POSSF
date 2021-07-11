@@ -1,8 +1,6 @@
 ---
 layout: speaker
 date: 2020-10-05
-lang: fa
-languages: ["fa"]
 permalink: /speaker/jadi-mirmirani/
 categories: سخنران
 title: جادی میرمیرانی - سخنران جشنواره اوپن سورس
