@@ -63,20 +63,35 @@ title: home.title
       <h4 class="text-gradient-purple">در طول راه از آن لذت ببرید</h4>
       <p>Musical performances inspired by code and a few more surprises to come!</p> -->
 </section>
+
 <hr class="gradient">
+
 <section class="subscribe">
    <p>
       {% t home.keep_update%}
    </p>
    <br>
    <div class="reg-btn sub-btn-size">
-      <a href="{{ site.url }}/{{ site.lang }}/subscribe/" class="button">{% t home.subscribe %}</a>
+      <a onclick="subscribe();" class="button">{% t home.subscribe %}</a>
    </div>
-   <!-- <a href="contact.html" class="button" target="_blank">
-      <span>Subscribe for updates</span>
-      </a> -->
 </section>
+
+<div id="dialog-subscribe-background" class=""></div>
+<div id="dialog-subscribe">
+   <div id="dialog-subscribe-box">
+      <img onclick="subscribe_close(this.parentElement.parentElement);" id="dialog-subscribe-close" src="/asset/close.svg">
+      <div id="dialog-subscribe-form">
+         <center>
+            Enter your email for updates
+         </center>
+         <input id="dialog-subscribe-email" type="email" name="email">
+         <img id="dialog-subscribe-button" oncancel="subscribe_submit(this.parentElement.parentElement.parentElement);" src="/asset/send.svg">
+      </div>
+   </div>
+</div>
+
 <hr class="gradient">
+
 <div class="page-box-content">
    <div class="page-box-content-padding">
       <br>

@@ -14,3 +14,25 @@ if(faq_items) {
 		});
 	}
 }
+
+let dialog_bg = document.querySelector("#dialog-subscribe-background");
+let dialog_main = document.querySelector("#dialog-subscribe");
+
+function subscribe() {
+	console.log("Open subscribe dialog...");
+	if(dialog_main) {
+		dialog_main.classList.add("active");
+		dialog_bg.classList.add("active");
+	}
+}
+
+function subscribe_submit(dialog) {
+	console.log("subscribe_submit");
+	// TODO: send ajax...
+}
+
+function subscribe_close(dialog) {
+	console.log("subscribe_close");
+	dialog.classList.remove("active");
+	dialog_bg.classList.remove("active");
+}

@@ -1611,6 +1611,69 @@ header nav.active li {
 	}
 }
 
+/* dialog */
+#dialog-subscribe-background {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0, 0.6);
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+}
+#dialog-subscribe {
+	z-index: 1000;
+	/*overflow: hidden;*/
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: transparent;
+	transform: scale(0);
+    opacity: 0;
+	transition: opacity .3s ease-in-out;
+}
+#dialog-subscribe-background.active {
+	display: block;
+}
+#dialog-subscribe.active {
+	opacity: 1;
+	transform: scale(1);
+}
+#dialog-subscribe-box {
+	position: relative;
+	max-width: calc(100% - 12px);
+	max-height: calc(100% - 12px);
+	border-radius: 3px;
+	width: 580px;
+	height: auto;
+	min-height: 260px;
+	overflow: auto;
+	background: #09111D;
+	transition: all .3s ease-in-out;
+	padding: 36px;
+	text-align: center;
+}
+#dialog-subscribe-close {
+	float: right;
+	width: 14px;
+}
+#dialog-subscribe-form {
+
+}
+#dialog-subscribe-email {
+
+}
+#dialog-subscribe-button {
+
+}
+
 /* RTL LTR */
 html[lang=en] h1, html[lang=en] h2, html[lang=en] h3, html[lang=en] h4, html[lang=en] h5, html[lang=en] h6, html[lang=en] p, html[lang=en] li {
 	direction: ltr !important;
