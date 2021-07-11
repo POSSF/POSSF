@@ -1632,3 +1632,8 @@ html[lang=en] .speaker-image {
 	direction: rtl !important;
 }
 
+html[lang=en] p.page-box-content-text {
+	direction: ltr !important;
+	text-align: left !important;
+}
+

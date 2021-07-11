@@ -24,7 +24,9 @@ title: global.workshops_title
          <!-- <center> -->
          <h1 class="page-box-content-title">{% t global.workshops_section_title %}</h1>
          <!-- </center> -->
-         <p>{% t global.workshops_section_description %}</p>
+         <p class="page-box-content-text">
+            {% t global.workshops_section_description %}
+         </p>
          <br>
          <ul class="post-list">
             {% for workshop_item in site.workshops %}
