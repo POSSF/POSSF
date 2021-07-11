@@ -113,21 +113,7 @@ title: home.title
       <br><br>
    </div>
 </div>
+
 <hr class="gradient">
-<section class="sponsors">
-   <h4>{% t home.sponsors_thanks %}</h4>
-   <div class="sponsor-box">
-      {% for sponsor_item in site.translations[site.lang].sponsors.items %}
-      <div class="inner-grid">
-         <a>
-            <img src="{{ sponsor_item.image }}" alt="{{ sponsor_item.name }}">
-         </a>
-      </div>
-      {% endfor %}
-   </div>
-   <p>مایل به <a class="underline" href="{{ site.url }}/{{ site.lang }}/contact/">پشتیبانی</a> از جشنواره اوپن سورس فارسی هستید؟</p>
-   <br>
-   <div class="reg-btn connect-btn-size">
-      <a href="{{ site.url }}/{{ site.lang }}/contact/" class="button">{% t home.contact_us %}</a>
-   </div>
-</section>
+
+{% include sponsors.html %}

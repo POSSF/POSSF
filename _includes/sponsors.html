@@ -1,0 +1,17 @@
+<section class="sponsors">
+   <h4>{% t home.sponsors_thanks %}</h4>
+   <div class="sponsor-box">
+      {% for sponsor_item in site.translations[site.lang].sponsors.items %}
+      <div class="inner-grid">
+         <a>
+            <img src="{{ sponsor_item.image }}" alt="{{ sponsor_item.name }}">
+         </a>
+      </div>
+      {% endfor %}
+   </div>
+   <p>{% t global.want_support1 %} <a class="underline" href="{{ site.url }}/{{ site.lang }}/contact/">{% t global.want_support2 %}</a> {% t global.want_support3 %}</p>
+   <br>
+   <div class="reg-btn connect-btn-size">
+      <a href="{{ site.url }}/{{ site.lang }}/contact/" class="button">{% t global.contact_us %}</a>
+   </div>
+</section>

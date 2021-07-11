@@ -14,6 +14,12 @@ global:
   logo_alt: "1th Persian Open-Source Software festival"
   footer_text: "© 2021 GitHub. All rights reserved."
 
+  contact_us: "Contact us"
+
+  want_support1: "Do you want to "
+  want_support2: "Support"
+  want_support3: " the POSSF event?"
+
 home:
   title: "1th Persian Open-Source Software festival"
   section_title: "Open-Source software festival"
@@ -28,7 +34,6 @@ home:
 
   keep_update: "We’re adding more speakers every day!<br>Sign up for updates to stay in the loop."
   subscribe: "Subscribe for updates"
-  contact_us: "Contact us"
 
 header:
   register: "Register"

@@ -12,8 +12,13 @@ global:
   back_button: "بازگشت به صفحه اصلی"
 
   logo_alt: "1th Persian Open-Source Software festival"
-
   footer_text: "شرکت گیت هاب © 2021، تمام حقوق محفوظ است."
+
+  contact_us: "تماس با ما"
+
+  want_support1: "مایل به "
+  want_support2: "پشتیبانی"
+  want_support3: " از جشنواره اوپن سورس فارسی هستید؟"
 
 register:
   title: "ثبت نام - جشنوارهٔ نرم‌افزار متن‌باز فارسی"
