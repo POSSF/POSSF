@@ -88,7 +88,7 @@ speakers:
     john:
       name: "John Bampton"
       title: "John Bampton - Persian Open-Source Software festival"
-      talk: "GNU Tools"
+      talk: "Freedom, GNU Software and Team Building"
       role: "Team Leader, Developer Relations Engineer"
       description: "Ruby is...\nA dynamic, open source programming language with a focus on simplicity and productivity.\nIt has an elegant syntax that is natural to read and easy to write."
     parham:
