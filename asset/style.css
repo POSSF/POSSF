@@ -1627,3 +1627,8 @@ html[lang=en] .speaker-card .speaker-card__info {
 	direction: ltr !important;
 	text-align: left !important;
 }
+
+html[lang=en] .speaker-image {
+	direction: rtl !important;
+}
+
