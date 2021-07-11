@@ -1014,6 +1014,7 @@ section.profile .social svg {
 	max-width: 700px;
 	margin-right: 15px;
 	margin-left: 15px;
+	margin-bottom: 25px;
 }
 
 .speaker-grid {
@@ -1637,3 +1638,6 @@ html[lang=en] p.page-box-content-text {
 	text-align: left !important;
 }
 
+html[lang=en] .top-content-txt p {
+	float: left !important;
+}
