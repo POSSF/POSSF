@@ -9,10 +9,10 @@ title: home.title
       <h1 class="gradient-text main-title">{% t home.section_title %}</h1>
       <p>
          {% t home.section_description %}
-         <a class="underline" href="{{ site.url }}/{{ page.lang }}/register/">{% t home.section_register %}</a>
+         <a class="underline" href="{{ site.url }}/{{ site.lang }}/register/">{% t home.section_register %}</a>
       </p>
       <br>
-      <a href="{{ site.url }}/{{ page.lang }}/register/" class="button">{% t home.register %}</a>
+      <a href="{{ site.url }}/{{ site.lang }}/register/" class="button">{% t home.register %}</a>
    </div>
 </section>
 <hr class="gradient">
@@ -70,7 +70,7 @@ title: home.title
    </p>
    <br>
    <div class="reg-btn sub-btn-size">
-      <a href="{{ site.url }}/{{ page.lang }}/subscribe/" class="button">{% t home.subscribe %}</a>
+      <a href="{{ site.url }}/{{ site.lang }}/subscribe/" class="button">{% t home.subscribe %}</a>
    </div>
    <!-- <a href="contact.html" class="button" target="_blank">
       <span>Subscribe for updates</span>
@@ -87,7 +87,7 @@ title: home.title
       <ul class="post-list">
          <li>
             <h2>
-               <a class="post-link" href="{{ site.url }}/{{ page.lang }}/post/" title="اپن سورس، یک دروغ تجاری قابل باور">اپن سورس، یک دروغ تجاری قابل باور</a>
+               <a class="post-link" href="{{ site.url }}/{{ site.lang }}/post/" title="اپن سورس، یک دروغ تجاری قابل باور">اپن سورس، یک دروغ تجاری قابل باور</a>
             </h2>
             <span>
                <p>دوست عزیز ما بابک مقیمی مقاله ای در مورد آزادراه منتشر کرده است که می تواند نقطه شروع خوبی برای یک مقاله کامل در مورد منبع آزاد و رویکردهای اجتماعی...</p>
@@ -95,7 +95,7 @@ title: home.title
          </li>
          <li>
             <h2>
-               <a class="post-link" href="{{ site.url }}/{{ page.lang }}/post/" title="اهدف جشنواره نرم افزار آزاد/اوپن سورس فارسی">اهدف جشنواره نرم افزار آزاد/اوپن سورس فارسی</a>
+               <a class="post-link" href="{{ site.url }}/{{ site.lang }}/post/" title="اهدف جشنواره نرم افزار آزاد/اوپن سورس فارسی">اهدف جشنواره نرم افزار آزاد/اوپن سورس فارسی</a>
             </h2>
             <span>
                <p>در این مطلب اهداف جشنواره اوپن سورس و چشم انداز های جشنواره نرم افزار آزاد را توضیح میدهیم و می خواهیم شفاف سازی های لازم را انجام دهیم.</p>
@@ -103,7 +103,7 @@ title: home.title
          </li>
          <li>
             <h2>
-               <a class="post-link" href="{{ site.url }}/{{ page.lang }}/post/" title="سلام دنیا - جشنواره اوپن سورس فارسی">سلام دنیا - جشنواره اوپن سورس فارسی</a>
+               <a class="post-link" href="{{ site.url }}/{{ site.lang }}/post/" title="سلام دنیا - جشنواره اوپن سورس فارسی">سلام دنیا - جشنواره اوپن سورس فارسی</a>
             </h2>
             <span>
                <p>سلام دنیا، عبارتی است که اصولا برنامه نویس ها و کاربران رایانه ها در اولین تجربه خود با زبان های برنامه نویسی آن را بیان می کنند. این بار از...</p>
@@ -125,9 +125,9 @@ title: home.title
       </div>
       {% endfor %}
    </div>
-   <p>مایل به <a class="underline" href="{{ site.url }}/{{ page.lang }}/contact/">پشتیبانی</a> از جشنواره اوپن سورس فارسی هستید؟</p>
+   <p>مایل به <a class="underline" href="{{ site.url }}/{{ site.lang }}/contact/">پشتیبانی</a> از جشنواره اوپن سورس فارسی هستید؟</p>
    <br>
    <div class="reg-btn connect-btn-size">
-      <a href="{{ site.url }}/{{ page.lang }}/contact/" class="button">{% t home.contact_us %}</a>
+      <a href="{{ site.url }}/{{ site.lang }}/contact/" class="button">{% t home.contact_us %}</a>
    </div>
 </section>
