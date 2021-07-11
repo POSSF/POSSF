@@ -260,6 +260,7 @@ footer {
 	height: 500px;
 	display: flex;
 	flex-direction: column;
+	margin-top: 50px;
 }
 
 footer ul {

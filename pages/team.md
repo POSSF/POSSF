@@ -1,8 +1,9 @@
 ---
 layout: page
 permalink: /team/
-title: global.team_title
+title: team.title
 ---
+
 
 <section class="main-content">
    <div class="goback">
@@ -19,95 +20,101 @@ title: global.team_title
          </span>
       </a>
    </div>
+
    <div class="page-box-content">
-   <div class="page-box-content-padding">
-   <h1 class="page-box-content-title">تیم و دست اندرکاران جشنواره اوپن سورس فارسی</h1>
-   <h2 class="page-box-content-title" id="یاری-دهندگان-جشنواره">یاری‌ دهندگان جشنواره</h2>
-   <div class="team-item">
-      <div class="team-info">
-         <img class="team-img" src="{{ site.url }}/asset/image/team/iman-mirazimi.jpg" alt="سید ایمان میرعظیمی">
-         <p class="team-name">سیدایمان میرعظیمی</p>
-         <p class="team-role">دبیر اجرایی</p>
-      </div>
-   </div>
-   <div class="clear"></div>
-   <br>
-   <div class="team-grid">
-      <div class="team-item">
-         <div class="team-info">
-            <img class="team-img" src="{{ site.url }}/asset/image/team/ahangarha.jpg" alt="مصطفی اهنگر ها">
-            <p class="team-name">مصطفی اهنگر ها</p>
-            <p class="team-role">طراح تیزر</p>
+      <div class="page-box-content-padding">
+         <h1 class="page-box-content-title">{% t team.section_title %}</h1>
+         <h2 class="page-box-content-title">{% t team.section_subtitle %}</h2>
+
+         <div class="team-item">
+            <div class="team-info">
+               <img class="team-img" src="{{ site.url }}/asset/image/team/iman-mirazimi.jpg" alt="سید ایمان میرعظیمی">
+               <p class="team-name">سیدایمان میرعظیمی</p>
+               <p class="team-role">دبیر اجرایی</p>
+            </div>
          </div>
-      </div>
-      <div class="team-item">
-         <div class="team-info">
-            <img class="team-img" src="{{ site.url }}/asset/image/team/okhgari.jpg" alt="امین اخگری">
-            <p class="team-name">امین اخگری</p>
-            <p class="team-role">مشاور جشنواره</p>
-         </div>
-      </div>
-      <div class="team-item">
-         <div class="team-info">
-            <img class="team-img" src="{{ site.url }}/asset/image/team/sanaee.jpg" alt="سپهر صناعی">
-            <p class="team-name">سپهر صناعی</p>
-            <p class="team-role">مجری</p>
-         </div>
-      </div>
-      <div class="team-item">
-         <div class="team-info">
-            <img class="team-img" src="{{ site.url }}/asset/image/team/ebrahimi.jpg" alt="مجتبی ابراهیمی">
-            <p class="team-name">مجتبی ابراهیمی</p>
-            <p class="team-role">سئو و بهینه سازی</p>
-         </div>
-      </div>
-      <div class="team-item">
-         <div class="team-info">
-            <img class="team-img" src="{{ site.url }}/asset/image/team/rezaii.jpg" alt="محمد رضا رضایی">
-            <p class="team-name">محمد رضا رضایی</p>
-            <p class="team-role">کمک برای امور متفرقه</p>
-         </div>
-      </div>
-      <div class="team-item">
-         <div class="team-info">
-            <img class="team-img" src="{{ site.url }}/asset/image/team/dadgar.jpg" alt="محمد امین دادگر">
-            <p class="team-name">محمد امین دادگر</p>
-            <p class="team-role">تولید محتوا</p>
-         </div>
-      </div>
-      <div class="team-item">
-         <div class="team-info">
-            <img class="team-img" src="{{ site.url }}/asset/image/team/sadati.jpeg" alt="سید محمدمهدی ساداتی">
-            <p class="team-name">محمدمهدی ساداتی</p>
-            <p class="team-role">وبسایت</p>
-         </div>
-      </div>
-      <div class="team-item">
-         <div class="team-info">
-            <img class="team-img" src="{{ site.url }}/asset/image/team/hoseini.jpg" alt="سید صادق حسینی">
-            <p class="team-name">سید صادق حسینی</p>
-            <p class="team-role">گرافیست و پوستر</p>
-         </div>
-      </div>
-      <div class="team-item">
-         <div class="team-info">
-            <img class="team-img" src="{{ site.url }}/asset/image/team/h-ali-hosseini.jpg" alt="سید صادق حسینی">
-            <p class="team-name">حسین علی حسینی</p>
-            <p class="team-role">توسعه دهنده وب</p>
-         </div>
-      </div>
-      <div class="team-item">
-         <div class="team-info">
-            <img class="team-img" src="{{ site.url }}/asset/image/team/farzin-firoozi.jpg" alt="فرزین فیروزی">
-            <p class="team-name">فرزین فیروزی</p>
-            <p class="team-role">توسعه دهنده وب</p>
-         </div>
-      </div>
-      <div class="team-item">
-         <div class="team-info">
-            <img class="team-img" src="{{ site.url }}/asset/image/team/alireza-babaii.jpg" alt="علیرضا بابایی">
-            <p class="team-name">علیرضا بابایی</p>
-            <p class="team-role">توسعه دهنده وب</p>
+
+         <div class="clear"></div>
+         <br>
+
+         <div class="team-grid">
+            <div class="team-item">
+               <div class="team-info">
+                  <img class="team-img" src="{{ site.url }}/asset/image/team/ahangarha.jpg" alt="مصطفی اهنگر ها">
+                  <p class="team-name">مصطفی اهنگر ها</p>
+                  <p class="team-role">طراح تیزر</p>
+               </div>
+            </div>
+            <div class="team-item">
+               <div class="team-info">
+                  <img class="team-img" src="{{ site.url }}/asset/image/team/okhgari.jpg" alt="امین اخگری">
+                  <p class="team-name">امین اخگری</p>
+                  <p class="team-role">مشاور جشنواره</p>
+               </div>
+            </div>
+            <div class="team-item">
+               <div class="team-info">
+                  <img class="team-img" src="{{ site.url }}/asset/image/team/sanaee.jpg" alt="سپهر صناعی">
+                  <p class="team-name">سپهر صناعی</p>
+                  <p class="team-role">مجری</p>
+               </div>
+            </div>
+            <div class="team-item">
+               <div class="team-info">
+                  <img class="team-img" src="{{ site.url }}/asset/image/team/ebrahimi.jpg" alt="مجتبی ابراهیمی">
+                  <p class="team-name">مجتبی ابراهیمی</p>
+                  <p class="team-role">سئو و بهینه سازی</p>
+               </div>
+            </div>
+            <div class="team-item">
+               <div class="team-info">
+                  <img class="team-img" src="{{ site.url }}/asset/image/team/rezaii.jpg" alt="محمد رضا رضایی">
+                  <p class="team-name">محمد رضا رضایی</p>
+                  <p class="team-role">کمک برای امور متفرقه</p>
+               </div>
+            </div>
+            <div class="team-item">
+               <div class="team-info">
+                  <img class="team-img" src="{{ site.url }}/asset/image/team/dadgar.jpg" alt="محمد امین دادگر">
+                  <p class="team-name">محمد امین دادگر</p>
+                  <p class="team-role">تولید محتوا</p>
+               </div>
+            </div>
+            <div class="team-item">
+               <div class="team-info">
+                  <img class="team-img" src="{{ site.url }}/asset/image/team/sadati.jpeg" alt="سید محمدمهدی ساداتی">
+                  <p class="team-name">محمدمهدی ساداتی</p>
+                  <p class="team-role">وبسایت</p>
+               </div>
+            </div>
+            <div class="team-item">
+               <div class="team-info">
+                  <img class="team-img" src="{{ site.url }}/asset/image/team/hoseini.jpg" alt="سید صادق حسینی">
+                  <p class="team-name">سید صادق حسینی</p>
+                  <p class="team-role">گرافیست و پوستر</p>
+               </div>
+            </div>
+            <div class="team-item">
+               <div class="team-info">
+                  <img class="team-img" src="{{ site.url }}/asset/image/team/h-ali-hosseini.jpg" alt="سید صادق حسینی">
+                  <p class="team-name">حسین علی حسینی</p>
+                  <p class="team-role">توسعه دهنده وب</p>
+               </div>
+            </div>
+            <div class="team-item">
+               <div class="team-info">
+                  <img class="team-img" src="{{ site.url }}/asset/image/team/farzin-firoozi.jpg" alt="فرزین فیروزی">
+                  <p class="team-name">فرزین فیروزی</p>
+                  <p class="team-role">توسعه دهنده وب</p>
+               </div>
+            </div>
+            <div class="team-item">
+               <div class="team-info">
+                  <img class="team-img" src="{{ site.url }}/asset/image/team/alireza-babaii.jpg" alt="علیرضا بابایی">
+                  <p class="team-name">علیرضا بابایی</p>
+                  <p class="team-role">توسعه دهنده وب</p>
+               </div>
+            </div>
          </div>
       </div>
    </div>

@@ -134,7 +134,8 @@ workshops:
 
 team:
   title: "The team of the Persian Open Source Festival"
-  section_title: "Festival helpers"
+  section_title: "The team of the Persian Open Source Festival"
+  section_subtitle: "Festival helpers"
   section_description: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
 
 register:
