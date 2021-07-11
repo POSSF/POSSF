@@ -25,13 +25,11 @@
 			margin-left: 250px;
 			margin-top: 330px;
 		}
-
 		@media (max-width: 1011px) {
 			body {
 				/*margin-top: -250px;*/
 			}
 		}
-
 		a {
 			text-decoration: none;
 		}
