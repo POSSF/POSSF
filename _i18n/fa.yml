@@ -22,8 +22,8 @@ global:
 
 register:
   title: "ثبت نام - جشنوارهٔ نرم‌افزار متن‌باز فارسی"
-  name: "ثبت نام در جشنواره"
-  description: "متن بیشتر..."
+  section_title: "ثبت نام در جشنواره"
+  section_description: "متن بیشتر..."
 
 terms:
   title: "مقررات - جشنواره منبع باز و اوپن سورس فارسی"
