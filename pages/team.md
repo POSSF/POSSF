@@ -1,78 +1,114 @@
 ---
 layout: page
 permalink: /team/
-lang: fa
-title: تیم و دست اندرکاران جشنواره اوپن سورس فارسی
+title: global.team_title
 ---
 
-## یاری‌ دهندگان جشنواره
-
-<div class="container mt-5">
-<!--
-<div class="row">
-<div class="col-12 mb-3">
-<div class="festival-helper-container-image mx-auto my-2"><img width="200" class="img-fluid festival-helper-container-image" src="https://basemax.github.io/POSSF/public/assets/image/mirazimi2.jpg" alt="سید ایمان میرعظیمی"></div>
-<p class="w-100 text-center festival-helper-name font-weight-bold">سیدایمان میرعظیمی</p>
-<p class="w-100 text-center">دبیر جشنواره</p>
-</div>
-</div>
--->
-
-<div class="row d-flex justify-content-center">
-<div class="col-sm-2 col-4 mb-3">
-<div class="festival-helper-container-image mx-auto my-2"><img width="200" class="img-fluid festival-helper-container-image" src="https://basemax.github.io/POSSF/public/assets/image/ahangarha.jpg" alt="مصطفی اهنگر ها"></div>
-<p class="w-100 text-center festival-helper-name font-weight-bold">مصطفی اهنگر ها</p>
-<p class="w-100 text-center">طراح تیزر</p>
-</div>
-
-<div class="col-sm-2 col-4 mb-3">
-<div class="festival-helper-container-image mx-auto my-2"><img width="200" class="img-fluid festival-helper-container-image" src="https://basemax.github.io/POSSF/public/assets/image/okhgari2.jpg" alt="امین اخگری"></div>
-<p class="w-100 text-center festival-helper-name font-weight-bold">امین اخگری</p>
-<p class="w-100 text-center">مشاور جشنواره</p>
-</div>
-
-<div class="col-sm-2 col-4 mb-3">
-<div class="festival-helper-container-image mx-auto my-2"><img width="200" class="img-fluid festival-helper-container-image" src="https://basemax.github.io/POSSF/public/assets/image/sanaee.jpg" alt="سپهر صناعی"></div>
-<p class="w-100 text-center festival-helper-name font-weight-bold">سپهر صناعی</p>
-<p class="w-100 text-center">مجری</p>
-</div>
-</div>
-
-<div class="row">
-<div class="col-sm-2 col-4 mb-3">
-<div class="festival-helper-container-image mx-auto my-2"><img width="200" class="img-fluid festival-helper-container-image" src="https://basemax.github.io/POSSF/public/assets/image/mohammadiye.jpg" alt="سید علی محمدیه"></div>
-<p class="w-100 text-center festival-helper-name font-weight-bold">سیدعلی محمدیه</p>
-<p class="w-100 text-center">داوری</p>
-</div>
-
-<div class="col-sm-2 col-4 mb-3">
-<div class="festival-helper-container-image mx-auto my-2"><img width="200" class="img-fluid festival-helper-container-image" src="https://basemax.github.io/POSSF/public/assets/image/ebrahimi.jpg" alt="مجتبی ابراهیمی"></div>
-<p class="w-100 text-center festival-helper-name font-weight-bold">مجتبی ابراهیمی</p>
-<p class="w-100 text-center">سئو و بهینه سازی</p>
-</div>
-
-<div class="col-sm-2 col-4">
-<div class="festival-helper-container-image mx-auto my-2"><img width="200" class="img-fluid festival-helper-container-image" src="https://basemax.github.io/POSSF/public/assets/image/rezaii.jpg" alt="محمد رضا رضایی"></div>
-<p class="w-100 text-center festival-helper-name font-weight-bold">محمد رضا رضایی</p>
-<p class="w-100 text-center">کمک برای امور متفرقه</p>
-</div>
-
-<div class="col-sm-2 col-4">
-<div class="festival-helper-container-image mx-auto my-2"><img width="200" class="img-fluid festival-helper-container-image" src="https://basemax.github.io/POSSF/public/assets/image/dadgar.jpg" alt="محمد امین دادگر"></div>
-<p class="w-100 text-center festival-helper-name font-weight-bold">محمد امین دادگر</p>
-<p class="w-100 text-center">تولید محتوا</p>
-</div>
-
-<div class="col-sm-2 col-4 mb-3">
-<div class="festival-helper-container-image mx-auto my-2"><img width="200" class="img-fluid festival-helper-container-image" src="https://basemax.github.io/POSSF/public/assets/image/sadati.jpeg" alt="سید محمدمهدی ساداتی"></div>
-<p class="w-100 text-center festival-helper-name font-weight-bold" style="font-size: 1rem">سیدمحمدمهدی ساداتی</p>
-<p class="w-100 text-center">وبسایت</p>
-</div>
-
-<div class="col-sm-2 col-4">
-<div class="festival-helper-container-image mx-auto my-2"><img width="200" class="img-fluid festival-helper-container-image" src="https://basemax.github.io/POSSF/public/assets/image/hoseini.jpg" alt="سید صادق حسینی"></div>
-<p class="w-100 text-center festival-helper-name font-weight-bold">سید صادق حسینی</p>
-<p class="w-100 text-center">گرافیست و پوستر</p>
-</div>
-</div>
-</div>
+<section class="main-content">
+   <div class="goback">
+      <a href="{{ site.url }}/{{ site.lang }}" class="go-back">
+         <svg width="24" height="24" viewBox="0 0 34 34" class="back-icon">
+            <path fill="#FFFFFF" d="M17,33.5C7.9,33.5,0.5,26.1,0.5,17C0.5,7.9,7.9,0.5,17,0.5c9.1,0,16.5,7.4,16.5,16.5
+               C33.5,26.1,26.1,33.5,17,33.5z M17,1.5C8.5,1.5,1.5,8.5,1.5,17s7,15.5,15.5,15.5s15.5-7,15.5-15.5S25.5,1.5,17,1.5z"></path>
+            <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M15.8,10c-0.3-0.3-0.8-0.3-1.1,0l-6.3,6.3c-0.3,0.3-0.3,0.8,0,1.1
+               l6.3,6.2c0.3,0.3,0.8,0.3,1.1,0s0.3-0.8,0-1.1l-5-5h14.4c0.4,0,0.8-0.3,0.8-0.8S25.7,16,25.2,16H10.8l5-5
+               C16.1,10.7,16.1,10.3,15.8,10z"></path>
+         </svg>
+         <span>
+         {% t global.back_button %}
+         </span>
+      </a>
+   </div>
+   <div class="page-box-content">
+   <div class="page-box-content-padding">
+   <h1 class="page-box-content-title">تیم و دست اندرکاران جشنواره اوپن سورس فارسی</h1>
+   <h2 class="page-box-content-title" id="یاری-دهندگان-جشنواره">یاری‌ دهندگان جشنواره</h2>
+   <div class="team-item">
+      <div class="team-info">
+         <img class="team-img" src="{{ site.url }}/asset/image/team/iman-mirazimi.jpg" alt="سید ایمان میرعظیمی">
+         <p class="team-name">سیدایمان میرعظیمی</p>
+         <p class="team-role">دبیر اجرایی</p>
+      </div>
+   </div>
+   <div class="clear"></div>
+   <br>
+   <div class="team-grid">
+      <div class="team-item">
+         <div class="team-info">
+            <img class="team-img" src="{{ site.url }}/asset/image/team/ahangarha.jpg" alt="مصطفی اهنگر ها">
+            <p class="team-name">مصطفی اهنگر ها</p>
+            <p class="team-role">طراح تیزر</p>
+         </div>
+      </div>
+      <div class="team-item">
+         <div class="team-info">
+            <img class="team-img" src="{{ site.url }}/asset/image/team/okhgari.jpg" alt="امین اخگری">
+            <p class="team-name">امین اخگری</p>
+            <p class="team-role">مشاور جشنواره</p>
+         </div>
+      </div>
+      <div class="team-item">
+         <div class="team-info">
+            <img class="team-img" src="{{ site.url }}/asset/image/team/sanaee.jpg" alt="سپهر صناعی">
+            <p class="team-name">سپهر صناعی</p>
+            <p class="team-role">مجری</p>
+         </div>
+      </div>
+      <div class="team-item">
+         <div class="team-info">
+            <img class="team-img" src="{{ site.url }}/asset/image/team/ebrahimi.jpg" alt="مجتبی ابراهیمی">
+            <p class="team-name">مجتبی ابراهیمی</p>
+            <p class="team-role">سئو و بهینه سازی</p>
+         </div>
+      </div>
+      <div class="team-item">
+         <div class="team-info">
+            <img class="team-img" src="{{ site.url }}/asset/image/team/rezaii.jpg" alt="محمد رضا رضایی">
+            <p class="team-name">محمد رضا رضایی</p>
+            <p class="team-role">کمک برای امور متفرقه</p>
+         </div>
+      </div>
+      <div class="team-item">
+         <div class="team-info">
+            <img class="team-img" src="{{ site.url }}/asset/image/team/dadgar.jpg" alt="محمد امین دادگر">
+            <p class="team-name">محمد امین دادگر</p>
+            <p class="team-role">تولید محتوا</p>
+         </div>
+      </div>
+      <div class="team-item">
+         <div class="team-info">
+            <img class="team-img" src="{{ site.url }}/asset/image/team/sadati.jpeg" alt="سید محمدمهدی ساداتی">
+            <p class="team-name">محمدمهدی ساداتی</p>
+            <p class="team-role">وبسایت</p>
+         </div>
+      </div>
+      <div class="team-item">
+         <div class="team-info">
+            <img class="team-img" src="{{ site.url }}/asset/image/team/hoseini.jpg" alt="سید صادق حسینی">
+            <p class="team-name">سید صادق حسینی</p>
+            <p class="team-role">گرافیست و پوستر</p>
+         </div>
+      </div>
+      <div class="team-item">
+         <div class="team-info">
+            <img class="team-img" src="{{ site.url }}/asset/image/team/h-ali-hosseini.jpg" alt="سید صادق حسینی">
+            <p class="team-name">حسین علی حسینی</p>
+            <p class="team-role">توسعه دهنده وب</p>
+         </div>
+      </div>
+      <div class="team-item">
+         <div class="team-info">
+            <img class="team-img" src="{{ site.url }}/asset/image/team/farzin-firoozi.jpg" alt="فرزین فیروزی">
+            <p class="team-name">فرزین فیروزی</p>
+            <p class="team-role">توسعه دهنده وب</p>
+         </div>
+      </div>
+      <div class="team-item">
+         <div class="team-info">
+            <img class="team-img" src="{{ site.url }}/asset/image/team/alireza-babaii.jpg" alt="علیرضا بابایی">
+            <p class="team-name">علیرضا بابایی</p>
+            <p class="team-role">توسعه دهنده وب</p>
+         </div>
+      </div>
+   </div>
+</section>

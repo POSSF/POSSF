@@ -1,0 +1,93 @@
+global:
+  event_datetime: "Friday, October 1, 2021"
+
+  name: "Persian Open-Source Software festival"
+  name_short: "POSSF"
+  name_in_pages_with_underline: "Persian Open-Source Software festival"
+
+  back_button: "Back to home page"
+
+  persian: فارسی
+  english: English
+
+  terms_title: "Terms - Persian Open-Source Software festival"
+  terms_section_title: "Terms"
+  terms_section_description: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+
+  privacy_title: "Privacy - Persian Open-Source Software festival"
+  privacy_section_title: "Privacy"
+  privacy_section_description: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+
+  codeofconduct_title: "Code of conduct - Persian Open-Source Software festival"
+  codeofconduct_section_title: "Code of conduct"
+  codeofconduct_section_description: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+
+  speakers_title: "Speakers of Persian Open Source Festival"
+  speakers_section_title: "Speakers of Persian Open Source Festival"
+  speakers_section_description: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+
+  sponsors_title: "Sponsors of Persian Open Source software Festival"
+  sponsors_section_title: "Sponsors of Persian Open Source software Festival"
+  sponsors_section_description: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+
+  workshops_title: "Persian Open Source Festival Workshops"
+  workshops_section_title: "Persian Open Source Festival Workshops"
+  workshops_section_description: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+
+  team_title: "The team of the Persian Open Source Festival"
+  team_subtitle: "Festival helpers"
+  team_section_description: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+
+  faq: "Frequently asked questions"
+  faq_title: "FAQ - Persian Open-Source Software festival"
+  faq_short: "FAQ"
+  faq_description: "You have questions about the festival, and we have some answers. If you could not find what you were looking for."
+  faq_sendus: "Send us a note"
+  faq_items: 
+    - title: "جشنواره متن باز و اوپن سورس فارسی چیست؟"
+      content: "جشنواره اوپن سورس فارسی رویداد سالانه محصول خیمه شب بازی و جامعه ما است که با حضور کارشناسان محصولات POSSF ، رهبران نرم افزار و تیم های سازمانی که مهمترین فن آوری های جهان را ایجاد می کنند ، برگزار می شود. این فرصتی است که انجمن جهانی بهم پیوسته ما گرد هم آمده و بهترین شیوه ها را به اشتراک بگذارد ، از یکدیگر بیاموزد و درباره جدیدترین محصولات و ویژگی های POSSF اطلاعات کسب کند."
+    - title: "چرا جشنواره اوپن سورس POSSF امسال مجازی است؟"
+      content: "جشنواره اوپن سورس فارسی رویداد سالانه محصول خیمه شب بازی و جامعه ما است که با حضور کارشناسان محصولات POSSF ، رهبران نرم افزار و تیم های سازمانی که مهمترین فن آوری های جهان را ایجاد می کنند ، برگزار می شود. این فرصتی است که انجمن جهانی بهم پیوسته ما گرد هم آمده و بهترین شیوه ها را به اشتراک بگذارد ، از یکدیگر بیاموزد و درباره جدیدترین محصولات و ویژگی های POSSF اطلاعات کسب کند."
+    - title: "چه کسی باید در POSSF حضور یابد؟"
+      content: "جشنواره اوپن سورس فارسی رویداد سالانه محصول خیمه شب بازی و جامعه ما است که با حضور کارشناسان محصولات POSSF ، رهبران نرم افزار و تیم های سازمانی که مهمترین فن آوری های جهان را ایجاد می کنند ، برگزار می شود. این فرصتی است که انجمن جهانی بهم پیوسته ما گرد هم آمده و بهترین شیوه ها را به اشتراک بگذارد ، از یکدیگر بیاموزد و درباره جدیدترین محصولات و ویژگی های POSSF اطلاعات کسب کند."
+    - title: "چگونه می توانم در POSSF 2020 شرکت کنم؟"
+      content: "جشنواره اوپن سورس فارسی رویداد سالانه محصول خیمه شب بازی و جامعه ما است که با حضور کارشناسان محصولات POSSF ، رهبران نرم افزار و تیم های سازمانی که مهمترین فن آوری های جهان را ایجاد می کنند ، برگزار می شود. این فرصتی است که انجمن جهانی بهم پیوسته ما گرد هم آمده و بهترین شیوه ها را به اشتراک بگذارد ، از یکدیگر بیاموزد و درباره جدیدترین محصولات و ویژگی های POSSF اطلاعات کسب کند."
+
+  logo_alt: "1th Persian Open-Source Software festival"
+
+  home_title: "1th Persian Open-Source Software festival"
+  home_first_title: "Open-Source software festival"
+  home_first_description: "For the first time, the festival has been held at the national and international level, which is in Persian languages that help the GitHub and open source community and participate in this way, say gifts and prizes."
+  home_first_register: "Register for the festival"
+
+  home_register: "Register"
+  home_speakers: "Keynote speakers of the Festival"
+  home_why_attend: "Why participate in the festival?"
+  home_posts: "Recent blog posts"
+  home_sponsors_thanks: "Thanks to our sponsors"
+
+  home_keep_update: "We’re adding more speakers every day!<br>Sign up for updates to stay in the loop."
+  home_subscribe: "Subscribe for updates"
+  home_contact_us: "Contact us"
+
+  footer_text: "© 2021 GitHub. All rights reserved."
+
+header:
+  register: "Register"
+  speakers: "Speakers"
+  workshops: "Workshops"
+  sponsors: "Sponsors"
+  faq: "FAQs"
+  contact: "Contact"
+
+sponsors:
+  - name: "Name 1"
+    image: "https://githubuniverse.com/assets/img/sponsors/logo-veracode.svg"
+  - name: "Name 2"
+    image: "https://githubuniverse.com/assets/img/sponsors/Bridgecrew.svg"
+  - name: "Name 3"
+    image: "https://githubuniverse.com/assets/img/sponsors/Whitesource.svg"
+  - name: "Name 4"
+    image: "https://githubuniverse.com/assets/img/sponsors/ponicode.svg"
+  - name: "Name 5"
+    image: "https://githubuniverse.com/assets/img/sponsors/Azure-Stacked-White%20(1).png"

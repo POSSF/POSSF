@@ -1,5 +1,7 @@
 ---
 layout: page
+permalink: /terms/
+title: global.terms_title
 ---
 
 <section class="main-content">
@@ -17,23 +19,11 @@ layout: page
          </span>
       </a>
    </div>
-   <div class="card-info">
-      <div class="card-img">
-         <div class="img-of-speaker">
-            <img src="{{ site.url }}{{ page.image }}">
-         </div>
-         <div class="social-nav">
-            <ul>
-               <li><a href="{{ page.github }}"><i class="fa fa-github"></i></a></li>
-               <li><a href="{{ page.twitter }}"><i class="fa fa-twitter"></i></a></li>
-            </ul>
-         </div>
-      </div>
-      <div class="card-content">
-         <h1 class="page-box-content-title">{{ page.name }}</h1>
-         <h5 class="page-box-content-title">{{ page.subtitle }}</h5>
+   <div class="page-box-content">
+      <div class="page-box-content-padding">
+         <h1 class="page-box-content-title">{% t global.terms_section_title %}</h1>
          <p>
-            {{ page.content }}
+           {% t global.terms_section_description %}
          </p>
       </div>
    </div>

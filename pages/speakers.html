@@ -1,0 +1,96 @@
+---
+layout: page
+permalink: /speakers/
+title: global.speakers_title
+---
+
+<div class="page-box-content page-box-with-heaer-bg">
+   <div class="page-box-content-padding top-content-txt">
+      <h1 class="page-box-content-title">{% t global.speakers_section_title %}</h1>
+      <p>{% t global.speakers_section_description %}</p>
+   </div>
+   <ul class="speaker-grid">
+      
+      {% for speaker_item in site.speakers %}
+         {% assign speaker_lang = speaker_item.lang %}
+         {% if speaker_lang == site.lang %}
+            <li>
+               <a class="speaker-card css-" href="{{ speaker_item.url | relative_url }}" title="{{ speaker_item.title }}">
+                  <div class="speaker-card__info">
+                     <h3 class="h4">{{ speaker_item.name }}</h3>
+                     <p class="m-0">{{ speaker_item.subtitle }}</p>
+                  </div>
+                  <figure class="speaker-image">
+                     <span>
+                        <img src="{{ site.url }}{{ speaker_item.image }}" alt="{{ speaker_item.name }}">
+                     </span>
+                  </figure>
+               </a>
+            </li>
+         {% endif %}
+      {% endfor %}
+   </ul>
+</div>
+<!-- <article itemscope itemtype="http://schema.org/BlogPosting">
+   <section class="blog">
+   	<div class="container">
+   		<a href="{{ site.url }}/{{ site.lang }}" class="go-back">
+   			<svg width="24" height="24" viewBox="0 0 34 34" class="back-icon">
+   	  <path fill="#FFFFFF" d="M17,33.5C7.9,33.5,0.5,26.1,0.5,17C0.5,7.9,7.9,0.5,17,0.5c9.1,0,16.5,7.4,16.5,16.5
+   		C33.5,26.1,26.1,33.5,17,33.5z M17,1.5C8.5,1.5,1.5,8.5,1.5,17s7,15.5,15.5,15.5s15.5-7,15.5-15.5S25.5,1.5,17,1.5z"></path>
+   	  <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M15.8,10c-0.3-0.3-0.8-0.3-1.1,0l-6.3,6.3c-0.3,0.3-0.3,0.8,0,1.1
+   		l6.3,6.2c0.3,0.3,0.8,0.3,1.1,0s0.3-0.8,0-1.1l-5-5h14.4c0.4,0,0.8-0.3,0.8-0.8S25.7,16,25.2,16H10.8l5-5
+   		C16.1,10.7,16.1,10.3,15.8,10z"></path>
+   	</svg>
+   			<span>
+   	  مشاهده صفحه اصلی
+     </span>
+   		</a>
+   		<div class="clear"></div>
+   		<br>
+   		<span class="time"></span>
+   		<br><br>
+   		<span class="subtitle"></span>
+   		<h1>سخنران های جشنواره اوپن سورس فارسی</h1>
+   		<h2>اسامی سخنران های جشنواره منبع باز فارسی</h2>
+   
+   		<ul class="post-list">
+   
+   			<li>
+   
+   				<h2>
+   					<a class="post-link" href="/speaker/jadi-mirmirani/" title="جادی میرمیرانی - سخنران جشنواره اوپن سورس">جادی میرمیرانی - سخنران جشنواره اوپن سورس</a>
+   				</h2>
+   				<span><p>جادی یک اسم مستعار است. البته نه به معنی مخفی بودن. من در دنیا دو تا جادی بیشتر ندیدم و در نتیجه جادی برام شده یک امضا. جادی معنی خاصی...&lt;/span&gt;
+   &lt;/li&gt;
+   
+   <li>
+    
+    <h2>
+   <a class="post-link" href="/speaker/seyyed-ali-mohammadiyeh/" title="سید علی محمدیه - سخنران جشنواره اوپن سورس">سید علی محمدیه - سخنران جشنواره اوپن سورس</a>
+    </h2>
+    <span><p>@github developer. Full-Time Open-Sourcerer. Full-stack programmer. I don’t know anything. In the path of a real computer engineer…</p>
+   
+   </span>
+   			</li>
+   
+   			<li>
+   
+   				<h2>
+   					<a class="post-link" href="/speaker/seyyed-parham-alvani/" title="سید پرهام الوانی - سخنران جشنواره اوپن سورس">سید پرهام الوانی - سخنران جشنواره اوپن سورس</a>
+   				</h2>
+   				<span><p>من در 20 فوریه 1995 در تهران متولد شدم و هم اکنون در آنجا زندگی می کنم و در رشته مهندسی شبکه در دانشگاه صنعتی امیرکبیر تحصیل می کنم.</p>
+   
+   </span>
+   			</li>
+   
+   			&lt;/ul&gt;
+   			</p>
+   			</span>
+   			</li>
+   		</ul>
+   
+   		<br>
+   	</div>
+   </section>
+   </article> -->
