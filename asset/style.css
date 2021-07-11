@@ -861,9 +861,9 @@ section.profile .social svg {
 	section.attends h2 {
 		font-size: 47px;
 	}
-	.attends-box {
+	/* .attends-box {
 		grid-template-columns: 1fr 1fr;
-	}
+	} */
 	.grid-attends {
 		width: 80%;
 	}
@@ -885,9 +885,9 @@ section.profile .social svg {
 	section.attends h2 {
 		font-size: 30px;
 	}
-	.attends-box {
+	/* .attends-box {
 		grid-template-columns: 1fr;
-	}
+	} */
 	.grid-attends {
 		width: 60%;
 	}
@@ -912,9 +912,9 @@ section.profile .social svg {
 	section.attends h2 {
 		font-size: 30px;
 	}
-	.attends-box {
+	/* .attends-box {
 		grid-template-columns: 1fr;
-	}
+	} */
 	.grid-attends {
 		width: 60%;
 	}
@@ -1601,3 +1601,11 @@ header nav.active li {
 	}
 }
 
+@media only screen and (max-width:700px){
+	.attends-box{
+		display: flex;
+		flex-wrap: wrap;
+		flex-grow: 1;
+	}
+	
+	}
