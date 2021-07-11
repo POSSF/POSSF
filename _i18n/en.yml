@@ -34,6 +34,7 @@ home:
 
   keep_update: "We’re adding more speakers every day!<br>Sign up for updates to stay in the loop."
   subscribe: "Subscribe for updates"
+  contact_us: "Contact us"
 
 header:
   register: "Register"
