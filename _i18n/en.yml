@@ -99,3 +99,25 @@ speakers:
     talk: ""
     role: "Happy hacker, happy programmer, Sysadmin"
     description: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+
+  john:
+    name: "John Bampton"
+    title: "John Bampton - Persian Open-Source Software festival"
+    talk: "GNU Tools"
+    role: "Team Leader, Developer Relations Engineer"
+    description: "Ruby is...\nA dynamic, open source programming language with a focus on simplicity and productivity.\nIt has an elegant syntax that is natural to read and easy to write."
+
+  parham:
+    name: "Parham Alvani"
+    title: "Parham Alvani - Persian Open-Source Software festival"
+    talk: ""
+    role: "Phd student, Software enginear at Snapp!"
+    description: "I'm b..."
+
+
+  max:
+    name: "Seyyed Ali Mohammadiyeh"
+    title: "Seyyed Ali Mohammadiyeh - Persian Open-Source Software festival"
+    talk: ""
+    role: "Software engineer, GitHub Developer"
+    description: "@github developer. Full-Time Open-Sourcerer. Full-stack programmer. I don't know anything. In the path of a real computer engineer...\nتوسعه دهنده شرکت گیت هاب و برنامه نویس تمام وقت منبع باز. توسعه دهنده تمام پشته.\nدر مسیر مهندسی نرم افزار...\n[Max Base](https://maxbase.org/)"
