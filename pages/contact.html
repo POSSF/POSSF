@@ -25,6 +25,25 @@ title: contact.title
          <p>
             {% t contact.section_description %}
          </p>
+
+         <form class="form" action="" method="POST">
+
+            <label>Your name:</label>
+            <input type="text" name="name">
+
+            <label>Your email:</label>
+            <input type="email" name="email">
+
+            <label>Subject:</label>
+            <input type="text" name="subject">
+
+            <label>Your email:</label>
+            <textarea name="text"></textarea>
+
+            <button>{% t contact.submit_form %}</button>
+
+         </form>
+
       </div>
    </div>
 </section>
