@@ -61,7 +61,6 @@ exclude: ["index.html"]
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-<<<<<<< HEAD
 
 collections:
   speakers:
@@ -73,5 +72,3 @@ collections:
   workshops:
     output: true
     sidebar_label: Workshops
-=======
->>>>>>> 604486856bc0bc15603a45b8563765127e2cab70
