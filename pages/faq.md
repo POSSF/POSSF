@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /faq/
-title: global.faq_title
+title: faq.title
 ---
 
 <article itemscope itemtype="http://schema.org/BlogPosting">
@@ -24,10 +24,10 @@ title: global.faq_title
          <div class="header-faq">
             <div class="container">
                <h3>{% t global.faq %} - {% t global.name_in_pages_with_underline %}</h3>
-               <h1 class="gradient-text main-title">{% t global.faq_short %}</h1>
+               <h1 class="gradient-text main-title">{% t faq.short %}</h1>
                <p>
-                  {% t global.faq_description %}
-                  <a class="underline" href="{{ site.url }}/{{ site.lang }}/contact/">{% t global.faq_sendus %}</a>.
+                  {% t faq.description %}
+                  <a class="underline" href="{{ site.url }}/{{ site.lang }}/contact/">{% t faq.sendus %}</a>.
                </p>
             </div>
          </div>
@@ -36,7 +36,7 @@ title: global.faq_title
             <div class="container">
                <h1>{% t global.faq %}</h1>
                <ul class="faq-question faq-fa">
-                  {% for faq_item in site.translations[site.lang].global.faq_items %}
+                  {% for faq_item in site.translations[site.lang].faq.items %}
                   <li>
                      <div class="faq-item">
                         <div class="faq-box">
