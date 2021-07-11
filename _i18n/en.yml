@@ -1,61 +1,34 @@
-global:
-  event_datetime: "Friday, October 1, 2021"
+languages:
+  persian: فارسی
+  english: English
 
+global:
   name: "Persian Open-Source Software festival"
   name_short: "POSSF"
   name_in_pages_with_underline: "Persian Open-Source Software festival"
 
+  event_datetime: "Friday, October 1, 2021"
+
   back_button: "Back to home page"
 
-  persian: فارسی
-  english: English
-
-  terms_title: "Terms - Persian Open-Source Software festival"
-  terms_section_title: "Terms"
-  terms_section_description: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
-
-  privacy_title: "Privacy - Persian Open-Source Software festival"
-  privacy_section_title: "Privacy"
-  privacy_section_description: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
-
-  codeofconduct_title: "Code of conduct - Persian Open-Source Software festival"
-  codeofconduct_section_title: "Code of conduct"
-  codeofconduct_section_description: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
-
-  speakers_title: "Speakers of Persian Open Source Festival"
-  speakers_section_title: "Speakers of Persian Open Source Festival"
-  speakers_section_description: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
-
-  sponsors_title: "Sponsors of Persian Open Source software Festival"
-  sponsors_section_title: "Sponsors of Persian Open Source software Festival"
-  sponsors_section_description: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
-
-  workshops_title: "Persian Open Source Festival Workshops"
-  workshops_section_title: "Persian Open Source Festival Workshops"
-  workshops_section_description: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
-
-  team_title: "The team of the Persian Open Source Festival"
-  team_subtitle: "Festival helpers"
-  team_section_description: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
-
   logo_alt: "1th Persian Open-Source Software festival"
-
-  home_title: "1th Persian Open-Source Software festival"
-  home_first_title: "Open-Source software festival"
-  home_first_description: "For the first time, the festival has been held at the national and international level, which is in Persian languages that help the GitHub and open source community and participate in this way, say gifts and prizes."
-  home_first_register: "Register for the festival"
-
-  home_register: "Register"
-  home_speakers: "Keynote speakers of the Festival"
-  home_why_attend: "Why participate in the festival?"
-  home_posts: "Recent blog posts"
-  home_sponsors_thanks: "Thanks to our sponsors"
-
-  home_keep_update: "We’re adding more speakers every day!<br>Sign up for updates to stay in the loop."
-  home_subscribe: "Subscribe for updates"
-  home_contact_us: "Contact us"
-
   footer_text: "© 2021 GitHub. All rights reserved."
+
+home:
+  title: "1th Persian Open-Source Software festival"
+  section_title: "Open-Source software festival"
+  section_description: "For the first time, the festival has been held at the national and international level, which is in Persian languages that help the GitHub and open source community and participate in this way, say gifts and prizes."
+  section_register: "Register for the festival"
+
+  register: "Register"
+  speakers: "Keynote speakers of the Festival"
+  why_attend: "Why participate in the festival?"
+  posts: "Recent blog posts"
+  sponsors_thanks: "Thanks to our sponsors"
+
+  keep_update: "We’re adding more speakers every day!<br>Sign up for updates to stay in the loop."
+  subscribe: "Subscribe for updates"
+  contact_us: "Contact us"
 
 header:
   register: "Register"
@@ -67,8 +40,8 @@ header:
 
 register:
   title: "Register - Persian Open-Source Software festival"
-  name: "Register"
-  description: "read more..."
+  section_title: "Register"
+  section_description: "read more..."
 
 faq:
   name: "Frequently asked questions"
@@ -86,44 +59,73 @@ faq:
     - title: "چگونه می توانم در POSSF 2020 شرکت کنم؟"
       content: "جشنواره اوپن سورس فارسی رویداد سالانه محصول خیمه شب بازی و جامعه ما است که با حضور کارشناسان محصولات POSSF ، رهبران نرم افزار و تیم های سازمانی که مهمترین فن آوری های جهان را ایجاد می کنند ، برگزار می شود. این فرصتی است که انجمن جهانی بهم پیوسته ما گرد هم آمده و بهترین شیوه ها را به اشتراک بگذارد ، از یکدیگر بیاموزد و درباره جدیدترین محصولات و ویژگی های POSSF اطلاعات کسب کند."
 
-sponsors:
-  - name: "Name 1"
-    image: "https://githubuniverse.com/assets/img/sponsors/logo-veracode.svg"
-  - name: "Name 2"
-    image: "https://githubuniverse.com/assets/img/sponsors/Bridgecrew.svg"
-  - name: "Name 3"
-    image: "https://githubuniverse.com/assets/img/sponsors/Whitesource.svg"
-  - name: "Name 4"
-    image: "https://githubuniverse.com/assets/img/sponsors/ponicode.svg"
-  - name: "Name 5"
-    image: "https://githubuniverse.com/assets/img/sponsors/Azure-Stacked-White%20(1).png"
+terms:
+  title: "Terms - Persian Open-Source Software festival"
+  section_title: "Terms"
+  section_description: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+
+privacy:
+  title: "Privacy - Persian Open-Source Software festival"
+  section_title: "Privacy"
+  section_description: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+
+codeofconduct:
+  title: "Code of conduct - Persian Open-Source Software festival"
+  section_title: "Code of conduct"
+  section_description: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
 
 speakers:
-  jadi:
-    name: "Jadi Mirmirani"
-    title: "Jadi Mirmirani - Persian Open-Source Software festival"
-    talk: ""
-    role: "Happy hacker, happy programmer, Sysadmin"
-    description: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+  title: "Speakers of Persian Open Source Festival"
+  section_title: "Speakers of Persian Open Source Festival"
+  section_description: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+  items:
+    jadi:
+      name: "Jadi Mirmirani"
+      title: "Jadi Mirmirani - Persian Open-Source Software festival"
+      talk: ""
+      role: "Happy hacker, happy programmer, Sysadmin"
+      description: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+    john:
+      name: "John Bampton"
+      title: "John Bampton - Persian Open-Source Software festival"
+      talk: "GNU Tools"
+      role: "Team Leader, Developer Relations Engineer"
+      description: "Ruby is...\nA dynamic, open source programming language with a focus on simplicity and productivity.\nIt has an elegant syntax that is natural to read and easy to write."
+    parham:
+      name: "Parham Alvani"
+      title: "Parham Alvani - Persian Open-Source Software festival"
+      talk: ""
+      role: "Phd student, Software enginear at Snapp!"
+      description: "I'm b..."
+    max:
+      name: "Seyyed Ali Mohammadiyeh"
+      title: "Seyyed Ali Mohammadiyeh - Persian Open-Source Software festival"
+      talk: ""
+      role: "Software engineer, GitHub Developer"
+      description: "@github developer. Full-Time Open-Sourcerer. Full-stack programmer. I don't know anything. In the path of a real computer engineer...\nتوسعه دهنده شرکت گیت هاب و برنامه نویس تمام وقت منبع باز. توسعه دهنده تمام پشته.\nدر مسیر مهندسی نرم افزار...\n[Max Base](https://maxbase.org/)"
 
-  john:
-    name: "John Bampton"
-    title: "John Bampton - Persian Open-Source Software festival"
-    talk: "GNU Tools"
-    role: "Team Leader, Developer Relations Engineer"
-    description: "Ruby is...\nA dynamic, open source programming language with a focus on simplicity and productivity.\nIt has an elegant syntax that is natural to read and easy to write."
+sponsors:
+  title: "Sponsors of Persian Open Source software Festival"
+  section_title: "Sponsors of Persian Open Source software Festival"
+  section_description: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+  items:
+    - name: "Name 1"
+      image: "https://githubuniverse.com/assets/img/sponsors/logo-veracode.svg"
+    - name: "Name 2"
+      image: "https://githubuniverse.com/assets/img/sponsors/Bridgecrew.svg"
+    - name: "Name 3"
+      image: "https://githubuniverse.com/assets/img/sponsors/Whitesource.svg"
+    - name: "Name 4"
+      image: "https://githubuniverse.com/assets/img/sponsors/ponicode.svg"
+    - name: "Name 5"
+      image: "https://githubuniverse.com/assets/img/sponsors/Azure-Stacked-White%20(1).png"
 
-  parham:
-    name: "Parham Alvani"
-    title: "Parham Alvani - Persian Open-Source Software festival"
-    talk: ""
-    role: "Phd student, Software enginear at Snapp!"
-    description: "I'm b..."
+workshops:
+  title: "Persian Open Source Festival Workshops"
+  section_title: "Persian Open Source Festival Workshops"
+  section_description: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
 
-
-  max:
-    name: "Seyyed Ali Mohammadiyeh"
-    title: "Seyyed Ali Mohammadiyeh - Persian Open-Source Software festival"
-    talk: ""
-    role: "Software engineer, GitHub Developer"
-    description: "@github developer. Full-Time Open-Sourcerer. Full-stack programmer. I don't know anything. In the path of a real computer engineer...\nتوسعه دهنده شرکت گیت هاب و برنامه نویس تمام وقت منبع باز. توسعه دهنده تمام پشته.\nدر مسیر مهندسی نرم افزار...\n[Max Base](https://maxbase.org/)"
+team:
+  title: "The team of the Persian Open Source Festival"
+  section_title: "Festival helpers"
+  section_description: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
