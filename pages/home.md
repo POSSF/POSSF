@@ -1,23 +1,23 @@
 ---
 layout: page
 permalink: /
-title: global.home_title
+title: home.title
 ---
 
 <section class="content main-first-section page-box-content">
    <div class="page-box-content-padding top-content-txt">
-      <h1 class="gradient-text main-title">{% t global.home_first_title %}</h1>
+      <h1 class="gradient-text main-title">{% t home.section_title %}</h1>
       <p>
-         {% t global.home_first_description %}
-         <a class="underline" href="register.html">{% t global.home_first_register %}</a>
+         {% t home.section_description %}
+         <a class="underline" href="register.html">{% t home.section_register %}</a>
       </p>
       <br>
-      <a href="#" class="button">{% t global.home_register %}</a>
+      <a href="#" class="button">{% t home.register %}</a>
    </div>
 </section>
 <hr class="gradient">
 <section class="speakers">
-   <h1>{% t global.home_speakers %}</h1>
+   <h1>{% t home.speakers %}</h1>
    <ul class="speaker-list">
       <li>
          <a href="speaker.html">
@@ -46,7 +46,7 @@ title: global.home_title
    </ul>
 </section>
 <section class="attends">
-   <h2>{% t global.home_why_attend %}</h2>
+   <h2>{% t home.why_attend %}</h2>
    <div class="attends-box">
       <div class="grid-attends">
          <h4>از بهترین ها بیاموزید</h4>
@@ -80,11 +80,11 @@ title: global.home_title
 <hr class="gradient">
 <section class="subscribe">
    <p>
-      {% t global.home_keep_update%}
+      {% t home.keep_update%}
    </p>
    <br>
    <div class="reg-btn sub-btn-size">
-      <a href="{{ site.url }}/{{ page.lang }}/subscribe/" class="button">{% t global.home_subscribe %}</a>
+      <a href="{{ site.url }}/{{ page.lang }}/subscribe/" class="button">{% t home.subscribe %}</a>
    </div>
    <!-- <a href="contact.html" class="button" target="_blank">
       <span>Subscribe for updates</span>
@@ -95,7 +95,7 @@ title: global.home_title
    <div class="page-box-content-padding">
       <br>
       <center>
-         <h2 class="page-box-content-title">{% t global.home_posts %}</h2>
+         <h2 class="page-box-content-title">{% t home.posts %}</h2>
       </center>
       <br>
       <ul class="post-list">
@@ -129,7 +129,7 @@ title: global.home_title
 </div>
 <hr class="gradient">
 <section class="sponsors">
-   <h4>{% t global.home_sponsors_thanks %}</h4>
+   <h4>{% t home.sponsors_thanks %}</h4>
    <div class="sponsor-box">
       {% for sponsor_item in site.translations[site.lang].sponsors %}
       <div class="inner-grid">
@@ -142,6 +142,6 @@ title: global.home_title
    <p>مایل به <a class="underline" href="{{ site.url }}/{{ page.lang }}/contact/">پشتیبانی</a> از جشنواره اوپن سورس فارسی هستید؟</p>
    <br>
    <div class="reg-btn connect-btn-size">
-      <a href="{{ site.url }}/{{ page.lang }}/contact/" class="button">{% t global.home_contact_us%}</a>
+      <a href="{{ site.url }}/{{ page.lang }}/contact/" class="button">{% t home.contact_us %}</a>
    </div>
 </section>
