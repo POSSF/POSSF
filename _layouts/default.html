@@ -31,7 +31,7 @@
     <link type="text/css" rel="stylesheet" href="{{ site.url }}/asset/style.css">
 
 </head>
-<body>
+<body{% if page.is_home %} class="body-speaker"{% endif %}>
 
   {% include header.html %}
 

@@ -2,6 +2,7 @@
 layout: page
 permalink: /
 title: home.title
+is_home: yep
 ---
 
 <section class="content main-first-section page-box-content">
