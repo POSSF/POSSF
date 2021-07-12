@@ -106,8 +106,8 @@ speakers:
     jadi:
       name: "Jadi Mirmirani"
       title: "Jadi Mirmirani - Persian Open-Source Software festival"
-      talk: ""
-      role: "Happy hacker, happy programmer, Sysadmin"
+      talk: "Philosophy and History of Open Source"
+      role: "Happy hacker, happy programmer, SysAdmin"
       description: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
     john:
       name: "John Bampton"
@@ -119,14 +119,14 @@ speakers:
       name: "Parham Alvani"
       title: "Parham Alvani - Persian Open-Source Software festival"
       talk: ""
-      role: "Phd student, Software enginear at Snapp!"
+      role: "Ph.D. student, Software engineer at Snapp!"
       description: "I'm b..."
     max:
-      name: "Seyyed Ali Mohammadiyeh"
-      title: "Seyyed Ali Mohammadiyeh - Persian Open-Source Software festival"
-      talk: ""
-      role: "Software engineer, GitHub Developer"
-      description: "@github developer. Full-Time Open-Sourcerer. Full-stack programmer. I don't know anything. In the path of a real computer engineer...\nتوسعه دهنده شرکت گیت هاب و برنامه نویس تمام وقت منبع باز. توسعه دهنده تمام پشته.\nدر مسیر مهندسی نرم افزار...\n[Max Base](https://maxbase.org/)"
+      name: "Max Base"
+      title: "Max Base - Persian Open-Source Software festival"
+      talk: "Why you have to contribute OSS?"
+      role: "Software engineer, GitHub Developer Maintainer"
+      description: "@github developer. Full-Time Open-Sourcerer. Full-stack programmer. In the path of a real computer engineer...\nتوسعه دهنده شرکت گیت هاب و برنامه نویس تمام وقت منبع باز. توسعه دهنده تمام پشته.\nدر مسیر مهندسی نرم افزار...\n[Max Base](https://maxbase.org/)"
 
 sponsors:
   title: "Sponsors of Persian Open Source software Festival"

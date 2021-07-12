@@ -15,7 +15,9 @@ title: home.title
       <a href="{{ site.url }}/{{ site.lang }}/register/" class="button">{% t home.register %}</a>
    </div>
 </section>
+
 <hr class="gradient">
+
 <section class="speakers">
    <h1>{% t home.speakers %}</h1>
    <ul class="speaker-list">
@@ -31,6 +33,7 @@ title: home.title
       {% endfor %}
    </ul>
 </section>
+
 <section class="attends">
    <h2>{% t home.why_attend %}</h2>
    <div class="attends-box">
@@ -51,17 +54,6 @@ title: home.title
          <p>{% t home.attends4_description %}</p>
       </div>
    </div>
-   <!-- <h4 class="text-gradient-purple">از بهترین ها بیاموزید</h4>
-      <p>Three channels of content dedicated to developers, enterprise teams, and college students.</p>
-
-      <h4 class="text-gradient-purple">جدیدترین ها را دریافت کنید</h4>
-      <p>New product announcements and deep dives.</p>
-
-      <h4 class="text-gradient-purple">به فراتر از محتوا وصل شوید</h4>
-      <p>Networking and learning opportunities, from Workshops to mentoring sessions.</p>
-
-      <h4 class="text-gradient-purple">در طول راه از آن لذت ببرید</h4>
-      <p>Musical performances inspired by code and a few more surprises to come!</p> -->
 </section>
 
 <hr class="gradient">
@@ -76,7 +68,7 @@ title: home.title
    </div>
 </section>
 
-<div id="dialog-subscribe-background" class=""></div>
+<div id="dialog-subscribe-background"></div>
 <div id="dialog-subscribe">
    <div id="dialog-subscribe-box">
       <img onclick="subscribe_close(this.parentElement.parentElement);" id="dialog-subscribe-close" src="/asset/close.svg">
