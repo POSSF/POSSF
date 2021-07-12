@@ -1576,7 +1576,7 @@ header nav.active {
 }
 
 header nav.active li {
-	width: 100%;
+	width: calc(100% - 30px);
 	float: right;
 	text-align: right;
 	line-height: 14px;
@@ -1672,6 +1672,20 @@ header nav.active li {
 }
 #dialog-subscribe-button {
 
+}
+
+header #header-logo {
+	display: block;
+	margin-left: 0px;
+	margin-right: auto;
+}
+header #header-info {
+	display: block;
+	margin-right: 30px;
+	margin-left: auto;
+}
+header #header-nav {
+	margin-left: -80px;
 }
 
 /* RTL LTR */

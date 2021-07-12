@@ -1,21 +1,11 @@
 <!-- <header style="position: fixed;top: 0;z-index: 200;"> -->
 <header>
 
-    <div>
+    <div id="header-logo">
         <a href="{{ site.url }}/{{ site.lang }}"><img alt="{% t global.logo_alt %}" class="logo" src="/asset/logo.svg"></a>
-        <div class="time">{% t global.event_datetime %}</div>
     </div>
 
-    <!--
-    <div class="countdown-time">
-        <span class="d">70</span> d ::
-        <span class="h">1</span> h ::
-        <span class="m">48</span> m ::
-        <span class="s">6</span> s
-    </div>
-    -->
-
-    <nav>
+    <nav id="header-nav">
         <li class="active"><a href="{{ site.url }}/{{ site.lang }}/register/">{% t header.register %}</a></li>
         <li><a href="{{ site.url }}/{{ site.lang }}/speakers/">{% t header.speakers %}</a></li>
         <li><a href="{{ site.url }}/{{ site.lang }}/workshops/">{% t header.workshops %}</a></li>
@@ -24,7 +14,19 @@
         <li><a href="{{ site.url }}/{{ site.lang }}/contact/">{% t header.contact %}</a></li>
     </nav>
 
-    <div class="small-nav-icon">
+    <div id="header-info">
+        <div class="time">{% t global.event_datetime %}</div>
+        <!--
+        <div class="countdown-time">
+            <span class="d">70</span> d ::
+            <span class="h">1</span> h ::
+            <span class="m">48</span> m ::
+            <span class="s">6</span> s
+        </div>
+        -->
+    </div>
+
+    <div id="header-nav-button" class="small-nav-icon">
         <div class="line-icon"></div>
         <div class="line-icon"></div>
         <div class="line-icon"></div>
