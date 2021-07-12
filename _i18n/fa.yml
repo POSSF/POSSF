@@ -44,6 +44,15 @@ header:
   faq: "پرسش پاسخ ها"
   contact: "تماس با ما"
 
+footer:
+  terms: "مقررات"
+  privacy: "حریم خصوصی"
+  sponsors: "حامیان جشنواره"
+  team: "دست اندرکاران"
+  email: "info @ possf.ir"
+  codeofconduct: "آیین نامه رفتار"
+  copyright: "© 2021 GitHub. All rights reserved."
+
 faq:
   name: "سوالات متداول"
   title: "سوالات متداول - جشنوارهٔ نرم‌افزار متن‌باز فارسی"

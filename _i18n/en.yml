@@ -12,7 +12,6 @@ global:
   back_button: "Back to home page"
 
   logo_alt: "1th Persian Open-Source Software festival"
-  footer_text: "© 2021 GitHub. All rights reserved."
 
   contact_us: "Contact us"
 
@@ -43,6 +42,15 @@ header:
   sponsors: "Sponsors"
   faq: "FAQs"
   contact: "Contact"
+
+footer:
+  terms: "Terms"
+  privacy: "Privacy"
+  sponsors: "Sponsors"
+  team: "Team"
+  email: "info @ possf.ir"
+  codeofconduct: "Code of conduct"
+  copyright: "© 2021 GitHub. All rights reserved."
 
 faq:
   name: "Frequently asked questions"

@@ -1675,31 +1675,36 @@ header nav.active li {
 }
 
 /* RTL LTR */
-html[lang=en] h1, html[lang=en] h2, html[lang=en] h3, html[lang=en] h4, html[lang=en] h5, html[lang=en] h6, html[lang=en] p, html[lang=en] li {
+html[dir=ltr] h1, html[dir=ltr] h2, html[dir=ltr] h3, html[dir=ltr] h4, html[dir=ltr] h5, html[dir=ltr] h6, html[dir=ltr] p, html[dir=ltr] li {
 	direction: ltr !important;
 }
 
-html[lang=en] ul.post-list li {
-	direction: ltr !important;
-	text-align: left !important;
-}
-
-html[lang=en] .card-info {
-	direction: ltr !important;
-}
-
-html[lang=en] .speaker-card .speaker-card__info {
+html[dir=ltr] ul.post-list li {
 	direction: ltr !important;
 	text-align: left !important;
 }
 
-html[lang=en] .speaker-image {
+html[dir=ltr] .card-info {
+	direction: ltr !important;
+}
+
+html[dir=ltr] .speaker-card .speaker-card__info {
+	direction: ltr !important;
+	text-align: left !important;
+}
+
+html[dir=ltr] .speaker-image {
 	direction: rtl !important;
 }
 
-html[lang=en] p.page-box-content-text {
+html[dir=ltr] p.page-box-content-text {
 	direction: ltr !important;
 	text-align: left !important;
 	float: left !important;
+}
+
+html[dir=ltr] header nav.active li {
+	float: left !important;
+	text-align: left !important;
 }
 
