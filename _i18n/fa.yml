@@ -117,7 +117,7 @@ speakers:
     john:
       name: "جان باپتون"
       title: "جان باپتون - سخنران جشنواره اوپن سورس فارسی"
-      talk: "ابزار های GNU"
+      talk: "آزادی، نرم افزار GNU و تیم سازی"
       role: "رهبر تیم، مهندس روابط توسعه دهندگان"
       description: "زبان روبی هست...\nA dynamic, open source programming language with a focus on simplicity and productivity.\nIt has an elegant syntax that is natural to read and easy to write."
 
