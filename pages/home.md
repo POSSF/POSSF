@@ -2,7 +2,7 @@
 layout: page
 permalink: /
 title: home.title
-is_home: yep
+body_has_image: yep
 ---
 
 <section class="content main-first-section page-box-content">
