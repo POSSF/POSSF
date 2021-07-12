@@ -126,6 +126,6 @@ Actions:
 
 © Copyright Max Base 2020
 
-© Copyright POSSF Team 2001
+© Copyright POSSF Team 2021
 
 © Copyright GitHub 2021 (During Negotiation to GitHub staff)
