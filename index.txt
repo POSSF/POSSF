@@ -50,8 +50,8 @@
 	<body>
 		<div id="page">
 			<div id="container">
-				<a href="fa/" class="button">فارسی Persian</a>
-				<a href="en/" class="button">انگلیسی English</a>
+				<a href="fa/" class="button">Persian فارسی</a>
+				<a href="en/" class="button">English انگلیسی</a>
 			</div>
 		</div>
 	</body>
