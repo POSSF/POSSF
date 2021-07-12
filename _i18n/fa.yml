@@ -39,16 +39,16 @@ home:
   email_placeholder: "your-mail@possf.ir"
 
   attends1_title: "از بهترین ها بیاموزید"
-  attends1_description: "Three channels of content dedicated to developers, enterprise teams, and college students."
+  attends1_description: "سه کانال محتوای اختصاص داده شده به توسعه دهندگان ، تیم های سازمانی و دانشجویان."
 
   attends2_title: "جدیدترین ها را دریافت کنید"
-  attends2_description: "New product announcements and deep dives."
+  attends2_description: "اعلامیه محصولات جدید و غواصی های عمیق."
 
   attends3_title: "به فراتر از محتوا وصل شوید"
-  attends3_description: "Networking and learning opportunities, from Workshops to mentoring sessions."
+  attends3_description: "فرصت های شبکه سازی و یادگیری ، از کارگاه ها گرفته تا جلسات مربیگری."
 
   attends4_title: "در طول راه از آن لذت ببرید"
-  attends4_description: "Musical performances inspired by code and a few more surprises to come!"
+  attends4_description: "اجراهای موسیقی با الهام از کد و چند شگفتی دیگر در آینده!"
 
 header:
   register: "ثبت نام"
