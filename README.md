@@ -110,3 +110,17 @@ Configuration file: /home/max/OpenSource/POSSF-Web/_config.yml
     Server address: http://127.0.0.1:4000
   Server running... press ctrl-c to stop.
 ```
+
+### Related outdated repositories
+
+- https://github.com/BaseMax/POSSF/
+- https://github.com/BaseMax/POSSF-Web/
+- https://github.com/BaseMax/GitHubEventWeb
+
+--------
+
+© Copyright Max Base 2020
+
+© Copyright POSSF Team 2001
+
+© Copyright GitHub 2021 (During Negotiation to GitHub staff)
