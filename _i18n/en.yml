@@ -15,9 +15,9 @@ global:
 
   contact_us: "Contact us"
 
-  want_support1: "Do you want to "
-  want_support2: "Support"
-  want_support3: " the POSSF event?"
+  want_support1: "Interested in "
+  want_support2: "sponsoring"
+  want_support3: " POSSF event?"
 
 home:
   title: "1th Persian Open-Source Software festival"
@@ -34,6 +34,21 @@ home:
   keep_update: "We’re adding more speakers every day!<br>Sign up for updates to stay in the loop."
   subscribe: "Subscribe for updates"
   contact_us: "Contact us"
+
+  enter_email: "Enter your email for updates"
+  email_placeholder: "your-mail@possf.ir"
+
+  attends1_title: "از بهترین ها بیاموزید"
+  attends1_description: "Three channels of content dedicated to developers, enterprise teams, and college students."
+
+  attends2_title: "جدیدترین ها را دریافت کنید"
+  attends2_description: "New product announcements and deep dives."
+
+  attends3_title: "به فراتر از محتوا وصل شوید"
+  attends3_description: "Networking and learning opportunities, from Workshops to mentoring sessions."
+
+  attends4_title: "در طول راه از آن لذت ببرید"
+  attends4_description: "Musical performances inspired by code and a few more surprises to come!"
 
 header:
   register: "Register"

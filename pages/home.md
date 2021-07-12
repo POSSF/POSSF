@@ -35,20 +35,20 @@ title: home.title
    <h2>{% t home.why_attend %}</h2>
    <div class="attends-box">
       <div class="grid-attends">
-         <h4>از بهترین ها بیاموزید</h4>
-         <p>Three channels of content dedicated to developers, enterprise teams, and college students.</p>
+         <h4>{% t home.attends1_title %}</h4>
+         <p>{% t home.attends1_description %}</p>
       </div>
       <div class="grid-attends">
-         <h4>جدیدترین ها را دریافت کنید</h4>
-         <p>New product announcements and deep dives.</p>
+         <h4>{% t home.attends2_title %}</h4>
+         <p>{% t home.attends2_description %}</p>
       </div>
       <div class="grid-attends">
-         <h4>به فراتر از محتوا وصل شوید</h4>
-         <p>Networking and learning opportunities, from Workshops to mentoring sessions.</p>
+         <h4>{% t home.attends3_title %}</h4>
+         <p>{% t home.attends3_description %}</p>
       </div>
       <div class="grid-attends">
-         <h4>در طول راه از آن لذت ببرید</h4>
-         <p>Musical performances inspired by code and a few more surprises to come!</p>
+         <h4>{% t home.attends4_title %}</h4>
+         <p>{% t home.attends4_description %}</p>
       </div>
    </div>
    <!-- <h4 class="text-gradient-purple">از بهترین ها بیاموزید</h4>
@@ -68,7 +68,7 @@ title: home.title
 
 <section class="subscribe">
    <p>
-      {% t home.keep_update%}
+      {% t home.keep_update %}
    </p>
    <br>
    <div class="reg-btn sub-btn-size">
@@ -82,9 +82,9 @@ title: home.title
       <img onclick="subscribe_close(this.parentElement.parentElement);" id="dialog-subscribe-close" src="/asset/close.svg">
       <div id="dialog-subscribe-form">
          <center>
-            Enter your email for updates
+            {% t home.enter_email %}
          </center>
-         <input id="dialog-subscribe-email" type="email" name="email">
+         <input id="dialog-subscribe-email" type="email" name="email" placeholder="{% t home.email_placeholder %}">
          <img id="dialog-subscribe-button" oncancel="subscribe_submit(this.parentElement.parentElement.parentElement);" src="/asset/send.svg">
       </div>
    </div>
