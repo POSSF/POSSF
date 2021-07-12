@@ -113,9 +113,14 @@ Configuration file: /home/max/OpenSource/POSSF-Web/_config.yml
 
 ### Related outdated repositories
 
+Template:
 - https://github.com/BaseMax/POSSF/
 - https://github.com/BaseMax/POSSF-Web/
 - https://github.com/BaseMax/GitHubEventWeb
+
+Actions:
+- https://github.com/BaseMax/AutoInviteToOrgByIssueComment
+- https://github.com/BaseMax/AutoInviteToOrgByStar
 
 --------
 
