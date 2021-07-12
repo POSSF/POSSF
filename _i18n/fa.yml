@@ -12,8 +12,7 @@ global:
   back_button: "بازگشت به صفحه اصلی"
 
   logo_alt: "1th Persian Open-Source Software festival"
-  footer_text: "شرکت گیت هاب © 2021، تمام حقوق محفوظ است."
-
+  
   contact_us: "تماس با ما"
 
   want_support1: "مایل به "
@@ -67,6 +66,8 @@ footer:
   email: "info @ possf.ir"
   codeofconduct: "آیین نامه رفتار"
   copyright: "© گیت هاب ۱۴۰۰. تمامی حقوق محفوظ است."
+  event_follow: "رویداد را دنبال کنید "
+  event_hashtag: "#POSSF"
 
 faq:
   name: "سوالات متداول"

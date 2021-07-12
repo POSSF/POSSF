@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: site.lang | default: "fa" }}" dir="{{ page.direction | default: site.direction | default: "rtl" }}">
+<html lang="{{ site.lang | default: site.lang | default: "fa" }}" dir="{% if site.lang == "en" %}ltr{% else %}rtl{% endif %}">
 
   <head>
+    <!-- {{ page.direction | default: site.direction | default: "rtl" }} -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="google-site-verification" content="yjzAdGvHDGnABvgQ2Tcec-Ugeejd7u7jCyfg0aixSw0">

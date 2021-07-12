@@ -1708,3 +1708,6 @@ html[dir=ltr] header nav.active li {
 	text-align: left !important;
 }
 
+html[dir=ltr] ul.speaker-list li h3 {
+	direction: ltr !important;
+}

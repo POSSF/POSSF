@@ -66,6 +66,8 @@ footer:
   email: "info @ possf.ir"
   codeofconduct: "Code of conduct"
   copyright: "© 2021 GitHub. All rights reserved."
+  event_follow: "Follow the event "
+  event_hashtag: "#POSSF"
 
 faq:
   name: "Frequently asked questions"
