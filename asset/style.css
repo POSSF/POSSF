@@ -1739,3 +1739,7 @@ html[dir=ltr] header nav.active li {
 html[dir=ltr] ul.speaker-list li h3 {
 	direction: ltr !important;
 }
+
+html[dir=rtl] .sponsor-box {
+	direction: rtl !important;
+}
