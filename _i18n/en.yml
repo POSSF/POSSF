@@ -120,7 +120,7 @@ speakers:
     parham:
       name: "Parham Alvani"
       title: "Parham Alvani - Persian Open-Source Software festival"
-      talk: ""
+      talk: "Git, Golang"
       role: "Ph.D. student, Software engineer at Snapp!"
       description: "I'm b..."
     max:
