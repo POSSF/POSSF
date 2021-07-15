@@ -82,7 +82,7 @@ title: team.title
             </div>
             <div class="team-item">
                <div class="team-info">
-                  <img class="team-img" src="{{ site.url }}/asset/image/team/sadati.jpeg" alt="سید محمدمهدی ساداتی">
+                  <img class="team-img" src="{{ site.url }}/asset/image/team/sadati.jpg" alt="سید محمدمهدی ساداتی">
                   <p class="team-name">محمدمهدی ساداتی</p>
                   <p class="team-role">وبسایت</p>
                </div>
@@ -113,6 +113,13 @@ title: team.title
                   <img class="team-img" src="{{ site.url }}/asset/image/team/alireza-babaii.jpg" alt="علیرضا بابایی">
                   <p class="team-name">علیرضا بابایی</p>
                   <p class="team-role">توسعه دهنده وب</p>
+               </div>
+            </div>
+            <div class="team-item">
+               <div class="team-info">
+                  <img class="team-img" src="{{ site.url }}/asset/image/team/umut.jpg" alt="علی>
+                  <p class="team-name">Umut Gazi BAŞAL</p>
+                  <p class="team-role">Logo Designer</p>
                </div>
             </div>
          </div>
