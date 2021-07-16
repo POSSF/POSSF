@@ -70,8 +70,8 @@ footer:
   event_hashtag: "#POSSF"
 
 faq:
-  name: "Frequently asked questions"
   title: "FAQ - Persian Open-Source Software festival"
+  name: "Frequently asked questions"
   short: "FAQ"
   description: "You have questions about the festival, and we have some answers. If you could not find what you were looking for."
   sendus: "Send us a note"

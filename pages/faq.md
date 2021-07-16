@@ -23,7 +23,7 @@ title: faq.title
          </div>
          <div class="header-faq">
             <div class="container">
-               <h3>{% t global.faq %} - {% t global.name_in_pages_with_underline %}</h3>
+               <h3>{% t faq.name %} - {% t global.name_in_pages_with_underline %}</h3>
                <h1 class="gradient-text main-title">{% t faq.short %}</h1>
                <p>
                   {% t faq.description %}
