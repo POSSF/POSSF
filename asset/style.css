@@ -670,10 +670,10 @@ section.subscribe p {
 	left: 50%;
 	transform: translate(-50%, -50%) scale(0);
 	transition: 200ms ease-in-out;
-	border: 1px solid black;
+	border: 1px solid #d4c8c8;
 	border-radius: 10px;
 	z-index: 10;
-	background-color: white;
+	background-color: #271d1d;
 	width: 500px;
 	max-width: 80%;
   }
@@ -834,15 +834,48 @@ ul.blog-utilites li {
 	to 	{ width:0; background:transparent; }
   }
   .btn-send{
-    width: 40px;
-    height: 30px;
-    left: 2%;
+    display: flex;
+    align-self: center;
+    font-size: 1rem;
+    line-height: 1;
+    padding: 20px 20px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 650;
+    width: 20%;
+    margin-right: -27px;
     position: relative;
-    top: 15px;
-    border-radius: 10px;
-    background-color: aliceblue;
+	border-color: #3498db;
+	color: #fff;
+	box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+	transition: all 150ms ease-in-out;
   }
-
+@media only screen and (max-width:700px){
+	.group label, .bar,.highlight{
+		display: none;
+	}
+	.group input{
+		position: absolute;
+        left: 15%;
+        top: 40%;
+        width: 180px;
+	}
+	.btn-send{
+		height: 40px;
+        top: 17px;
+        font-size: 10px;
+        right: 20px;
+        width: 10%;
+	}
+	.btn-send span{
+		left: 20px;
+        margin-left: -14px;
+        position: absolute;
+        margin-top: -4px;
+	}
+}
 a.go-back svg {
 	float: left;
 }
