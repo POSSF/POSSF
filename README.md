@@ -124,6 +124,31 @@ Configuration file: /home/max/OpenSource/POSSF-Web/_config.yml
 
 --------
 
+### Known problems
+
+- convertible.rb:222:in `write': Permission denied @ rb_sysopen
+
+```
+[max@workstation POSSF]$ jekyll serve
+Configuration file: /home/max/Projects/POSSF/POSSF/_config.yml
+            Source: /home/max/Projects/POSSF/POSSF
+       Destination: /home/max/Projects/POSSF/POSSF/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+Building site for language: "en" to: /home/max/Projects/POSSF/POSSF/_site/en
+       Jekyll Feed: Generating feed for posts
+Loading translation from file /home/max/Projects/POSSF/POSSF/_i18n/en.yml
+                    ------------------------------------------------
+      Jekyll 4.2.0   Please append `--trace` to the `serve` command 
+                     for any additional information or backtrace. 
+                    ------------------------------------------------
+/home/max/.local/share/gem/ruby/3.0.0/gems/jekyll-4.2.0/lib/jekyll/convertible.rb:222:in `write': Permission denied @ rb_sysopen - /home/max/Projects/POSSF/POSSF/_site/en/404.html (Errno::EACCES)
+```
+
+You have to remove `_site` directory by `sudo rm -rf _site` and this will fixed.
+
+- If you run both docker and jekyll localy, maybe some problems cause and you can fix it by easily remove `.jekyll-cache` directory by `sudo rm -rf .jekyll-cache`.
+
 ### Related outdated repositories
 
 Template:
