@@ -65,24 +65,29 @@ body_has_image: yep
    </p>
    <br>
    <div class="reg-btn sub-btn-size">
-      <a onclick="subscribe();" class="button">{% t home.subscribe %}</a>
+  <a data-modal-target="#modal" class="button"></a>
    </div>
+    <div class="modal" id="modal">
+    <div class="modal-header">
+      <div class="title">Subscribe Email</div>
+      <button data-close-button class="close-button">&times;</button>
+    </div>
+    <div class="modal-body">
+    <div class="group">      
+   <button class="btn-send">send</button>
+
+   <input type="email" required placeholder="Enter Your Email">
+   <!-- <button class="btn-send">send</button> -->
+   <span class="highlight"></span>
+   <span class="bar"></span>
+   <label>Email</label>
+   </div>
+    </div>
+  </div>
+  <div id="overlay"></div>
 </section>
 
-<div id="dialog-subscribe-background"></div>
-<div id="dialog-subscribe">
-   <div id="dialog-subscribe-box">
-      <img onclick="subscribe_close(this.parentElement.parentElement);" id="dialog-subscribe-close" src="/asset/close.svg">
-      <div id="dialog-subscribe-form">
-         <center>
-            {% t home.enter_email %}
-         </center>
-         <input id="dialog-subscribe-email" type="email" name="email" placeholder="{% t home.email_placeholder %}">
-         <img id="dialog-subscribe-button" oncancel="subscribe_submit(this.parentElement.parentElement.parentElement);" src="/asset/send.svg">
-      </div>
-   </div>
-</div>
-
+ 
 <hr class="gradient">
 
 <div class="page-box-content">

@@ -660,7 +660,70 @@ section.subscribe p {
 	font-size: 24px;
 	margin-bottom: 20px;
 }
-
+*, *::after, *::before {
+	box-sizing: border-box;
+  }
+  
+  .modal {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) scale(0);
+	transition: 200ms ease-in-out;
+	border: 1px solid black;
+	border-radius: 10px;
+	z-index: 10;
+	background-color: white;
+	width: 500px;
+	max-width: 80%;
+  }
+  
+  .modal.active {
+	transform: translate(-50%, -50%) scale(1);
+  }
+  
+  .modal-header {
+	padding: 10px 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid black;
+  }
+  
+  .modal-header .title {
+	font-size: 1.25rem;
+	font-weight: bold;
+  }
+  
+  .modal-header .close-button {
+	cursor: pointer;
+	border: none;
+	outline: none;
+	background: none;
+	font-size: 1.25rem;
+	font-weight: bold;
+  }
+  
+  .modal-body {
+	padding: 10px 15px;
+  }
+  
+  #overlay {
+	position: fixed;
+	opacity: 0;
+	transition: 200ms ease-in-out;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, .5);
+	pointer-events: none;
+  }
+  
+  #overlay.active {
+	opacity: 1;
+	pointer-events: all;
+  }
 ul.blog-utilites {
 	float: right;
 }
@@ -671,6 +734,114 @@ ul.blog-utilites li {
 	margin-left: 7px;
 	margin-right: 7px;
 }
+
+.group { 
+	display: flex;
+	position:relative; 
+	margin-bottom:45px; 
+	right: 11%;
+  }
+  input 				{
+	font-size:18px;
+	padding:10px 10px 10px 5px;
+	display:block;
+	width:300px;
+	border:none;
+	border-bottom:1px solid #757575;
+  }
+  input:focus 		{ outline:none; }
+  
+  /* LABEL ======================================= */
+  label 				 {
+	color:#999; 
+	font-size:18px;
+	font-weight:normal;
+	position:absolute;
+	pointer-events:none;
+	left:40%;
+	top:10px;
+	transition:0.2s ease all; 
+	-moz-transition:0.2s ease all; 
+	-webkit-transition:0.2s ease all;
+  }
+  
+  /* active state */
+  input:focus ~ label, input:valid ~ label 		{
+	top:-20px;
+	font-size:14px;
+	color:#5264AE;
+  }
+  
+  /* BOTTOM BARS ================================= */
+  .bar{
+	position: relative;
+    display: block;
+    left: 39%;
+    width: 931px;
+ }
+  .bar:before, .bar:after 	{
+	content:'';
+	height:2px; 
+	width:0;
+	bottom:1px; 
+	position:absolute;
+	background:#5264AE; 
+	transition:0.2s ease all; 
+	-moz-transition:0.2s ease all; 
+	-webkit-transition:0.2s ease all;
+  }
+  .bar:before {
+	left:50%;
+  }
+  .bar:after {
+	right:50%; 
+  }
+  
+  /* active state */
+  input:focus ~ .bar:before, input:focus ~ .bar:after {
+	width:50%;
+  }
+  
+  /* HIGHLIGHTER ================================== */
+  .highlight {
+	position:absolute;
+	height:60%; 
+	width:100px; 
+	top:25%; 
+	left:0;
+	pointer-events:none;
+	opacity:0.5;
+  }
+  
+  /* active state */
+  input:focus ~ .highlight {
+	-webkit-animation:inputHighlighter 0.3s ease;
+	-moz-animation:inputHighlighter 0.3s ease;
+	animation:inputHighlighter 0.3s ease;
+  }
+  
+  /* ANIMATIONS ================ */
+  @-webkit-keyframes inputHighlighter {
+	  from { background:#5264AE; }
+	to 	{ width:0; background:transparent; }
+  }
+  @-moz-keyframes inputHighlighter {
+	  from { background:#5264AE; }
+	to 	{ width:0; background:transparent; }
+  }
+  @keyframes inputHighlighter {
+	  from { background:#5264AE; }
+	to 	{ width:0; background:transparent; }
+  }
+  .btn-send{
+    width: 40px;
+    height: 30px;
+    left: 2%;
+    position: relative;
+    top: 15px;
+    border-radius: 10px;
+    background-color: aliceblue;
+  }
 
 a.go-back svg {
 	float: left;
