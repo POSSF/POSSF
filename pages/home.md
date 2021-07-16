@@ -65,7 +65,8 @@ body_has_image: yep
    </p>
    <br>
    <div class="reg-btn sub-btn-size">
-  <a data-modal-target="#modal" class="button"></a>
+  <a data-modal-target="#modal" class="button">
+  {% t home.subscribe %}</a>
    </div>
     <div class="modal" id="modal">
     <div class="modal-header">
