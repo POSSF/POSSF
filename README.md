@@ -124,9 +124,9 @@ Configuration file: /home/max/OpenSource/POSSF-Web/_config.yml
 
 --------
 
-### Known problems
+## Known problems
 
-- convertible.rb:222:in `write': Permission denied @ rb_sysopen
+### convertible.rb:222:in `write': Permission denied @ rb_sysopen
 
 ```
 [max@workstation POSSF]$ jekyll serve
@@ -147,7 +147,9 @@ Loading translation from file /home/max/Projects/POSSF/POSSF/_i18n/en.yml
 
 You have to remove `_site` directory by `sudo rm -rf _site` and this will fixed.
 
-- If you run both docker and jekyll localy, maybe some problems cause and you can fix it by easily remove `.jekyll-cache` directory by `sudo rm -rf .jekyll-cache`.
+### Running both of docker image and jekyll
+
+If you run both docker and jekyll localy, maybe some problems cause and you can fix it by easily remove `.jekyll-cache` directory by `sudo rm -rf .jekyll-cache`.
 
 ### Related outdated repositories
 
