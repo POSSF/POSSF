@@ -75,7 +75,7 @@ body_has_image: yep
     </div>
     <div class="modal-body">
     <div class="group">      
-   <button class="btn-send">send</button>
+   <button class="btn-send"><span>send</span></button>
 
    <input type="email" required placeholder="Enter Your Email">
    <!-- <button class="btn-send">send</button> -->

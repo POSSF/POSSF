@@ -852,7 +852,30 @@ ul.blog-utilites li {
 	box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
 	transition: all 150ms ease-in-out;
   }
-
+@media only screen and (max-width:700px){
+	.group label, .bar,.highlight{
+		display: none;
+	}
+	.group input{
+		position: absolute;
+        left: 15%;
+        top: 40%;
+        width: 180px;
+	}
+	.btn-send{
+		height: 40px;
+        top: 17px;
+        font-size: 10px;
+        right: 20px;
+        width: 10%;
+	}
+	.btn-send span{
+		left: 20px;
+        margin-left: -14px;
+        position: absolute;
+        margin-top: -4px;
+	}
+}
 a.go-back svg {
 	float: left;
 }
