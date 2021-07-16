@@ -6,7 +6,7 @@
 
 A community for open-source programmers and software engineers.
 
-## Do you want to add yourself?
+## Do you want to Support? So add yourself
 
 - Star this repository
 - Fork this repository
@@ -65,7 +65,18 @@ Persian Open Source Software Festival
 
 [کارگاه های جشنواره اوپن سورس فارسی](https://possf.ir/workshop/)
 
-### Compile POSSF Website Project
+## Compile POSSF Website Project
+
+### Using Docker
+
+Do you want to easily run the project using Docker? Okay so:
+
+1- Install docker and docker-compose package
+2- Start docker service in your operation system
+3- run `docker-compose up` command in this directory
+4- open the link at the browser
+
+### Manually
 
 Install requirement packages from Gemfile:
 
@@ -96,7 +107,7 @@ nano ~/.bashrc
 export PATH="$HOME/.gem/ruby/2.7.0/bin:$PATH"
 ```
 
-### Running and serve website
+#### Running and serve website
 
 ```
 $ bundle exec jekyll serve
@@ -110,6 +121,8 @@ Configuration file: /home/max/OpenSource/POSSF-Web/_config.yml
     Server address: http://127.0.0.1:4000
   Server running... press ctrl-c to stop.
 ```
+
+--------
 
 ### Related outdated repositories
 
