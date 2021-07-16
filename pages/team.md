@@ -117,7 +117,7 @@ title: team.title
             </div>
             <div class="team-item">
                <div class="team-info">
-                  <img class="team-img" src="{{ site.url }}/asset/image/team/umut.jpg" alt="علی>
+                  <img class="team-img" src="{{ site.url }}/asset/image/team/umut.jpg" alt="Umut Gazi BAŞAL">
                   <p class="team-name">Umut Gazi BAŞAL</p>
                   <p class="team-role">Logo Designer</p>
                </div>
