@@ -71,10 +71,10 @@ Persian Open Source Software Festival
 
 Do you want to easily run the project using Docker? Okay so:
 
-1- Install docker and docker-compose package
-2- Start docker service in your operation system
-3- run `docker-compose up` command in this directory
-4- open the link at the browser
+- Install docker and docker-compose package
+- Start docker service in your operation system
+- run `docker-compose up` command in this directory
+- open the link at the browser
 
 ### Manually
 
