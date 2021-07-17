@@ -6,15 +6,16 @@ on:
     - main
 
 jobs: 
-  build_and_deploy:
+  publish-website: 
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - name: Building a jekyll site from configured directory, maybe deploying it.
-        env: 
-          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_KEY }}
-          GITHUB_REPOSITORY: ${{ secrets.MY_REPOSITORY }}
-          GITHUB_ACTOR: ${{ secrets.MY_ACTOR }}
-          JEKYLL_ROOT: "./"
-          REMOTE_BRANCH: "gh-pages"
-        uses: agentd00nut/jekyll-build-optional-deploy-gh-pages@master
+    - uses: actions/checkout@v2
+      with:
+        ref: main
+    - name: Run with dest path
+      uses: helaili/jekyll-build@v2
+      with:
+        target_branch: gh-pages
+        target_path: /
+        keep_history: true
+        token: ${{ secrets.MY_GITHUB_KEY }}
