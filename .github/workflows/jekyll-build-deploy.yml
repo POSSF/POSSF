@@ -52,7 +52,8 @@ jobs:
         run: |
           git config --local user.email "MaxBaseCode@Gmail.Com"
           git config --local user.name "Max Base[bot]"
-          git commit -m "Add home page" -a
+          git add .
+          git commit -m "Update build / add home page" -a
 
       - name: Push changes
         uses: ad-m/github-push-action@master
