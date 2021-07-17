@@ -27,6 +27,12 @@ jobs:
             ${{ runner.os }}-build-
             ${{ runner.os }}-
 
+      - name: Install bundle
+        run: bundle
+
+      - name: Install jekyll
+        run: gem install jekyll
+
       - name: Build & Deploy to GitHub Pages
         uses: DavidS/jekyll-deploy@main
         with:
