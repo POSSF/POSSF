@@ -47,7 +47,7 @@ plugins:
 keep_files: ["index.txt", "asset"]
 # exclude: ["index.html"]
 # exclude: ["cover.jpg", "docker-compose.yml", "docker-entrypoint.sh", "Dockerfile", "serve.sh"]
-# include: ["index.html"]
+# include: ["asset"]
 
 collections:
   speakers:
