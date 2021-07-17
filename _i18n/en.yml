@@ -168,6 +168,15 @@ team:
   section_title: "The team of the Persian Open Source Festival"
   section_subtitle: "Festival helpers"
   section_description: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+  items:
+    - name: Max Base
+      role: ...
+    - name: Iman mirazimi
+      role: Core team
+      image: /image/team/iman-mirazimi.jpg
+    - name: Iman mirazimi
+      role: Core team
+      image: /image/team/iman-mirazimi.jpg
 
 register:
   title: "Register - Persian Open-Source Software festival"
@@ -197,13 +206,3 @@ contact:
 دبیر جشنواره اوپن سورس و متن باز فارسی
 
 "
-
-team:
-  - name: Max Base
-    role: ...
-  - name: Iman mirazimi
-    role: Core team
-    image: /image/team/iman-mirazimi.jpg
-  - name: Iman mirazimi
-    role: Core team
-    image: /image/team/iman-mirazimi.jpg
