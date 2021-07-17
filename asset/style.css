@@ -1099,6 +1099,7 @@ section.profile .social svg {
 	section.content p {
 		font-size: 20px;
 		padding: 5px 20px;
+		display: table-cell;
 	}
 	section.speakers h1,
 	section.attends h2 {
@@ -1626,6 +1627,9 @@ h3.page-box-content-title {
 	h3.page-box-content-title {
 		font-size: 20px;
 	}
+	.page-box-content-padding{
+		margin-top: -50%;
+	}
 }
 
 
@@ -1984,7 +1988,7 @@ html[dir=rtl] .sponsor-box {
 	box-sizing: border-box;
   }
   
-  p {
+  .container-form {
 	display: flex;
   }
   
@@ -1999,7 +2003,7 @@ html[dir=rtl] .sponsor-box {
 	.form-Connect{
 		width: 95%;
 	}
-	p {
+	.container-form {
 	  display: block;
 	}
 	input {
