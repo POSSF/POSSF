@@ -69,10 +69,17 @@ jobs:
       - name: Get list of files in fa
         run: ls fa/
 
-      - name: Move asset from subdirectory
+      - name: Move required files from subdirectory
         run: |
           mv en/asset .
           rm -rf fa/build
+          rm en/index.txt
+          mv en/robots.txt .
+          mv en/sitemap.xml .
+          mv en/robots.txt .
+          mv en/humans.txt .
+          mv en/LICENSE .
+          mv en/favicon.ico .
 
       - name: Commit files
         run: |
