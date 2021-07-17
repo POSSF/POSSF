@@ -48,6 +48,11 @@ jobs:
       - name: Move index.txt to index.html
         run: mv /tmp/index.txt index.html
 
+      - name: Move assets from subdirectory
+        run: |
+          mv en/assets/ .
+          rm -rf fa/assets/
+
       - name: Commit files
         run: |
           git config --local user.email "MaxBaseCode@Gmail.Com"
