@@ -1,5 +1,7 @@
 name: Jekyll Build - Deploy
 
+permissions: write-all
+
 on:
   push:
     branches:
@@ -9,13 +11,9 @@ jobs:
   publish-website: 
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - name: install checkout v2
+      uses: actions/checkout@v2
       with:
         ref: main
-    - name: Run with dest path
-      uses: helaili/jekyll-build@2.2.0
-      with:
-        target_branch: gh-pages
-        target_path: /
-        keep_history: true
-        token: ${{ secrets.MY_GITHUB_KEY }}
+    - name: 🧪 Build and deploy
+      uses: victoriadrake/jekyll-cd@master
