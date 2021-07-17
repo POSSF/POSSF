@@ -71,15 +71,20 @@ jobs:
 
       - name: Move required files from subdirectory
         run: |
-          mv en/asset .
-          rm -rf fa/build
-          rm en/index.txt
           mv en/robots.txt .
           mv en/sitemap.xml .
-          mv en/robots.txt .
           mv en/humans.txt .
           mv en/LICENSE .
           mv en/favicon.ico .
+          mv en/asset .
+
+      - name: Get list of files in en
+        run: ls en/
+
+      - name: Remove useless files in en/fa
+        run: |
+          rm -rf fa/build
+          rm en/index.txt
 
       - name: Commit files
         run: |
