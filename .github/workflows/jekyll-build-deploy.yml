@@ -37,16 +37,31 @@ jobs:
           actor: ''                  # Default is the GITHUB_ACTOR
 
       - name: Move index.txt to tmp directory in docker container
-        run: mv index.txt /tmp/
+        run: cp index.txt /tmp/
+
+      - name: Get list of files at first
+        run: ls
 
       - name: Git pull
         run: git pull
 
+      - name: Get list of files in main
+        run: ls
+
       - name: Switch to gh-pages branch
         run: git checkout gh-pages
 
+      - name: Get list of files in gh-pages
+        run: ls
+
+      - name: Git pull gh-pages branch
+        run: git pull origin gh-pages
+
       - name: Move index.txt to index.html
         run: mv /tmp/index.txt index.html
+
+      - name: Get list of files before move assets dir
+        run: ls
 
       - name: Move assets from subdirectory
         run: |
