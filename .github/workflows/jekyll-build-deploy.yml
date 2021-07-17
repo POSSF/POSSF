@@ -1,43 +1,30 @@
-name: Jekyll Deploy
-
-permissions: write-all
-
-on:
+name: Deploy to GitHub Page
+on: 
   push:
     branches:
-      # deploy on updates on main
-      - main
-  schedule:
-    # redeploy every morning to update unpublished pages
-    - cron: "0 2 * * *"
-
+      - master
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v2
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        persist-credentials: false
 
-      - name: Cache gems
-        uses: actions/cache@v1
-        with:
-          path: vendor/gems
-          key: ${{ runner.os }}-build-${{ hashFiles('**/Gemfile.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-build-
-            ${{ runner.os }}-
+    - name: Build-Jekyll
+      run: |
+        sudo apt-get install ruby-full
+        sudo gem install bundler
+        sudo bundle install
+        bundle exec jekyll build
 
-      - name: Install bundle
-        run: bundle
-
-      - name: Install jekyll
-        run: gem install jekyll
-
-      - name: Build & Deploy to GitHub Pages
-        uses: DavidS/jekyll-deploy@main
-        with:
-          source-dir: ./
-          target-branch: gh-pages
-        env:
-          JEKYLL_ENV: production
-          GH_PAGES_TOKEN: ${{ secrets.MY_GITHUB_KEY }}
+    - name: Deploy_To_GithubPage
+      uses: JamesIves/github-pages-deploy-action@3.5.9
+      with:
+        ACCESS_TOKEN: ${{ secrets.MY_GITHUB_KEY }}
+        BRANCH: gh-pages # The branch the action should deploy to.
+        FOLDER: _site # The folder the action should deploy.
+        REPOSITORY_NAME: POSSF/POSSF
+        TARGET_FOLDER: .
+        CLEAN: true # Automatically remove deleted files from the deploy branch
