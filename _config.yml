@@ -44,7 +44,7 @@ plugins:
 # https://jekyllrb.com/docs/configuration/default/
 # https://stackoverflow.com/questions/35236592/jekyll-directory-structure-changing-index-html-to-different-page
 # keep_files: ["index.html"]
-keep_files: ["index.txt", "asset"]
+keep_files: ["index.txt", "asset", "favicon.ico"]
 # exclude: ["index.html"]
 # exclude: ["cover.jpg", "docker-compose.yml", "docker-entrypoint.sh", "Dockerfile", "serve.sh"]
 # include: ["asset"]
