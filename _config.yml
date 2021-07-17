@@ -22,7 +22,7 @@
 languages: ["en", "fa"]
 default_locale_in_subfolder: true # root of website will be empty!
 # exclude_from_localizations: ["asset", "assets", "image", "javascript", "images", "css", "favicon.ico", "robots.txt", "humans.txt"]
-exclude_from_localizations: ["asset", "favicon.ico", "robots.txt", "humans.txt"]
+exclude_from_localizations: ["asset", "favicon.ico", "robots.txt", "humans.txt", "docker-compose.yml", "docker-entrypoint.sh", "Dockerfile", "LICENSE", "README.md", "serve.sh", "index.txt"]
 
 title: اولین جشنواره نرم افزار اوپن سورس فارسی
 description: "Persian Open Source Software Festival - اولین جشنواره نرم افزار آزاد و متن باز اوپن سورس فارسی − سورس کد - ورژن کنترل - مدیریت پروژه - برنامه نویسی - رایانه - کامپیوتر"
