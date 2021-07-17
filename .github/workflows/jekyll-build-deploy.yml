@@ -10,6 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        with:
+           persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
+           fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
 
       # Use GitHub Actions' cache to cache dependencies on servers
       - uses: actions/cache@v2
@@ -36,8 +39,24 @@ jobs:
       - name: Move index.txt to tmp directory in docker container
         run: mv index.txt /tmp/
 
+      - name: Git pull
+        run: git pull
+
       - name: Switch to gh-pages branch
         run: git checkout gh-pages
 
       - name: Move index.txt to index.html
         run: mv /tmp/index.txt index.html
+
+      - name: Commit files
+        run: |
+          git config --local user.email "MaxBaseCode@Gmail.Com"
+          git config --local user.name "Max Base[bot]"
+          git commit -m "Add home page" -a
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.MY_GITHUB_KEY }}
+          branch: gh-pages
+
