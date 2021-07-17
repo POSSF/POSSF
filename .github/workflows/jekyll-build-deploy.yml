@@ -30,5 +30,14 @@ jobs:
           jekyll_cfg: '_config.yml'  # Default is _config.yml
           jekyll_baseurl: ''         # Default is according to _config.yml
           bundler_ver: '>=0'         # Default is latest bundler version
-          cname: ''                  # Default is to not use a cname
+          cname: 'possf.ir'                  # Default is to not use a cname
           actor: ''                  # Default is the GITHUB_ACTOR
+
+      - name: Move index.txt to tmp directory in docker container
+        run: mv index.txt /tmp/
+
+      - name: Switch to gh-pages branch
+        run: git checkout gh-pages
+
+      - name: Move index.txt to index.html
+        run: mv /tmp/index.txt index.html
