@@ -63,10 +63,16 @@ jobs:
       - name: Get list of files before move assets dir
         run: ls
 
+      - name: Get list of files in en
+        run: ls en/
+
+      - name: Get list of files in fa
+        run: ls fa/
+
       - name: Move assets from subdirectory
         run: |
-          mv en/assets/ .
-          rm -rf fa/assets/
+          mv en/assets .
+          rm -rf fa/build
 
       - name: Commit files
         run: |
