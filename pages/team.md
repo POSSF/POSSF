@@ -82,7 +82,7 @@ title: team.title
             </div>
             <div class="team-item">
                <div class="team-info">
-                  <img class="team-img" src="{{ site.url }}/asset/image/team/sadati.jpg" alt="سید محمدمهدی ساداتی">
+                  <img class="team-img" src="{{ site.url }}/asset/image/team/sadati.jpeg" alt="سید محمدمهدی ساداتی">
                   <p class="team-name">محمدمهدی ساداتی</p>
                   <p class="team-role">وبسایت</p>
                </div>
