@@ -1947,3 +1947,66 @@ html[dir=ltr] ul.speaker-list li h3 {
 html[dir=rtl] .sponsor-box {
 	direction: rtl !important;
 }
+.form-Connect{
+	border: 1px solid #555555;
+	padding: 20px;
+	width: 50%;
+	box-sizing: border-box;
+	margin: 0 auto;
+  }
+  
+  .title{
+	font-size: 27px;
+	padding-right: 15px;
+  }
+  
+  .btn-submit-form {
+	position: relative;
+	vertical-align: top;
+	height: 40px;
+	width: 25%;
+	padding: 0;
+	font-size: 15px;
+	color: #fff;
+	text-align: center;
+	background: #4d4d4d;
+	border: 0;
+	border-bottom: 2px solid #d0d0d0;
+	cursor: pointer;
+	margin-right: 30%;
+	margin-top: 5%;
+	
+}
+  
+  input:not([type="submit"]){
+	flex: 1;
+	padding: 10px 20px;
+	box-sizing: border-box;
+  }
+  
+  p {
+	display: flex;
+  }
+  
+.text-label{
+	position: relative;
+	padding: 2%;
+}
+  .textarea{
+	 margin-top: 2%;
+  }
+  @media (max-width: 600px) {
+	.form-Connect{
+		width: 95%;
+	}
+	p {
+	  display: block;
+	}
+	input {
+	  width: 100%;
+	}
+	
+	input[type="submit"] {
+	  width: 30%;
+	}
+  }
