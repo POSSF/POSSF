@@ -1984,7 +1984,7 @@ html[dir=rtl] .sponsor-box {
 	box-sizing: border-box;
   }
   
-  p {
+  .container-form {
 	display: flex;
   }
   
@@ -1999,7 +1999,7 @@ html[dir=rtl] .sponsor-box {
 	.form-Connect{
 		width: 95%;
 	}
-	p {
+	.container-form {
 	  display: block;
 	}
 	input {
