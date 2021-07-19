@@ -1909,7 +1909,12 @@ header #header-info {
 header #header-nav {
 	margin-left: -80px;
 }
-
+@media only screen and (min-width:800px){
+	html[dir=rtl] #header-nav {
+		display: flex;
+		flex-direction: row-reverse;
+	}
+}
 /* RTL LTR */
 html[dir=ltr] h1, html[dir=ltr] h2, html[dir=ltr] h3, html[dir=ltr] h4, html[dir=ltr] h5, html[dir=ltr] h6, html[dir=ltr] p, html[dir=ltr] li {
 	direction: ltr !important;
