@@ -7,7 +7,7 @@ title: speakers.items.jadi.title
 talk: speakers.items.jadi.talk
 name: speakers.items.jadi.name
 role: speakers.items.jadi.role
-image: /asset/image/jadi_mirmirani.jpg
+image: /asset/image/jadi-mirmirani.jpg
 github: https://github.com/jadijadi/
 linkedin:
 instagram: https://instagram.com/jadijadinet
