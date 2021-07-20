@@ -1956,6 +1956,10 @@ html[dir=ltr] ul.speaker-list li h3 {
 html[dir=rtl] .sponsor-box {
 	direction: rtl !important;
 }
+html[dir=ltr] .team-grid  {
+	direction: ltr;
+}
+
 .form-Connect{
 	border: 1px solid #555555;
 	padding: 20px;
