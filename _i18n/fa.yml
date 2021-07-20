@@ -227,7 +227,7 @@ team:
       image: "/asset/image/team/umut.jpg"
     - name: "عرفان عباسی"
       role: "توسعه دهنده وب"
-      image: "/asset/image/team/erfan.jpg"
+      image: "/asset/image/team/erfan-abbasi.jpg"
 
 register:
   title: "ثبت نام - جشنوارهٔ نرم‌افزار متن‌باز فارسی"

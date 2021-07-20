@@ -210,7 +210,7 @@ team:
       image: "/asset/image/team/umut.jpg"
     - name: "Erfan Abbasi"
       role: "Front-End Developer"
-      image: "/asset/image/team/erfan.jpg"
+      image: "/asset/image/team/erfan-abbasi.jpg"
 
 register:
   title: "Register - Persian Open-Source Software festival"
