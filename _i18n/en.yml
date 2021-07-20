@@ -169,60 +169,46 @@ team:
   section_subtitle: "Festival helpers"
   section_description: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
   items:
-    person0:
-      name: "Seyyed Iman Mirazimi"
+    - name: "Seyyed Iman Mirazimi"
       role: "Founder"
       image: "/asset/image/team/iman-mirazimi.jpg"
-    person1:
-      name: "Mostafa Ahangarha"
+    - name: "Mostafa Ahangarha"
       role: "Teaser Designer"
       image: "/asset/image/team/ahangarha.jpg"
-    person2:
-      name: "Amin Akhgari"
+    - name: "Amin Akhgari"
       role: "Festival Consultantant"
       image: "/asset/image/team/alireza-babaii.jpg"
-    person3:
-      name: "Sepehr Sanaie"
+    - name: "Sepehr Sanaie"
       role: "Executor"
       image: "/asset/image/team/sanaee.jpg"
-    person4:
-      name: "Mojtaba Ebrahimi"
+    - name: "Mojtaba Ebrahimi"
       role: "Seo Optimization"
       image: "/asset/image/team/ebrahimi.jpg"
-    person5:
-      name: "Mohmmadreza Rezaee"
+    - name: "Mohmmadreza Rezaee"
       role: "Other jobs"
       image: "/asset/image/team/rezaii.jpg"
-    person6:
-      name: "MohammadAmin Dadgar"
+    - name: "MohammadAmin Dadgar"
       role: "Content Creation"
       image: "/asset/image/team/okhgari.jpg"
-    person7:
-      name: "Seyed Mohammad-Mehdi Sadati"
+    - name: "Seyed Mohammad-Mehdi Sadati"
       role: "Front-End Developer"
       image: "/asset/image/team/sadati.jpeg"
-    person8:
-      name: "Seyed Sadegh Hosseini"
+    - name: "Seyed Sadegh Hosseini"
       role: "Graphic Designer"
       image: "/asset/image/team/hoseini.jpg"
-    person9:
-      name: "HosseinAli Hosseini"
+    - name: "HosseinAli Hosseini"
       role: "Front-End Developer"
       image: "/asset/image/team/h-ali-hosseini.jpg"
-    person10:
-      name: "Farzin Firozi"
+    - name: "Farzin Firozi"
       role: "Front-End Developer"
       image: "/asset/image/team/farzin-firoozi.jpg"
-    person11:
-      name: "Alireza Babaie"
+    - name: "Alireza Babaie"
       role: "Front-End Developer"
       image: "/asset/image/team/alireza-babaii.jpg"
-    person12:
-      name: "Umut Gazi BAŞAL"
+    - name: "Umut Gazi BAŞAL"
       role: "Logo Designer"
       image: "/asset/image/team/umut.jpg"
-    person13:
-      name: "Erfan Abbasi"
+    - name: "Erfan Abbasi"
       role: "Front-End Developer"
       image: "/asset/image/team/erfan.jpg"
 
