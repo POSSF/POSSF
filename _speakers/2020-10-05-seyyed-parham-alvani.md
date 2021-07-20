@@ -7,7 +7,7 @@ title: speakers.items.parham.title
 talk: speakers.items.parham.talk
 name: speakers.items.parham.name
 role: speakers.items.parham.role
-image: /asset/image/seyyed_parham_alvani.jpg
+image: /asset/image/seyyed-parham-alvani.jpg
 github: https://github.com/1995parham
 linkedin:
 instagram:

@@ -125,7 +125,7 @@ title: team.title
             <div class="team-item">
                <div class="team-info">
                   <img class="team-img" src="{{ site.url }}/asset/image/team/erfan.jpg" alt="عرفان">
-                  <p class="team-name">عرفان</p>
+                  <p class="team-name">عرفان عباسی</p>
                   <p class="team-role">توسعه دهنده وب</p>
                </div>
             </div>
