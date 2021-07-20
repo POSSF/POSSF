@@ -49,9 +49,9 @@ Persian Open Source Software Festival
 
 [جشنواره نرم افزار منبع باز فارسی](https://possf.ir/)
 
-[جشنواره نرم افزار متن باز فارسی](https://possf.ir/)
+[جشنواره نرم افزار متن‌باز فارسی](https://possf.ir/)
 
-[نرم افزار متن باز](https://possf.ir/)
+[نرم افزار متن‌باز](https://possf.ir/)
 
 [نرم افزار منبع باز](https://possf.ir/)
 

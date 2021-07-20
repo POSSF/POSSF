@@ -25,7 +25,7 @@ default_locale_in_subfolder: true # root of website will be empty!
 exclude_from_localizations: ["asset", "asset/", "favicon.ico", "robots.txt", "humans.txt", "docker-compose.yml", "docker-entrypoint.sh", "Dockerfile", "LICENSE", "README.md", "serve.sh", "index.txt", "cover.jpg", "sitemap.xml"]
 
 title: اولین جشنواره نرم افزار متن‌باز فارسی
-description: "Persian Open Source Software Festival - اولین جشنواره نرم افزار آزاد و متن باز متن‌باز فارسی − سورس کد - ورژن کنترل - مدیریت پروژه - برنامه نویسی - رایانه - کامپیوتر"
+description: "Persian Open Source Software Festival - اولین جشنواره نرم افزار آزاد و متن‌باز متن‌باز فارسی − سورس کد - ورژن کنترل - مدیریت پروژه - برنامه نویسی - رایانه - کامپیوتر"
 #>- # this means to ignore newlines until "baseurl:"
 
 # baseurl: "" # the subpath of your site, e.g. /blog
