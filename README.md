@@ -134,13 +134,13 @@ Configuration file: /home/max/Projects/POSSF/POSSF/_config.yml
             Source: /home/max/Projects/POSSF/POSSF
        Destination: /home/max/Projects/POSSF/POSSF/_site
  Incremental build: disabled. Enable with --incremental
-      Generating... 
+      Generating...
 Building site for language: "en" to: /home/max/Projects/POSSF/POSSF/_site/en
        Jekyll Feed: Generating feed for posts
 Loading translation from file /home/max/Projects/POSSF/POSSF/_i18n/en.yml
                     ------------------------------------------------
-      Jekyll 4.2.0   Please append `--trace` to the `serve` command 
-                     for any additional information or backtrace. 
+      Jekyll 4.2.0   Please append `--trace` to the `serve` command
+                     for any additional information or backtrace.
                     ------------------------------------------------
 /home/max/.local/share/gem/ruby/3.0.0/gems/jekyll-4.2.0/lib/jekyll/convertible.rb:222:in `write': Permission denied @ rb_sysopen - /home/max/Projects/POSSF/POSSF/_site/en/404.html (Errno::EACCES)
 ```

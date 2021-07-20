@@ -74,7 +74,7 @@ body_has_image: yep
       <button data-close-button class="close-button">&times;</button>
     </div>
     <div class="modal-body">
-    <div class="group">      
+    <div class="group">
    <button class="btn-send"><span>send</span></button>
 
    <input type="email" required placeholder="Enter Your Email">
@@ -88,7 +88,7 @@ body_has_image: yep
   <div id="overlay"></div>
 </section>
 
- 
+
 <hr class="gradient">
 
 <div class="page-box-content">
