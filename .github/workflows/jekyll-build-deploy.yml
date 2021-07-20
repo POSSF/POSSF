@@ -1,0 +1,100 @@
+name: Build and Deploy to Github Pages
+
+on:
+  push:
+    branches:
+      - main  # Here source code branch is `master`, it could be other branch
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
+          fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
+
+      # Use GitHub Actions' cache to cache dependencies on servers
+      - uses: actions/cache@v2
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+
+      # Use GitHub Deploy Action to build and deploy to Github
+      - uses: jeffreytse/jekyll-deploy-action@v0.2.1
+        with:
+          provider: 'github'
+          token: ${{ secrets.MY_GITHUB_KEY }} # It's your Personal Access Token(PAT)
+          repository: ''             # Default is current repository
+          branch: 'gh-pages'         # Default is gh-pages for github provider
+          jekyll_src: './'           # Default is root directory
+          jekyll_cfg: '_config.yml'  # Default is _config.yml
+          jekyll_baseurl: ''         # Default is according to _config.yml
+          bundler_ver: '>=0'         # Default is latest bundler version
+          cname: 'possf.ir'                  # Default is to not use a cname
+          actor: ''                  # Default is the GITHUB_ACTOR
+
+      - name: Move index.txt to tmp directory in docker container
+        run: cp index.txt /tmp/
+
+      - name: Get list of files at first
+        run: ls
+
+      - name: Git pull
+        run: git pull
+
+      - name: Get list of files in main
+        run: ls
+
+      - name: Switch to gh-pages branch
+        run: git checkout gh-pages
+
+      - name: Get list of files in gh-pages
+        run: ls
+
+      - name: Git pull gh-pages branch
+        run: git pull origin gh-pages
+
+      - name: Move index.txt to index.html
+        run: mv /tmp/index.txt index.html
+
+      - name: Get list of files before move asset dir
+        run: ls
+
+      - name: Get list of files in en
+        run: ls en/
+
+      - name: Get list of files in fa
+        run: ls fa/
+
+      - name: Move required files from subdirectory
+        run: |
+          mv en/robots.txt .
+          mv en/sitemap.xml .
+          mv en/humans.txt .
+          mv en/LICENSE .
+          mv en/favicon.ico .
+          mv en/asset .
+
+      - name: Get list of files in en
+        run: ls en/
+
+      - name: Remove useless files in en/fa
+        run: |
+          rm -rf fa/build
+          rm en/index.txt
+
+      - name: Commit files
+        run: |
+          git config --local user.email "MaxBaseCode@Gmail.Com"
+          git config --local user.name "Max Base[bot]"
+          git add .
+          git commit -m "Update build / add home page" -a
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.MY_GITHUB_KEY }}
+          branch: gh-pages
