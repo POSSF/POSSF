@@ -185,6 +185,63 @@ team:
   section_title: "دست اندرکاران جشنواره متن‌باز فارسی"
   section_subtitle: "یاری‌ دهندگان جشنواره"
   section_description: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+  items:
+    person0:
+      name: "سید ایمان میرعظیمی"
+      role: "دبیر اجرایی"
+      image: "/asset/image/team/iman-mirazimi.jpg"
+    person1:
+      name: "مصطفی آهنگرها"
+      role: "طراح تیزر"
+      image: "/asset/image/team/ahangarha.jpg"
+    person2:
+      name: "امین اخگری"
+      role: "مشاور جشنواره"
+      image: "/asset/image/team/alireza-babaii.jpg"
+    person3:
+      name: "سپهر صناعی"
+      role: "مجری"
+      image: "/asset/image/team/sanaee.jpg"
+    person4:
+      name: "مجتبی ابراهیمی"
+      role: "سئو و بهینه سازی"
+      image: "/asset/image/team/ebrahimi.jpg"
+    person5:
+      name: "محمد رضا رضایی"
+      role: "کمک برای امور متفرقه"
+      image: "/asset/image/team/rezaii.jpg"
+    person6:
+      name: "محمد امین دادگر"
+      role: "تولید محتوا"
+      image: "/asset/image/team/okhgari.jpg"
+    person7:
+      name: "سید محمدمهدی ساداتی"
+      role: "وبسایت"
+      image: "/asset/image/team/sadati.jpeg"
+    person8:
+      name: "سید صادق حسینی"
+      role: "توسعه دهنده وب"
+      image: "/asset/image/team/hoseini.jpg"
+    person9:
+      name: "حسین علی حسینی"
+      role: "توسعه دهنده وب"
+      image: "/asset/image/team/h-ali-hosseini.jpg"
+    person10:
+      name: "فرزین فیروزی"
+      role: "توسعه دهنده وب"
+      image: "/asset/image/team/farzin-firoozi.jpg"
+    person11:
+      name: "علیرضا بابایی"
+      role: "توسعه دهنده وب"
+      image: "/asset/image/team/alireza-babaii.jpg"
+    person12:
+      name: "Umut Gazi BAŞAL"
+      role: "طراح لوگو"
+      image: "/asset/image/team/umut.jpg"
+    person13:
+      name: "عرفان عباسی"
+      role: "توسعه دهنده وب"
+      image: "/asset/image/team/erfan.jpg"
 
 register:
   title: "ثبت نام - جشنوارهٔ نرم‌افزار متن‌باز فارسی"
