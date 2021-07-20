@@ -122,6 +122,13 @@ title: team.title
                   <p class="team-role">Logo Designer</p>
                </div>
             </div>
+            <div class="team-item">
+               <div class="team-info">
+                  <img class="team-img" src="{{ site.url }}/asset/image/team/erfan.jpg" alt="عرفان">
+                  <p class="team-name">عرفان</p>
+                  <p class="team-role">توسعه دهنده وب</p>
+               </div>
+            </div>
          </div>
       </div>
    </div>
