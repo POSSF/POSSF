@@ -1991,9 +1991,14 @@ html[dir=rtl] .sponsor-box {
   .textarea{
 	 margin-top: 2%;
   }
-  @media (max-width: 600px) {
+  @media (max-width: 700px) {
 	.form-Connect{
 		width: 95%;
+		margin-right: 25px;
+	}
+	.page-box-content-connect{
+		display: -webkit-inline-box;
+        text-align: center;
 	}
 	.container-form {
 	  display: block;
