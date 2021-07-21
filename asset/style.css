@@ -1580,7 +1580,17 @@ img {
 	width: 85%;
 	margin: auto;
 }
-
+.page-box-content-post{
+	margin: auto;
+    position: relative;
+    margin-top: 45px;
+    text-align: center;
+}
+@media only screen and (max-width:700px){
+	.page-box-content-post{
+		margin-top: 180px;
+	}
+}
 .page-box-content-padding {
 
 }
