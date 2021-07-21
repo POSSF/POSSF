@@ -20,7 +20,7 @@ title: team.title
       </a>
    </div>
 
-   <div class="page-box-content">
+   <div class="page-box-content team-container">
       <div class="page-box-content-padding">
          <h1 class="page-box-content-title">{% t team.section_title %}</h1>
          <h2 class="page-box-content-title">{% t team.section_subtitle %}</h2>

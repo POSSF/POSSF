@@ -1764,6 +1764,12 @@ h3.page-box-content-title {
 	transform: translateX(-50%);
 }
 
+@media only screen and (max-width:700px){
+	.team-container{
+		margin-top: 40%;
+	}
+}
+
 .team-center .team-img-box {
 	/*width: 25%;*/
 }
