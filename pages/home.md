@@ -91,7 +91,7 @@ body_has_image: yep
  
 <hr class="gradient">
 
-<div class="page-box-content">
+<div class="page-box-content page-box-content-post">
    <div class="page-box-content-padding">
       <br>
       <center>
