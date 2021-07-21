@@ -577,23 +577,18 @@ section.content p {
 }
 
 .sponsor-box {
-	width: 90%;
-	padding: 35px;
-	margin: auto;
-	display: grid;
-	/*grid-template-columns: repeat(4, 1fr);*/
-	grid-template-columns: repeat(5, 1fr);
-	/*grid-template-rows: repeat(5, 200px);*/
-	direction: ltr;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: center;
+	align-items: center;
+	padding-bottom: 175px;
 }
 
 .inner-grid {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 80%;
-	height: 190px;
-	margin: auto;
+	width: 22%;
+    height: 90px;
 }
 
 .inner-grid a {
@@ -1049,20 +1044,12 @@ section.profile .social svg {
 	section.content p {
 		padding: 5px 15px;
 	}
-	.sponsor-box {
-		grid-template-columns: repeat(4, 1fr);
-		/*grid-template-rows: repeat(auto, 200px);*/
-	}
 	section.speakers h1 {
 		font-size: 60px;
 	}
 }
 
 @media screen and (max-width:992px) {
-	.sponsor-box {
-		grid-template-columns: repeat(3, 1fr);
-		/*grid-template-rows: repeat(auto, 1fr);*/
-	}
 	nav {
 		display: none;
 	}
@@ -1090,8 +1077,7 @@ section.profile .social svg {
 
 @media screen and (max-width:768px) {
 	.sponsor-box {
-		grid-template-columns: repeat(2, 1fr);
-		/*grid-template-rows: repeat(auto, 1fr);*/
+		padding-bottom: 45px;
 	}
 	section.content h1 {
 		font-size: 40px;
@@ -1117,10 +1103,6 @@ section.profile .social svg {
 
 
 @media screen and (max-width:350px) {
-	.sponsor-box {
-		grid-template-columns: 1fr;
-		/*grid-template-rows: repeat(auto, 1fr);*/
-	}
 	section.content h1 {
 		font-size: 40px;
 	}
@@ -1598,7 +1580,17 @@ img {
 	width: 85%;
 	margin: auto;
 }
-
+.page-box-content-post{
+	margin: auto;
+    position: relative;
+    margin-top: 45px;
+    text-align: center;
+}
+@media only screen and (max-width:700px){
+	.page-box-content-post{
+		margin-top: 180px;
+	}
+}
 .page-box-content-padding {
 
 }
@@ -1825,7 +1817,7 @@ header nav.active li {
 	}
 }
 
-@media only screen and (max-width:700px){
+@media only screen and (max-width:850px){
 	.attends-box{
 		display: flex;
 		flex-wrap: wrap;
@@ -2008,9 +2000,14 @@ html[dir=ltr] .team-grid  {
   .textarea{
 	 margin-top: 2%;
   }
-  @media (max-width: 600px) {
+  @media (max-width: 700px) {
 	.form-Connect{
 		width: 95%;
+		margin-right: 25px;
+	}
+	.page-box-content-connect{
+		display: -webkit-inline-box;
+        text-align: center;
 	}
 	.container-form {
 	  display: block;
