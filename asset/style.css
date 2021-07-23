@@ -249,6 +249,7 @@ section.updates {
 	padding-top: 45px;
 	padding-bottom: 45px;
 	color: #B5BFD2;
+	border: none;
 }
 
 section.updates p.signup-text {
@@ -578,12 +579,9 @@ section.content p {
 
 .sponsor-box {
 	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	align-content: center;
-	align-items: center;
-	padding-bottom: 175px;
+    flex-flow: row wrap;
+    align-items: flex-end;
+    place-content: space-between center;
 }
 
 .inner-grid {
@@ -1078,7 +1076,7 @@ section.profile .social svg {
 
 @media screen and (max-width:768px) {
 	.sponsor-box {
-		padding-bottom: 45px;
+		/* padding-bottom: 45px; */
 	}
 	section.content h1 {
 		font-size: 40px;
