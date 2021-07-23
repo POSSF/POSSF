@@ -572,9 +572,10 @@ section.content p {
 .grid-attends h4 {
 	padding: 5px;
 	font-size: 25px;
-	background: linear-gradient(87.54deg, #9867F0 -6.8%, #ED4E50 84.14%);
+	background: linear-gradient(87.54deg, #BAB0CC -6.8%, #E4CECE 84.14%);
+	background-clip: border-box;
 	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	-webkit-text-fill-color: #e7dbdb00;
 }
 
 .sponsor-box {
