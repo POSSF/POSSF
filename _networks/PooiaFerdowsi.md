@@ -1,18 +1,39 @@
 ---
 layout: network
-permalink: /network/your-github-username-without-space/ <!-- GITHUB-USERNAME -->
-name: Your full name
-github: your-github-username
-website: http://site.org/ <!-- LINK TO YOUR WEBSITE or link of a Social network -->
-email: your-email@gmail.com
-instagram: <!-- LEAVE EMPTY OR PUT LINK TO YOUR PROFILE -->
-twitter: <!-- LEAVE EMPTY OR PUT LINK TO YOUR PROFILE -->
-linkedin: <!-- LEAVE EMPTY OR PUT LINK TO YOUR PROFILE -->
-facebook: <!-- LEAVE EMPTY OR PUT LINK TO YOUR PROFILE -->
+permalink: /network/PooiaFerdowsi/
+name: Pooia Ferdowsi
+github: PooiaFerdowsi
+website: <https://pooiaferdowsi.github.io>
+email: pooia.ferdowsi.is.developer@gmail.com
+instagram:
+twitter:
+linkedin: <https://www.linkedin.com/in/pooia-ferdowsi-41954820a/>
+facebook:
 country: Iran
-location: Isfahan
-role: Web Developer
-languages: c php js css3 html5 <!-- YOU SHOULDN'T USE SPACE IN THE NAME OF THE PROGRAMMING LANGUAGE -->
+location: Mashhad
+role: 
+languages: c c++ php html5 <!-- YOU SHOULDN'T USE SPACE IN THE NAME OF THE PROGRAMMING LANGUAGE -->
 ---
 
 A short biography and a short text about your technical skills.
+
+I'm a junior programmer with about 3 years of programming and 1 year advanced programming!
+
+I'm interest in (I learn them):
+
+* Low-level
+..+ Assembly
+  + Operating Systems
+  + Computer Design
+  + MicroControl Design
+* programming languages
+..+ I've learning
+  ..- Ruby
+  ..- C++
+  ..- HTML/CSS
+  ..- Assembly
+  
+..+ I've programming
+  ..- Python
+  ..- C
+* Compilers
