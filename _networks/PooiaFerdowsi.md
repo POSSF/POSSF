@@ -3,8 +3,8 @@ layout: network
 permalink: /network/PooiaFerdowsi/
 name: Pooia Ferdowsi
 github: PooiaFerdowsi
-website: <https://pooiaferdowsi.github.io>
-email: pooia.ferdowsi.is.developer@gmail.com
+website: https://pooiaferdowsi.github.io
+email: mailto:pooia.ferdowsi.is.developer@gmail.com
 instagram:
 twitter:
 linkedin: <https://www.linkedin.com/in/pooia-ferdowsi-41954820a/>
@@ -12,7 +12,7 @@ facebook:
 country: Iran
 location: Mashhad
 role: 
-languages: c c++ php html5 <!-- YOU SHOULDN'T USE SPACE IN THE NAME OF THE PROGRAMMING LANGUAGE -->
+languages: c c++ php html5
 ---
 
 A short biography and a short text about your technical skills.
@@ -28,12 +28,12 @@ I'm interest in (I learn them):
   + MicroControl Design
 * programming languages
 ..+ I've learning
-  ..- Ruby
-  ..- C++
-  ..- HTML/CSS
-  ..- Assembly
+....- Ruby
+....- C++
+....- HTML/CSS
+....- Assembly
   
 ..+ I've programming
-  ..- Python
-  ..- C
+....- Python
+....- C
 * Compilers
