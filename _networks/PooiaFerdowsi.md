@@ -27,7 +27,7 @@ I'm interest in (I learn them):
   + Computer Design
   + MicroControl Design
 * programming languages
-..- C++
+  - C++
   - HTML/CSS
   - Assembly
   - Python
