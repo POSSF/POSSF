@@ -15,14 +15,12 @@ role:
 languages: c c++ php html5
 ---
 
-A short biography and a short text about your technical skills.
-
 I'm a junior programmer with about 3 years of programming and 1 year advanced programming!
 
 I'm interest in (I learn them):
 
 * Low-level
-..+ Assembly
+  + Assembly
   + Operating Systems
   + Computer Design
   + MicroControl Design
