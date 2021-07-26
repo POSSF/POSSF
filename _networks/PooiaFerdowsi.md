@@ -27,13 +27,9 @@ I'm interest in (I learn them):
   + Computer Design
   + MicroControl Design
 * programming languages
-..+ I've learning
-..  - Ruby
 ..  - C++
-..  - HTML/CSS
-..  - Assembly
-  
-..+ I've programming
-..  - Python
-..  - C
+    - HTML/CSS
+    - Assembly
+    - Python
+    - C
 * Compilers
