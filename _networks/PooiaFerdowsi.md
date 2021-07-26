@@ -28,12 +28,12 @@ I'm interest in (I learn them):
   + MicroControl Design
 * programming languages
 ..+ I've learning
-....- Ruby
-....- C++
-....- HTML/CSS
-....- Assembly
+..  - Ruby
+..  - C++
+..  - HTML/CSS
+..  - Assembly
   
 ..+ I've programming
-....- Python
-....- C
+..  - Python
+..  - C
 * Compilers
