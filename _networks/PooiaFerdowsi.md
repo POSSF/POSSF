@@ -11,7 +11,7 @@ linkedin: <https://www.linkedin.com/in/pooia-ferdowsi-41954820a/>
 facebook:
 country: Iran
 location: Mashhad
-role: 
+role:
 languages: c c++ php html5
 ---
 

@@ -10,7 +10,7 @@ twitter: https://twitter.com/limitless_aarmn
 country: Iran
 location: Rasht
 role: System Developer, Automation, DevOps
-languages: python Cpp bash powershell V C 
+languages: python Cpp bash powershell V C
 ---
 
-I love creation and automation, Python developer, Schedule anarchist, a beginner with big wishes 
+I love creation and automation, Python developer, Schedule anarchist, a beginner with big wishes
