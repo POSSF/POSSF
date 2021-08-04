@@ -1,18 +1,17 @@
 ---
 layout: network
-permalink: /network/abd-ar/ <!-- GITHUB-USERNAME -->
+permalink: /network/abd-ar/
 name: Abd Ar
 github: abd-ar
-website: https://abd-ar.github.io/ <!-- LINK TO YOUR WEBSITE or link of a Social network -->
+website: https://abd-ar.github.io/
 email: abd-ar@gmail.com
-instagram: <!-- LEAVE EMPTY OR PUT LINK TO YOUR PROFILE -->
 twitter: https://twitter.com/abd_ink
-linkedin: <!-- LEAVE EMPTY OR PUT LINK TO YOUR PROFILE -->
-facebook: <!-- LEAVE EMPTY OR PUT LINK TO YOUR PROFILE -->
 country: Pakistan
 location: ATD
 role: Web and app Developer
-languages: js css3 html5 <!-- YOU SHOULDN'T USE SPACE IN THE NAME OF THE PROGRAMMING LANGUAGE -->
+languages: js css3 html5
 ---
 
-A short biography and a short text about your technical skills.
+I’m a Student, Developer, Learner and Graphic Designer.
+I’m interested in Web & App Development.
+I’m currently learning Flutter, React Native & Python.
