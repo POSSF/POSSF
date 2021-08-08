@@ -15,6 +15,7 @@
 			body {
 				font-family: "Vazir", "Open Sans";
 				background-image: url('asset/background.jpg');
+				background-position: right top;
 				background-size: cover;
 				background-attachment: fixed;
 				background-repeat: no-repeat;
