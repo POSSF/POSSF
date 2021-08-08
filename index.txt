@@ -4,50 +4,77 @@
 		<meta charset="utf-8">
 		<title>Persian Open-Source Software Festival - جشنوارهٔ نرم‌افزار متن‌باز فارسی</title>
 		<link rel="shortcut icon" href="favicon.ico">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!-- <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v27.0.2/dist/font-face.css"> -->
 		<link type="text/css" rel="stylesheet" href="asset/font.css">
 		<style type="text/css">
-		* {
-			padding: 0;
-			margin: 0;
-		}
-		body {
-			font-family: "Vazir", "Open Sans";
-			background-image: url('asset/background.jpg');
-		    background-size: cover;
-            background-attachment:fixed;
-			background-repeat: no-repeat;
-			background-color: #141824;
-			width:100%;
-			height: 100%;
-			margin: 0;
-            padding: 0;
-		}
-		#container {
-			width: 50%;
-			margin-left: 250px;
-			margin-top: 330px;
-		}
-		@media (max-width: 1011px) {
-			body {
-				/*margin-top: -250px;*/
+			* {
+				padding: 0;
+				margin: 0;
 			}
-		}
-		a {
-			text-decoration: none;
-		}
-		.button {
-			border-radius: 3px;
-			background-color: transparent;
-			color: white;
-			border: 1px solid white;
-			padding: 10px;
-			margin: 5px;
-		}
-		.button:hover {
-			background-color: black;
-			color: white;
-		}
+			body {
+				font-family: "Vazir", "Open Sans";
+				background-image: url('asset/background.jpg');
+				background-size: cover;
+				background-attachment: fixed;
+				background-repeat: no-repeat;
+				background-color: #141824;
+				width: 100vw;
+				height: 100vh;
+				overflow-x: hidden;
+			}
+			a {
+				text-decoration: none;
+			}
+
+
+			@media only screen and (min-width: 766px) {
+				#container {
+					width: 100%;
+					height: 100vh;
+					margin-left: 10em;
+					display: flex;
+					justify-content: flex-start;
+					align-items: center;
+				}
+			}
+
+			@media only screen and (min-width: 556px) and (max-width: 765px){
+				#container{
+					width: 100%;
+					height: 100vh;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					margin-left: 0 ;
+				}
+			}
+
+			@media only screen and (max-width: 555px) {
+				#container{
+					width: 100vw;
+					height: 100vh;
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					align-items: center;
+					margin-left: 0 !important;
+				}
+			}
+
+			.button {
+				display: inline-block;
+				border-radius: 3px;
+				background-color: transparent;
+				color: white;
+				border: 1px solid white;
+				padding: 10px;
+				margin: 5px;
+			}
+			.button:hover {
+				background-color: black;
+				color: white;
+			}
 		</style>
 	</head>
 	<body>
