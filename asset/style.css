@@ -503,7 +503,7 @@ section.content {
 	width: 100%;
 	min-height: 88vh;
 	background-image: url('../asset/pattern-light.svg');
-	/*background-color: #040303;*/
+	/* background-color: #040303; */
 	background-position: center;
 	background-attachment: cover;
 	background-repeat: no-repeat;
@@ -1080,7 +1080,7 @@ section.profile .social svg {
 		/* padding-bottom: 45px; */
 	}
 	section.content h1 {
-		font-size: 40px;
+		font-size: 2.4em;
 	}
 	section.content p {
 		font-size: 20px;
@@ -1620,7 +1620,7 @@ h3.page-box-content-title {
 		font-size: 20px;
 	}
 	.page-box-content-padding{
-		margin-top: -50%;
+		margin-top: -20%;
 	}
 }
 
