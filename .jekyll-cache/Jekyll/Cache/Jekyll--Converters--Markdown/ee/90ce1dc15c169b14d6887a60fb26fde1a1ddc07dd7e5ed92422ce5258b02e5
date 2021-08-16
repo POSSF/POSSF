@@ -1,0 +1,230 @@
+I"F$<section class="content main-first-section page-box-content">
+   <div class="page-box-content-padding top-content-txt">
+      <h1 class="gradient-text main-title">جشنواره متن‌باز فارسی</h1>
+      <p>
+         برای اولین بار جشنواره‌ای در سطح کشوری و بین المللی اجرا شده است که به فارسی زبان‌هایی که به جامعه متن‌باز و متن‌باز کمک می‌کنند و در این راه مشارکت می‌کنند هدیه و جوایزی اهدا می‌کند.
+         <a class="underline" href="/fa/register/">ثبت‌نام در جشنواره</a>
+      </p>
+      <br />
+      <a href="/fa/register/" class="button">عضویت</a>
+   </div>
+</section>
+
+<hr class="gradient" />
+
+<section class="speakers">
+   <h1>سخنران های کلیدی جشنواره متن‌باز</h1>
+   <ul class="speaker-list">
+      
+         <li>
+            <a href="/fa/speakers/jadi-mirmirani/">
+               <img src="/asset/image/jadi-mirmirani.jpg" alt="جادی میرمیرانی" />
+               <h3>فلسفه و تاریخ نرم افزار متن‌باز</h3>
+               <h4>جادی میرمیرانی</h4>
+               <h5>هکر خندون، برنامه نویس خوشحال، مدیرسیستم</h5>
+            </a>
+         </li>
+      
+         <li>
+            <a href="/fa/speakers/max-base/">
+               <img src="/asset/image/max-base.jpg" alt="مکس بیس" />
+               <h3>چرا باید در پروژه های متن‌باز مشارکت کنید؟</h3>
+               <h4>مکس بیس</h4>
+               <h5>مهندس نرم افزار و توسعه دهنده گیت هاب</h5>
+            </a>
+         </li>
+      
+         <li>
+            <a href="/fa/speakers/seyyed-parham-alvani/">
+               <img src="/asset/image/seyyed-parham-alvani.jpg" alt="سید پرهام الوانی" />
+               <h3>گیت، گو</h3>
+               <h4>سید پرهام الوانی</h4>
+               <h5>دانشجوی دکتری، مهندس نرم افزار شرکت اسنپ</h5>
+            </a>
+         </li>
+      
+         <li>
+            <a href="/fa/speakers/john-bampton/">
+               <img src="/asset/image/john-bampton.jpg" alt="جان باپتون" />
+               <h3>آزادی، نرم افزار GNU و تیم سازی</h3>
+               <h4>جان باپتون</h4>
+               <h5>رهبر تیم، مهندس روابط توسعه دهندگان</h5>
+            </a>
+         </li>
+      
+   </ul>
+</section>
+
+<section class="attends">
+   <h2>چرا در جشنواره شرکت کنیم؟</h2>
+   <div class="attends-box">
+      <div class="grid-attends">
+         <h4>از بهترین ها بیاموزید</h4>
+         <p>سه کانال محتوای اختصاص داده شده به توسعه دهندگان ، تیم های سازمانی و دانشجویان.</p>
+      </div>
+      <div class="grid-attends">
+         <h4>جدیدترین ها را دریافت کنید</h4>
+         <p>اعلامیه محصولات جدید و غواصی های عمیق.</p>
+      </div>
+      <div class="grid-attends">
+         <h4>به فراتر از محتوا وصل شوید</h4>
+         <p>فرصت های شبکه سازی و یادگیری ، از کارگاه ها گرفته تا جلسات مربیگری.</p>
+      </div>
+      <div class="grid-attends">
+         <h4>در طول راه از آن لذت ببرید</h4>
+         <p>اجراهای موسیقی با الهام از کد و چند شگفتی دیگر در آینده!</p>
+      </div>
+   </div>
+</section>
+
+<hr class="gradient" />
+
+<section class="subscribe">
+   <p>
+      ما هر روز سخنران های بیشتری اضافه میکنیم!<br />مشترک شوید تا از هر گونه بروزرسانی باخبر شوید.
+   </p>
+   <br />
+   <div class="reg-btn sub-btn-size">
+  <a data-modal-target="#modal" class="button">
+  مشترک شدن</a>
+   </div>
+    <div class="modal" id="modal">
+    <div class="modal-header">
+      <div class="title">Subscribe Email</div>
+      <button data-close-button="" class="close-button">&times;</button>
+    </div>
+    <div class="modal-body">
+    <div class="group">
+   <button class="btn-send"><span>send</span></button>
+
+   <input type="email" required="" placeholder="Enter Your Email" />
+   <!-- <button class="btn-send">send</button> -->
+   <span class="highlight"></span>
+   <span class="bar"></span>
+   <label>Email</label>
+   </div>
+    </div>
+  </div>
+  <div id="overlay"></div>
+</section>
+
+<hr class="gradient" />
+
+<div class="page-box-content page-box-content-post">
+   <div class="page-box-content-padding">
+      <br />
+      <center>
+         <h2 class="page-box-content-title">اسامی مطالب اخیر</h2>
+      </center>
+      <br />
+      <ul class="post-list">
+         <li>
+            <h2>
+               <a class="post-link" href="/fa/post/" title="متن‌باز، یک دروغ تجاری قابل باور">متن‌باز، یک دروغ تجاری قابل باور</a>
+            </h2>
+            <span>
+               <p>دوست عزیز ما بابک مقیمی مقاله ای در مورد آزادراه منتشر کرده است که می تواند نقطه شروع خوبی برای یک مقاله کامل در مورد منبع آزاد و رویکردهای اجتماعی...</p>
+            </span>
+         </li>
+         <li>
+            <h2>
+               <a class="post-link" href="/fa/post/" title="اهدف جشنواره نرم افزار آزاد/متن‌باز فارسی">اهدف جشنواره نرم افزار آزاد/متن‌باز فارسی</a>
+            </h2>
+            <span>
+               <p>در این مطلب اهداف جشنواره متن‌باز و چشم انداز های جشنواره نرم افزار آزاد را توضیح میدهیم و می خواهیم شفاف سازی های لازم را انجام دهیم.</p>
+            </span>
+         </li>
+         <li>
+            <h2>
+               <a class="post-link" href="/fa/post/" title="سلام دنیا - جشنواره متن‌باز فارسی">سلام دنیا - جشنواره متن‌باز فارسی</a>
+            </h2>
+            <span>
+               <p>سلام دنیا، عبارتی است که اصولا برنامه نویس ها و کاربران رایانه ها در اولین تجربه خود با زبان های برنامه نویسی آن را بیان می کنند. این بار از...</p>
+            </span>
+         </li>
+      </ul>
+      <br /><br />
+   </div>
+</div>
+
+<hr class="gradient" />
+
+<section class="sponsors">
+   <h4>از حامیان مالی خود تشکر می کنیم</h4>
+   <div class="sponsor-box">
+      
+      <div class="inner-grid">
+         <a>
+            <img src="https://githubuniverse.com/assets/img/sponsors/zenhub.svg" alt="Name 6" />
+         </a>
+      </div>
+      
+      <div class="inner-grid">
+         <a>
+            <img src="https://githubuniverse.com/assets/img/sponsors/Accurics_Monochromatic_Logo%20(1).png" alt="Name 7" />
+         </a>
+      </div>
+      
+      <div class="inner-grid">
+         <a>
+            <img src="https://githubuniverse.com/assets/img/sponsors/Intuit_Logo.svg" alt="Name 8" />
+         </a>
+      </div>
+      
+      <div class="inner-grid">
+         <a>
+            <img src="https://githubuniverse.com/assets/img/sponsors/circle-logo-horizontal-white-1200x341%20(1).svg" alt="Name 9" />
+         </a>
+      </div>
+      
+      <div class="inner-grid">
+         <a>
+            <img src="https://githubuniverse.com/assets/img/sponsors/Intel_logo-white-3000px.png" alt="Name 10" />
+         </a>
+      </div>
+      
+      <div class="inner-grid">
+         <a>
+            <img src="https://githubuniverse.com/assets/img/sponsors/stackpulse_white_lockup.png" alt="Name 11" />
+         </a>
+      </div>
+      
+      <div class="inner-grid">
+         <a>
+            <img src="https://githubuniverse.com/assets/img/sponsors/scw_white_h_R.svg" alt="Name 12" />
+         </a>
+      </div>
+      
+      <div class="inner-grid">
+         <a>
+            <img src="https://githubuniverse.com/assets/img/sponsors/Lightsteplogo-medium-white.png" alt="Name 13" />
+         </a>
+      </div>
+      
+      <div class="inner-grid">
+         <a>
+            <img src="https://githubuniverse.com/assets/img/sponsors/HashiCorp_PrimaryLogo_White_RGB.png" alt="Name 14" />
+         </a>
+      </div>
+      
+      <div class="inner-grid">
+         <a>
+            <img src="https://githubuniverse.com/assets/img/sponsors/Sauce-Labs_Vert_White_RGB.svg" alt="Name 15" />
+         </a>
+      </div>
+      
+      <div class="inner-grid">
+         <a>
+            <img src="https://githubuniverse.com/assets/img/sponsors/Contrast_Security%20Logo%20(white).svg" alt="Name 16" />
+         </a>
+      </div>
+      
+   </div>
+   <p>مایل به  <a class="underline" href="/fa/contact/">پشتیبانی</a>  از جشنواره متن‌باز فارسی هستید؟</p>
+   <br />
+   <div class="reg-btn connect-btn-size">
+      <a href="/fa/contact/" class="button">تماس با ما</a>
+   </div>
+</section>
+
+:ET
