@@ -186,6 +186,9 @@ team:
   section_subtitle: "یاری‌ دهندگان جشنواره"
   section_description: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
   items:
+    - name: "سید ایمان میرعظیمی"
+      role: "دبیر جشنواره"
+      image: "/asset/image/team/iman-mirazimi.jpg"
     - name: "مصطفی آهنگرها"
       role: "طراح تیزر"
       image: "/asset/image/team/ahangarha.jpg"
