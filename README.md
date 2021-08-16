@@ -91,6 +91,7 @@ $ gem install jekyll
 $ gem install jekyll-sitemap
 $ gem install jekyll-target-blank
 ```
+
 #### Running and serve website
 
 ```
@@ -113,6 +114,7 @@ Configuration file: /home/max/OpenSource/POSSF-Web/_config.yml
 ### WARNING:  You don't have /home/max/.gem/ruby/2.7.0/bin in your PATH,
 
 If you face to similar warning/error:
+
 ```
 WARNING:  You don't have /home/max/.gem/ruby/2.7.0/bin in your PATH,
     gem executables will not run.
@@ -126,6 +128,7 @@ Try this:
 nano ~/.bashrc
 export PATH="$HOME/.gem/ruby/2.7.0/bin:$PATH"
 ```
+
 ### convertible.rb:222:in `write': Permission denied @ rb_sysopen
 
 ```
