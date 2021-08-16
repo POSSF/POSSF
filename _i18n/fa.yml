@@ -225,9 +225,6 @@ team:
     - name: "عرفان عباسی"
       role: "توسعه دهنده وب"
       image: "/asset/image/team/erfan-abbasi.jpg"
-    - name: "سید ایمان میرعظیمی"
-      role: "خائن"
-      image: "/asset/image/team/iman-mirazimi.jpg"
 
 register:
   title: "ثبت نام - جشنوارهٔ نرم‌افزار متن‌باز فارسی"
