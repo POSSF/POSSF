@@ -169,6 +169,9 @@ team:
   section_subtitle: "Festival helpers"
   section_description: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
   items:
+    - name: "Seyyed Iman Mirazimi"
+      role: "Co-founder"
+      image: "/asset/image/team/iman-mirazimi.jpg"
     - name: "Mostafa Ahangarha"
       role: "Promo Video creator"
       image: "/asset/image/team/ahangarha.jpg"
