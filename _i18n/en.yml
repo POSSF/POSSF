@@ -210,9 +210,6 @@ team:
     - name: "Erfan Abbasi"
       role: "Front-End Developer"
       image: "/asset/image/team/erfan-abbasi.jpg"
-    - name: "Seyyed Iman Mirazimi"
-      role: "Betrayer"
-      image: "/asset/image/team/iman-mirazimi.jpg"
 
 register:
   title: "Register - Persian Open-Source Software festival"
