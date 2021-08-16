@@ -169,9 +169,6 @@ team:
   section_subtitle: "Festival helpers"
   section_description: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
   items:
-    - name: "Seyyed Iman Mirazimi"
-      role: "Betrayer"
-      image: "/asset/image/team/iman-mirazimi.jpg"
     - name: "Mostafa Ahangarha"
       role: "Promo Video creator"
       image: "/asset/image/team/ahangarha.jpg"
@@ -213,6 +210,9 @@ team:
     - name: "Erfan Abbasi"
       role: "Front-End Developer"
       image: "/asset/image/team/erfan-abbasi.jpg"
+    - name: "Seyyed Iman Mirazimi"
+      role: "Betrayer"
+      image: "/asset/image/team/iman-mirazimi.jpg"
 
 register:
   title: "Register - Persian Open-Source Software festival"
