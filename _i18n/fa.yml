@@ -189,9 +189,6 @@ team:
     - name: "مصطفی آهنگرها"
       role: "طراح تیزر"
       image: "/asset/image/team/ahangarha.jpg"
-    - name: "سید ایمان میرعظیمی"
-      role: "خائن"
-      image: "/asset/image/team/iman-mirazimi.jpg"
     - name: "امین اخگری"
       role: "مشاور جشنواره"
       image: "/asset/image/team/alireza-babaii.jpg"
@@ -228,6 +225,9 @@ team:
     - name: "عرفان عباسی"
       role: "توسعه دهنده وب"
       image: "/asset/image/team/erfan-abbasi.jpg"
+    - name: "سید ایمان میرعظیمی"
+      role: "خائن"
+      image: "/asset/image/team/iman-mirazimi.jpg"
 
 register:
   title: "ثبت نام - جشنوارهٔ نرم‌افزار متن‌باز فارسی"
