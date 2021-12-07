@@ -11,4 +11,4 @@ role: android developer
 languages: Java Kotlin Dart Python PHP
 ---
 
-@github developer maintainer. Full-Time Open-Sourcerer. Full-stack programmer. In the path of a real computer engineer... (Compiler enthusiast)
+just an Android developer :)
