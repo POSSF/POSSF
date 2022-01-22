@@ -4,10 +4,10 @@ name: Sushant Adhikari
 github: SushantAdh07
 website: https://sushantadh07.github.io/ <!-- LINK TO YOUR WEBSITE or link of a Social network -->
 email: sushantadhikari2075@gmail.com
-instagram: <!-- LEAVE EMPTY OR PUT LINK TO YOUR PROFILE -->
-twitter: <!-- LEAVE EMPTY OR PUT LINK TO YOUR PROFILE -->
-linkedin: <!-- LEAVE EMPTY OR PUT LINK TO YOUR PROFILE -->
-facebook: <!-- LEAVE EMPTY OR PUT LINK TO YOUR PROFILE -->
+instagram:
+twitter:
+linkedin:
+facebook:
 country: Nepal
 location: Kathmandu
 role: Front End contributor
