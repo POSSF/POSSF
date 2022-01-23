@@ -8,6 +8,5 @@ email: hfl@outlook.sa
 country: SA
 location: SA
 role: SWE
-languages: JavaScript Css Cs Python HTML5 CSS SCSS SASS VUE 
+languages: JavaScript Css Cs Python HTML5 CSS SCSS SASS VUE
 ---
-
