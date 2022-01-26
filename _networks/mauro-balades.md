@@ -1,18 +1,18 @@
 ---
 layout: network
-permalink: /network/mauro-balades/ <!-- GITHUB-USERNAME -->
+permalink: /network/mauro-balades/
 name: Mauro Baladés
 github: mauro-balades
-website: http://maucode.com/ <!-- LINK TO YOUR WEBSITE or link of a Social network -->
+website: http://maucode.com/ 
 email: mauro.balades@tutanota.com
-instagram: <!-- LEAVE EMPTY OR PUT LINK TO YOUR PROFILE -->
-twitter:Mauro60715204 <!-- LEAVE EMPTY OR PUT LINK TO YOUR PROFILE -->
-linkedin: <!-- LEAVE EMPTY OR PUT LINK TO YOUR PROFILE -->
-facebook: <!-- LEAVE EMPTY OR PUT LINK TO YOUR PROFILE -->
+instagram:
+twitter:Mauro60715204 
+linkedin: 
+facebook: 
 country: Spain
 location: Madrid
 role: Developer
-languages: C php python ruby rust <!-- YOU SHOULDN'T USE SPACE IN THE NAME OF THE PROGRAMMING LANGUAGE -->
+languages: C php python ruby rust 
 ---
 
 I am a student that loves computers 🤓
