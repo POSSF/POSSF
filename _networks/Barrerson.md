@@ -15,3 +15,4 @@ role: Web Developer
 languages: js css3 html5 
 ---
 
+Becoming the best version of myself...
