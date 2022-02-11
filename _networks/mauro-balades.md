@@ -6,7 +6,7 @@ github: mauro-balades
 website: http://maucode.com/
 email: mauro.balades@tutanota.com
 instagram:
-twitter:Mauro60715204
+twitter: Mauro60715204
 linkedin:
 facebook:
 country: Spain
