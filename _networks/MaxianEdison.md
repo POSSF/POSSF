@@ -1,7 +1,7 @@
 ---
 layout: network
 permalink: /MaxianEdison/
-name: Maximilian Edison
+name: MaximilianEdison
 github: MaxianEdison
 website: https://MaximilianEdison.com
 email: contact@maximilianedison.com
