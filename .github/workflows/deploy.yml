@@ -1,0 +1,23 @@
+on: [push]
+
+jobs:
+  mirror_with_sftp:
+    name: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: FTP Deployer
+        uses: sand4rt/ftp-deployer@v1.4
+        with:
+          sftp: true
+          host: ${{ secrets.SERVER_HOST }}
+          port: 22
+          username: ${{ secrets.SERVER_USERNAME }}
+          password: ${{ secrets.SERVER_PASSWORD }}
+          remote_folder: ${{ secrets.SERVER_PATH }}
+          local_folder: '.'
+          cleanup: false
+          include: '[ "*", "**/*" ]'
+          exclude: '["node_modules/**", "include/_secret.php", "_secret.php", ".github/**", ".git/**", "*.env"]'
+          pasive: true
