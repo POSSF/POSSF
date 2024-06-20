@@ -7,8 +7,8 @@ website: https://alifiroozi.dev/
 email: contact.alifiroozi@gmail.com
 instagram: alifiroozi.art
 twitter:
-linkedin: 
-facebook: 
+linkedin:
+facebook:
 country: Iran
 location: Rasht-gilan
 role: Web and App Developer
